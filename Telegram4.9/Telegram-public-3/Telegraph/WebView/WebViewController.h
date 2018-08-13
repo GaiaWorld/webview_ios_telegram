@@ -13,5 +13,7 @@
 
 + (WKWebView *)getWebView;
 
++ (void) openToScan;
+
 @end
 

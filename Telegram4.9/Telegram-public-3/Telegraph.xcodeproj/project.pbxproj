@@ -736,6 +736,8 @@
 		09FCB6921FB2E98C0007D2CA /* PasswordPlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */; };
 		09FCB6951FB2FAE80007D2CA /* PasscodePlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */; };
 		09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */; };
+		18D2A89521212199003D6808 /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2A89421212199003D6808 /* QRCode.m */; };
+		18D2A8A521212D8E003D6808 /* HMQRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6804D8AE1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804D8AC1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h */; };
 		6804D8AF1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804D8AD1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m */; };
@@ -4676,6 +4678,7 @@
 		D0FD89A3156FD4FC00CC3714 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD89A2156FD4FB00CC3714 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D0FFBDDF1BAB0E7300F532C9 /* TGChannelMembersController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */; };
 		D0FFBDE01BAB0E7300F532C9 /* TGChannelMembersController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */; };
+		D42182D04F3CD6FB4602521B /* Pods_Telegraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B24F973C24680185681BD8D /* Pods_Telegraph.framework */; };
 		F3D6B8AA211EBD1F008D06DE /* WebViewAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */; };
 		F3D6B8AB211EBD1F008D06DE /* WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6B8A5211EBD1D008D06DE /* WebViewController.h */; };
 		F3D6B8AC211EBD1F008D06DE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6B8A6211EBD1D008D06DE /* WebViewController.m */; };
@@ -4910,6 +4913,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08A34BE71AA3D4AA5B1727CF /* Pods-Telegraph.debug hockeyapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.debug hockeyapp.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug hockeyapp.xcconfig"; sourceTree = "<group>"; };
 		09034EB41EE08B5E006997DB /* ModernContactListBroadcastIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernContactListBroadcastIcon@3x.png"; path = "Resources/ModernContactListBroadcastIcon@3x.png"; sourceTree = "<group>"; };
 		09034EB51EE08B5F006997DB /* ModernContactListCreateGroupIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernContactListCreateGroupIcon@3x.png"; path = "Resources/ModernContactListCreateGroupIcon@3x.png"; sourceTree = "<group>"; };
 		09034EB61EE08B5F006997DB /* ModernContactListCreateSecretChatIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernContactListCreateSecretChatIcon@3x.png"; path = "Resources/ModernContactListCreateSecretChatIcon@3x.png"; sourceTree = "<group>"; };
@@ -5689,6 +5693,12 @@
 		09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasswordPlaceholderIcon@2x.png"; path = "Resources/PasswordPlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@2x.png"; path = "Resources/PasscodePlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@3x.png"; path = "Resources/PasscodePlaceholderIcon@3x.png"; sourceTree = "<group>"; };
+		18D2A89421212199003D6808 /* QRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+		18D2A8A3212121BA003D6808 /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMQRCodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D653065BF28E1F367FF6B08 /* Pods-Telegraph.debug fork appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.debug fork appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug fork appstore.xcconfig"; sourceTree = "<group>"; };
+		3B24F973C24680185681BD8D /* Pods_Telegraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telegraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA18AE95BF76130E4A3D0AB /* Pods-Telegraph.release fork appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.release fork appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.release fork appstore.xcconfig"; sourceTree = "<group>"; };
 		6803268D1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoPaintSettingsWrapperView.h; sourceTree = "<group>"; };
 		6803268E1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoPaintSettingsWrapperView.m; sourceTree = "<group>"; };
 		680326911D5DFC640062725B /* TGPaintingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPaintingData.h; sourceTree = "<group>"; };
@@ -7696,6 +7706,9 @@
 		93F5D95F162A36CC00E38E48 /* TGSendInvitesActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSendInvitesActor.m; sourceTree = "<group>"; };
 		93F6940416932F8700691086 /* TGBlockListRequestActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBlockListRequestActor.h; sourceTree = "<group>"; };
 		93F6940516932F8700691086 /* TGBlockListRequestActor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGBlockListRequestActor.mm; sourceTree = "<group>"; };
+		9E6F155E1587C76913AC4311 /* Pods-Telegraph.release appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.release appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.release appstore.xcconfig"; sourceTree = "<group>"; };
+		B6C94A1F7C25A2A156A16287 /* Pods-Telegraph.debug appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.debug appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug appstore.xcconfig"; sourceTree = "<group>"; };
+		C9F9CDED1C5131C49F7F9CC2 /* Pods-Telegraph.release hockeyapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.release hockeyapp.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.release hockeyapp.xcconfig"; sourceTree = "<group>"; };
 		D00040A315BCD2EA00AF9EBF /* TGMessage+Telegraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TGMessage+Telegraph.h"; sourceTree = "<group>"; };
 		D00040A415BCD2EA00AF9EBF /* TGMessage+Telegraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TGMessage+Telegraph.m"; sourceTree = "<group>"; };
 		D00040AA15BCD53900AF9EBF /* TGImageInfo+Telegraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TGImageInfo+Telegraph.h"; sourceTree = "<group>"; };
@@ -11514,6 +11527,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D2A8A521212D8E003D6808 /* HMQRCodeScanner.framework in Frameworks */,
 				09B76D4F202149D8009835B5 /* libLottie.a in Frameworks */,
 				0991BA251FDADFFF005EDFF2 /* PhotosUI.framework in Frameworks */,
 				D08805B3156E8F3600311537 /* Foundation.framework in Frameworks */,
@@ -11571,6 +11585,7 @@
 				D08805CA156E8F5100311537 /* AddressBook.framework in Frameworks */,
 				D08805C8156E8F4D00311537 /* CoreText.framework in Frameworks */,
 				D08805B5156E8F3600311537 /* CoreGraphics.framework in Frameworks */,
+				D42182D04F3CD6FB4602521B /* Pods_Telegraph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15693,6 +15708,19 @@
 			name = Date;
 			sourceTree = "<group>";
 		};
+		A01E6C8336E3A8E231A6B39C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08A34BE71AA3D4AA5B1727CF /* Pods-Telegraph.debug hockeyapp.xcconfig */,
+				2D653065BF28E1F367FF6B08 /* Pods-Telegraph.debug fork appstore.xcconfig */,
+				B6C94A1F7C25A2A156A16287 /* Pods-Telegraph.debug appstore.xcconfig */,
+				9E6F155E1587C76913AC4311 /* Pods-Telegraph.release appstore.xcconfig */,
+				5DA18AE95BF76130E4A3D0AB /* Pods-Telegraph.release fork appstore.xcconfig */,
+				C9F9CDED1C5131C49F7F9CC2 /* Pods-Telegraph.release hockeyapp.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D00542F41BC74F9000456715 /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -19694,6 +19722,7 @@
 				099120C21EEAA63400F1366E /* Widget */,
 				D08805AF156E8F3600311537 /* Frameworks */,
 				D08805AD156E8F3600311537 /* Products */,
+				A01E6C8336E3A8E231A6B39C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -19712,6 +19741,7 @@
 		D08805AF156E8F3600311537 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */,
 				09C05C2520D7949600D66A08 /* CloudKit.framework */,
 				0944CD712070B5DF00CB0461 /* Vision.framework */,
 				0944CD6F2070B5DA00CB0461 /* CoreML.framework */,
@@ -19772,6 +19802,7 @@
 				D08805B2156E8F3600311537 /* Foundation.framework */,
 				D08805B4156E8F3600311537 /* CoreGraphics.framework */,
 				6869F8C81D96D33C00D5AA92 /* NotificationCenter.framework */,
+				3B24F973C24680185681BD8D /* Pods_Telegraph.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -22782,6 +22813,8 @@
 			children = (
 				F3D6B8B1211EBD66008D06DE /* WebViewTest.h */,
 				F3D6B8B2211EBD66008D06DE /* WebViewTest.m */,
+				18D2A89421212199003D6808 /* QRCode.m */,
+				18D2A8A3212121BA003D6808 /* QRCode.h */,
 			);
 			name = module;
 			sourceTree = "<group>";
@@ -24504,6 +24537,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08805C4156E8F3600311537 /* Build configuration list for PBXNativeTarget "Telegraph" */;
 			buildPhases = (
+				CE059492BD99A6B921939687 /* [CP] Check Pods Manifest.lock */,
 				D08805A8156E8F3600311537 /* Sources */,
 				D08805A9156E8F3600311537 /* Frameworks */,
 				D08805AA156E8F3600311537 /* Resources */,
@@ -24512,6 +24546,7 @@
 				D061F3021A9290F80031BCBE /* Embed App Extensions */,
 				6879BEE41B43683E007C9800 /* Embed Watch Content */,
 				D020FB161D99637200F279AA /* Embed Frameworks */,
+				70804959E45A205BBA3F2CE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -25486,6 +25521,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		70804959E45A205BBA3F2CE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMQRCodeScanner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		932E96A716946F6A00D6EC55 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -25498,6 +25551,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#/usr/bin/perl -pe 's/(BUILD_NUMBER = )(\\d+)/$1.($2+1)/eg' -i buildnumber.xcconfig\nsh ${PROJECT_DIR}/tools/bump_build_number.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nsh ${PROJECT_DIR}/tools/sync_watch_version.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\" \"${PROJECT_DIR}/Watch/App/Info.plist\"\n";
+		};
+		CE059492BD99A6B921939687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telegraph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -25922,6 +25993,7 @@
 				6836F8DA1BB2601200D3A77B /* TGBridgeImageMediaAttachment.m in Sources */,
 				D03E903E1A23BBBD0008FC78 /* TGLoginPasswordView.m in Sources */,
 				D01161031F41F1320039383E /* TLWallPaper.mm in Sources */,
+				18D2A89521212199003D6808 /* QRCode.m in Sources */,
 				D0983D6519CB9A4300CE5BB0 /* TGHighlightableButton.m in Sources */,
 				D0EA69061A026F0000D1F747 /* TGWebSearchResultsGalleryGifItemView.m in Sources */,
 				D0983D8B19CB9A4300CE5BB0 /* TGMimeTypeMap.m in Sources */,
@@ -28462,6 +28534,7 @@
 		};
 		D018D7B41E5C411500F75970 /* Debug AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C94A1F7C25A2A156A16287 /* Pods-Telegraph.debug appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -28547,7 +28620,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29012,6 +29085,7 @@
 		};
 		D064420D1E4E299800394D5F /* Release Hockeyapp */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F9CDED1C5131C49F7F9CC2 /* Pods-Telegraph.release hockeyapp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -29096,7 +29170,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29291,6 +29365,7 @@
 		};
 		D083491E20977881008CFD52 /* Debug Fork AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D653065BF28E1F367FF6B08 /* Pods-Telegraph.debug fork appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFork;
@@ -29376,7 +29451,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29599,6 +29674,7 @@
 		};
 		D08349332097788A008CFD52 /* Release Fork AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA18AE95BF76130E4A3D0AB /* Pods-Telegraph.release fork appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFork;
@@ -29682,7 +29758,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29959,6 +30035,7 @@
 		};
 		D08805C5156E8F3600311537 /* Debug Hockeyapp */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A34BE71AA3D4AA5B1727CF /* Pods-Telegraph.debug hockeyapp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -30044,7 +30121,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -30052,6 +30129,7 @@
 		};
 		D08805C6156E8F3600311537 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6F155E1587C76913AC4311 /* Pods-Telegraph.release appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -30135,7 +30213,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
