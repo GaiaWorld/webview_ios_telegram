@@ -10,12 +10,11 @@
 #import "HMScannerController.h"
 #import "WebViewController.h"
 #import "WebViewJSBundle.h"
+#import "BaseObject.h"
 
-@interface QRCode: NSObject
+@interface QRCode: BaseObject
 
 - (void) scan: (NSArray *) array;
-
-+ (void) setVc: (UIViewController *) vc;
 
 @end
 

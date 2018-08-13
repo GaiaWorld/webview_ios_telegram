@@ -9,7 +9,7 @@
 #import "WebViewJSBundle.h"
 #import "WebViewController.h"
 #import "WebViewAppDelegate.h"
-#import "QRCode.h"
+#import "BaseObject.h"
 
 WKWebView *webview = nil;
 
@@ -30,8 +30,7 @@ WKWebView *webview = nil;
     
     webview = [self createWebview];
     [self createButton];
-    [QRCode setVc:self];
-//    [QRCode setController : webview.context];
+    [BaseObject setVc:self];
 }
 
 
@@ -172,21 +171,6 @@ WKWebView *webview = nil;
     {
         [WebViewAppDelegateInstance changeTelegramView];
     }
-}
-
-- (void) openToScan{
-    NSString *cardName = @"天涯刀哥 - 傅红雪";
-    UIImage *avatar = [UIImage imageNamed:@"avatar"];
-    
-    HMScannerController *scanner = [HMScannerController scannerWithCardName:cardName avatar:avatar completion:^(NSString *stringValue) {
-        
-//        self.scanResultLabel.text = stringValue;
-    }];
-    
-    [scanner setTitleColor:[UIColor whiteColor] tintColor:[UIColor greenColor]];
-    
-    [self showDetailViewController:scanner sender:nil];
-
 }
 
 @end

@@ -736,6 +736,9 @@
 		09FCB6921FB2E98C0007D2CA /* PasswordPlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */; };
 		09FCB6951FB2FAE80007D2CA /* PasscodePlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */; };
 		09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */; };
+		18CC31F421217F140077E01C /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F321217F140077E01C /* ImagePicker.m */; };
+		18CC31F7212181080077E01C /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F6212181080077E01C /* BaseObject.m */; };
+		18CC31F9212183E10077E01C /* TZImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC31F8212183E10077E01C /* TZImagePickerController.framework */; };
 		18D2A89521212199003D6808 /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2A89421212199003D6808 /* QRCode.m */; };
 		18D2A8A521212D8E003D6808 /* HMQRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
@@ -5693,6 +5696,11 @@
 		09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasswordPlaceholderIcon@2x.png"; path = "Resources/PasswordPlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@2x.png"; path = "Resources/PasscodePlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@3x.png"; path = "Resources/PasscodePlaceholderIcon@3x.png"; sourceTree = "<group>"; };
+		18CC31E521217F090077E01C /* ImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		18CC31F321217F140077E01C /* ImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		18CC31F5212180F20077E01C /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		18CC31F6212181080077E01C /* BaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		18CC31F8212183E10077E01C /* TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D2A89421212199003D6808 /* QRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
 		18D2A8A3212121BA003D6808 /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
 		18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMQRCodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -11527,6 +11535,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC31F9212183E10077E01C /* TZImagePickerController.framework in Frameworks */,
 				18D2A8A521212D8E003D6808 /* HMQRCodeScanner.framework in Frameworks */,
 				09B76D4F202149D8009835B5 /* libLottie.a in Frameworks */,
 				0991BA251FDADFFF005EDFF2 /* PhotosUI.framework in Frameworks */,
@@ -19741,6 +19750,7 @@
 		D08805AF156E8F3600311537 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18CC31F8212183E10077E01C /* TZImagePickerController.framework */,
 				18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */,
 				09C05C2520D7949600D66A08 /* CloudKit.framework */,
 				0944CD712070B5DF00CB0461 /* Vision.framework */,
@@ -22815,6 +22825,10 @@
 				F3D6B8B2211EBD66008D06DE /* WebViewTest.m */,
 				18D2A89421212199003D6808 /* QRCode.m */,
 				18D2A8A3212121BA003D6808 /* QRCode.h */,
+				18CC31E521217F090077E01C /* ImagePicker.h */,
+				18CC31F321217F140077E01C /* ImagePicker.m */,
+				18CC31F5212180F20077E01C /* BaseObject.h */,
+				18CC31F6212181080077E01C /* BaseObject.m */,
 			);
 			name = module;
 			sourceTree = "<group>";
@@ -25529,10 +25543,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMQRCodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -26669,6 +26685,7 @@
 				D0115E971F41F12F0039383E /* TLMsgDetailedInfo.mm in Sources */,
 				D0EA69991A0A18DD00D1F747 /* TGAccountSettings.m in Sources */,
 				D01160271F41F1310039383E /* TLRPCmessages_getStickers.mm in Sources */,
+				18CC31F421217F140077E01C /* ImagePicker.m in Sources */,
 				09551C57201754A50097218A /* TGAppSessionItemView.m in Sources */,
 				0912624D1FDF9144008071A2 /* TGFeed.m in Sources */,
 				6836F8F41BB262A700D3A77B /* TGImageFileReference.m in Sources */,
@@ -27341,6 +27358,7 @@
 				D0C735511C876AE900BB3149 /* TLaccount_updateProfile$updateProfile.m in Sources */,
 				D011627F1F41F1350039383E /* TLInputStickeredMedia.mm in Sources */,
 				D077B8D91F4342C70046D27A /* TGConversationScrollButtonContainer.m in Sources */,
+				18CC31F7212181080077E01C /* BaseObject.m in Sources */,
 				09FCB68A1FB2E6A30007D2CA /* TGPasswordPlaceholderItemView.m in Sources */,
 				D01160C91F41F1320039383E /* TLRPCusers_getUsers.mm in Sources */,
 				D04324DC1DC269FB00E0C528 /* TransformImageView.m in Sources */,

@@ -144,21 +144,27 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug Hockeyapp" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Debug Fork AppStore" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Debug AppStore" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release AppStore" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release Fork AppStore" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release Hockeyapp" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

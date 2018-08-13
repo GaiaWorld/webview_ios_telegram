@@ -6,11 +6,9 @@
 //
 
 #import "QRCode.h"
-UIViewController *controller=nil;
+
 @implementation QRCode
-+ (void) setVc: (UIViewController *) vc{
-    controller=vc;
-}
+
 - (void) scan:(NSArray *) array{
     NSNumber *listenerId=[array objectAtIndex:0];
     NSString *cardName = @"";
@@ -21,7 +19,7 @@ UIViewController *controller=nil;
         [WebViewJSBundle callJS:listenerId code:0 params:[NSArray arrayWithObjects:stringValue, nil]];
     }];
     [scanner setTitleColor:[UIColor whiteColor] tintColor:[UIColor greenColor]];
-    [controller showDetailViewController:scanner sender:nil];
+    [[BaseObject getVc] showDetailViewController:scanner sender:nil];
 }
 
 @end
