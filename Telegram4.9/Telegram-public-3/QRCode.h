@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "HMScannerController.h"
 #import "WebViewController.h"
+#import "WebViewJSBundle.h"
 
-@interface QRCode: WebViewController
+@interface QRCode: NSObject
 
 - (void) scan: (NSArray *) array;
 
