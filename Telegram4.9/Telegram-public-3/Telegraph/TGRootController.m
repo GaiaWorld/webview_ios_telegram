@@ -225,27 +225,26 @@
 - (void)createChangeButton {
     
     // 绘制形状
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    CGFloat radius = 80;
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(width - radius, height - radius, radius, radius)];
     
-    // 确定宽、高、X、Y坐标
-    CGRect frame;
-    frame.size.width = 100;
-    frame.size.height = 30;
-    frame.origin.x = 320 / 2 - 50;
-    frame.origin.y = 480 / 2 - 30;
-    [btn setFrame:frame];
+    [btn setTitle:@"切换到WebView" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    btn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    btn.titleLabel.font = [UIFont systemFontOfSize:13.0f];
+    btn.backgroundColor = [UIColor whiteColor];
+    // btn.center = CGPointMake(imageView.right, imageView.top);
+    [btn.layer setMasksToBounds:YES];   //设置yes
+    [btn.layer setCornerRadius:radius / 2.0f];   //弧度等于宽度的一半 就是圆角
     
-    // 设置Tag(整型)
-    btn.tag = 1;
-    
-    // 设置标题
-    [btn setTitle:@"切换到webview" forState:UIControlStateNormal];
-    
-    // 设置未按下和按下的图片切换
-    // [btn setBackgroundImage:[UIImage imageNamed:@"bus.png"] forState:UIControlStateNormal];
-    // [btn setBackgroundImage:[UIImage imageNamed:@"plane.png"] forState:UIControlStateHighlighted];
+    //边框宽度
+    [btn.layer setBorderWidth:2];
+    [btn.layer setBorderColor:[[UIColor redColor] CGColor]];
     
     // 设置事件
+    btn.tag = 1; // 设置Tag(整型)
     [btn addTarget:self action:@selector(changeButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
     // 设置背景色和透明度

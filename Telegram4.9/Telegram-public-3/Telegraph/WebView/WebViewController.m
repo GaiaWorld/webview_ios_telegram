@@ -65,17 +65,14 @@ WKWebView *webview = nil;
     [self.view addSubview:webview];
     
     // NSString *urlPath = @"https://www.baidu.com";
-    
     NSString *urlPath = @"http://192.168.33.88:8088/dst/boot/index.html";
+    
+    // 本地打包，拖 android_asset目录到工程，选择create folder reference选项
+    // NSString *urlPath = [NSString stringWithFormat:@"file:///%@/android_asset/index.html", [[NSBundle mainBundle] bundlePath]];
+ 
     NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:urlPath]];
     [webview loadRequest:request];
     
-    //    NSString *basePath = [NSString stringWithFormat:@"%@/android_asset", [[NSBundle mainBundle] bundlePath]];
-    //    NSURL *baseUrl = [NSURL fileURLWithPath:basePath isDirectory:YES];
-    //    NSString *indexPath = [NSString stringWithFormat:@"%@/index.html", basePath];
-    //    NSString *indexContent = [NSString stringWithContentsOfFile:indexPath encoding: NSUTF8StringEncoding error:nil];
-    //    [webview loadHTMLString:indexContent baseURL:baseUrl];
-                            
     // 关闭webView的拖动
     webview.scrollView.scrollEnabled = NO;
     webview.UIDelegate = self;

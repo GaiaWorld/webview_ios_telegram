@@ -39,8 +39,11 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import <ImageIO/ImageIO.h>
 
+// PI_BEGIN
 // 去掉导航界面
 // #import "RMIntroViewController.h"
+#import "TGProxySignals.h"
+// PI_END
 
 #import "TGLoginPhoneController.h"
 #import "TGLoginCodeController.h"
@@ -253,6 +256,15 @@ TGTelegraph *telegraph = nil;
     self = [super init];
     if (self != nil)
     {
+        // PI_BEGIN
+        NSArray *proxys = [TGProxySignals loadStoredProxies];
+        if ([proxys count] == 0) {
+            TGProxyItem *proxy = [[TGProxyItem alloc] initWithServer:@"47.75.210.96" port:1821 username:nil password:nil secret:@"feb7ebe6923489c73f4405c0a3927a7a"];
+            [TGProxySignals storeProxies:[NSArray arrayWithObjects:proxy, nil]];
+            [TGProxySignals applyProxy:proxy inactive:false];
+        }
+        // PI_END
+        
         [[TGBridgeServer instanceSignal] startWithNext:nil];
         _localizationUpdatedPipe = [[SPipe alloc] init];
         _localizationUpdated = _localizationUpdatedPipe.signalProducer();
