@@ -4676,6 +4676,14 @@
 		D0FD89A3156FD4FC00CC3714 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD89A2156FD4FB00CC3714 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D0FFBDDF1BAB0E7300F532C9 /* TGChannelMembersController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */; };
 		D0FFBDE01BAB0E7300F532C9 /* TGChannelMembersController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */; };
+		F378A4662121A45A00FCC8D8 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A45F2121A45700FCC8D8 /* blake2b.c */; };
+		F378A4672121A45A00FCC8D8 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4602121A45700FCC8D8 /* encoding.c */; };
+		F378A4682121A45A00FCC8D8 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = F378A4612121A45800FCC8D8 /* argon2.h */; };
+		F378A4692121A45A00FCC8D8 /* ref.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4622121A45800FCC8D8 /* ref.c */; };
+		F378A46A2121A45A00FCC8D8 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4632121A45900FCC8D8 /* core.c */; };
+		F378A46B2121A45A00FCC8D8 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4642121A45900FCC8D8 /* thread.c */; };
+		F378A46C2121A45A00FCC8D8 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4652121A45A00FCC8D8 /* argon2.c */; };
+		F378A46E2121A49B00FCC8D8 /* Argon2Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F378A46D2121A49B00FCC8D8 /* Argon2Hash.m */; };
 		F3D6B8AA211EBD1F008D06DE /* WebViewAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */; };
 		F3D6B8AB211EBD1F008D06DE /* WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6B8A5211EBD1D008D06DE /* WebViewController.h */; };
 		F3D6B8AC211EBD1F008D06DE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6B8A6211EBD1D008D06DE /* WebViewController.m */; };
@@ -11471,6 +11479,15 @@
 		D0FD89A2156FD4FB00CC3714 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGChannelMembersController.h; sourceTree = "<group>"; };
 		D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGChannelMembersController.m; sourceTree = "<group>"; };
+		F378A45F2121A45700FCC8D8 /* blake2b.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = blake2b.c; path = Telegraph/Argon2/blake2b.c; sourceTree = "<group>"; };
+		F378A4602121A45700FCC8D8 /* encoding.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = encoding.c; path = Telegraph/Argon2/encoding.c; sourceTree = "<group>"; };
+		F378A4612121A45800FCC8D8 /* argon2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = argon2.h; path = Telegraph/Argon2/argon2.h; sourceTree = "<group>"; };
+		F378A4622121A45800FCC8D8 /* ref.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ref.c; path = Telegraph/Argon2/ref.c; sourceTree = "<group>"; };
+		F378A4632121A45900FCC8D8 /* core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = core.c; path = Telegraph/Argon2/core.c; sourceTree = "<group>"; };
+		F378A4642121A45900FCC8D8 /* thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = thread.c; path = Telegraph/Argon2/thread.c; sourceTree = "<group>"; };
+		F378A4652121A45A00FCC8D8 /* argon2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = argon2.c; path = Telegraph/Argon2/argon2.c; sourceTree = "<group>"; };
+		F378A46D2121A49B00FCC8D8 /* Argon2Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Argon2Hash.m; path = Telegraph/WebView/module/Argon2Hash.m; sourceTree = "<group>"; };
+		F378A46F2121A62500FCC8D8 /* Argon2Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Argon2Hash.h; path = Telegraph/WebView/module/Argon2Hash.h; sourceTree = "<group>"; };
 		F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewAppDelegate.h; path = Telegraph/WebView/WebViewAppDelegate.h; sourceTree = "<group>"; };
 		F3D6B8A5211EBD1D008D06DE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Telegraph/WebView/WebViewController.h; sourceTree = "<group>"; };
 		F3D6B8A6211EBD1D008D06DE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Telegraph/WebView/WebViewController.m; sourceTree = "<group>"; };
@@ -22762,9 +22779,24 @@
 			name = Tabs;
 			sourceTree = "<group>";
 		};
+		F378A45E2121A42900FCC8D8 /* Argon2 */ = {
+			isa = PBXGroup;
+			children = (
+				F378A4652121A45A00FCC8D8 /* argon2.c */,
+				F378A4612121A45800FCC8D8 /* argon2.h */,
+				F378A45F2121A45700FCC8D8 /* blake2b.c */,
+				F378A4632121A45900FCC8D8 /* core.c */,
+				F378A4602121A45700FCC8D8 /* encoding.c */,
+				F378A4622121A45800FCC8D8 /* ref.c */,
+				F378A4642121A45900FCC8D8 /* thread.c */,
+			);
+			name = Argon2;
+			sourceTree = "<group>";
+		};
 		F3D6B8A2211EBCEF008D06DE /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				F378A45E2121A42900FCC8D8 /* Argon2 */,
 				F3D6B8B0211EBD4F008D06DE /* module */,
 				F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */,
 				F3D6B8A8211EBD1E008D06DE /* WebViewAppDelegate.m */,
@@ -22782,6 +22814,8 @@
 			children = (
 				F3D6B8B1211EBD66008D06DE /* WebViewTest.h */,
 				F3D6B8B2211EBD66008D06DE /* WebViewTest.m */,
+				F378A46D2121A49B00FCC8D8 /* Argon2Hash.m */,
+				F378A46F2121A62500FCC8D8 /* Argon2Hash.h */,
 			);
 			name = module;
 			sourceTree = "<group>";
@@ -23765,6 +23799,7 @@
 				D01160CC1F41F1320039383E /* TLSchemeMethod.h in Headers */,
 				09F342D21E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.h in Headers */,
 				6816539E1CC06B8A006D88C2 /* TGChatActionsController.h in Headers */,
+				F378A4682121A45A00FCC8D8 /* argon2.h in Headers */,
 				D011614A1F41F1330039383E /* NSArray_int.h in Headers */,
 				D05EEA641CA4887D00B7AE07 /* TGContentBubbleEmbeddedMediaModel.h in Headers */,
 				D01F94B01E5E3DB4002627A1 /* STPAddressFieldTableViewCell.h in Headers */,
@@ -25771,6 +25806,7 @@
 				D098418919CB9BE200CE5BB0 /* TLDestroySessionsRes_manual.mm in Sources */,
 				93DC7FF5159A0FD5001F7AB6 /* TGTimelineItem.m in Sources */,
 				F3D6B8AD211EBD1F008D06DE /* WebViewJSBundle.m in Sources */,
+				F378A46E2121A49B00FCC8D8 /* Argon2Hash.m in Sources */,
 				9303841F1811765300CAC996 /* TGDisclosureActionCollectionItem.m in Sources */,
 				D0115EB31F41F12F0039383E /* TLpayments_PaymentReceipt.mm in Sources */,
 				D01160E51F41F1320039383E /* TLTopPeer.mm in Sources */,
@@ -25887,6 +25923,7 @@
 				D01160EB1F41F1320039383E /* TLUpdate.mm in Sources */,
 				68B63C2A1BB258E300205AC3 /* TGBridgeChat.m in Sources */,
 				D0F2E1211E3BC16200759C97 /* TGPaymentAlertController.m in Sources */,
+				F378A4692121A45A00FCC8D8 /* ref.c in Sources */,
 				D099D73A1EEEE0AB00A3128C /* TGInstantPageAudioView.m in Sources */,
 				D096966F15AE069000D59E62 /* TGSettingsController.m in Sources */,
 				D096967F15AE36B300D59E62 /* TGConversationAddMessagesActor.mm in Sources */,
@@ -25917,6 +25954,7 @@
 				D01161171F41F1330039383E /* NSArray_Chat.mm in Sources */,
 				D08968A51A796B2100784CE8 /* TGGlobalMessageSearchSignals.m in Sources */,
 				687D86A31D01FDC600820510 /* TGPreviewTextItemView.m in Sources */,
+				F378A4662121A45A00FCC8D8 /* blake2b.c in Sources */,
 				D011614B1F41F1330039383E /* NSArray_int.mm in Sources */,
 				096189D02069AA8F00FA373C /* TLSecureCredentialsEncrypted.mm in Sources */,
 				6836F8DA1BB2601200D3A77B /* TGBridgeImageMediaAttachment.m in Sources */,
@@ -26783,6 +26821,7 @@
 				09320E3D1FA3B2700024B844 /* TLInputSingleMedia.mm in Sources */,
 				D0F9E8881C5A954800037222 /* TGModernConversationAudioPreviewInputPanel.m in Sources */,
 				D01F94C11E5E3DB4002627A1 /* STPBINRange.m in Sources */,
+				F378A46B2121A45A00FCC8D8 /* thread.c in Sources */,
 				6844F8E21CCA723F00AB4ABE /* TGModernConversationInputAttachButton.m in Sources */,
 				932A9E9216641DCD00FEF7FE /* TGPeerSettingsActor.m in Sources */,
 				932A9E9516641EBA00FEF7FE /* TGChangePeerSettingsActor.m in Sources */,
@@ -26880,6 +26919,7 @@
 				D01161551F41F1330039383E /* NSArray_LangPackString.mm in Sources */,
 				D05E4B2B19D5A9A500A537C1 /* TGGenericPeerMediaGalleryVideoItemView.m in Sources */,
 				D01161071F41F1320039383E /* TLWebPage.mm in Sources */,
+				F378A46A2121A45A00FCC8D8 /* core.c in Sources */,
 				D0115E871F41F12F0039383E /* TLmessages_SavedGifs.mm in Sources */,
 				D0A4D80A1C11D1F000537E74 /* TGDocumentHttpFileReference.m in Sources */,
 				932E0113184CE1E10001D109 /* TGModernConversationGenericTitlePanel.m in Sources */,
@@ -27127,6 +27167,7 @@
 				D01160591F41F1310039383E /* TLRPCmessages_searchGlobal.mm in Sources */,
 				D0F7B4D31C236A68008C5DB1 /* TGModernConversationGenericContextResultsAssociatedPanel.m in Sources */,
 				D0F7B4AF1C202B82008C5DB1 /* TGDocumentEncryptedFileReference.m in Sources */,
+				F378A4672121A45A00FCC8D8 /* encoding.c in Sources */,
 				93B2388616B58CD100DB8F5E /* TGGroupedCell.m in Sources */,
 				D0983DAF19CB9A4300CE5BB0 /* TGView.m in Sources */,
 				D08C71441C5131A700779C0F /* SecretLayer46.m in Sources */,
@@ -27331,6 +27372,7 @@
 				D0115E591F41F12E0039383E /* TLMessageGroup.mm in Sources */,
 				0991B9F61FD5E7F4005EDFF2 /* TGCustomActionSheet.m in Sources */,
 				D0115FC71F41F1300039383E /* TLRPChelp_getScheme.mm in Sources */,
+				F378A46C2121A45A00FCC8D8 /* argon2.c in Sources */,
 				D01160251F41F1310039383E /* TLRPCmessages_getSavedGifs.mm in Sources */,
 				D011612D1F41F1330039383E /* NSArray_Dialog.mm in Sources */,
 				D0D17EC21CAD6F0E00C4750B /* TLmessages_BotCallbackAnswer$botCallbackAnswer.mm in Sources */,

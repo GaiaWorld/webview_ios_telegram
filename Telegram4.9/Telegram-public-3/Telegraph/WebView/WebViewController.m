@@ -65,7 +65,7 @@ WKWebView *webview = nil;
     [self.view addSubview:webview];
     
     // NSString *urlPath = @"https://www.baidu.com";
-    NSString *urlPath = @"http://192.168.33.88:8088/dst/boot/index.html";
+    NSString *urlPath = @"http://192.168.33.93:8088/dst/boot/index.html";
     
     // 本地打包，拖 android_asset目录到工程，选择create folder reference选项
     // NSString *urlPath = [NSString stringWithFormat:@"file:///%@/android_asset/index.html", [[NSBundle mainBundle] bundlePath]];
