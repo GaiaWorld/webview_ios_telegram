@@ -54,9 +54,24 @@ const static int SHARE_TYPE_TEXT = 2;//分享的类型文本
                    }
                }
      ];}
-
-- (void) getSharePlatform:(int) value{
-    
+/**
+ * 根据高层传递的参数、决定要分享到哪个平台
+ */
+- (SSDKPlatformType *) getSharePlatform:(int) value{
+    switch (value) {
+        case PLATFORM_WE_CHAT:
+            return SSDKPlatformTypeWechat;
+        case PLATFORM_MOMENTS:
+            return SSDKPlatformTypeWechat;
+        case PLATFORM_Q_ZONE:
+            return SSDKPlatformTypeWechat;
+        case PLATFORM_QQ:
+            return SSDKPlatformTypeQQ;
+        case PLATFORM_LINE:
+            return SSDKPlatformTypeLine;
+        default:
+            return SSDKPlatformTypeFacebook;
+    }
 }
 
 - (void) shareContent: (NSArray *) array{
