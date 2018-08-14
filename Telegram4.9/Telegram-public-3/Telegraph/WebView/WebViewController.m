@@ -29,7 +29,7 @@ WKWebView *webview = nil;
     [super viewDidLoad];
     
     webview = [self createWebview];
-    [self createButton];
+    //[self createButton];
     [BaseObject setVc:self];
 }
 
@@ -69,8 +69,7 @@ WKWebView *webview = nil;
     
     // NSString *urlPath = @"https://www.baidu.com";
     
-    NSString *urlPath = @"http://192.168.33.93:8088/dst/boot/index.html";
-    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:urlPath]];
+    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:@URL_PATH]];
     [webview loadRequest:request];
     
     //    NSString *basePath = [NSString stringWithFormat:@"%@/android_asset", [[NSBundle mainBundle] bundlePath]];
@@ -169,7 +168,7 @@ WKWebView *webview = nil;
     UIButton *myBtn = (UIButton *)sender;
     if (myBtn.tag == 10)
     {
-        [WebViewAppDelegateInstance changeTelegramView];
+        //[WebViewAppDelegateInstance changeTelegramView];
     }
 }
 

@@ -33,6 +33,8 @@ extern WebViewAppDelegate *WebViewAppDelegateInstance;
 // 切换到Telegram
 -(void)changeTelegramView;
 
++ (WebViewAppDelegate *) getWebViewAppDelegate;
+
 @end
 
 

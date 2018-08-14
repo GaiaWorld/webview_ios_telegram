@@ -7,9 +7,10 @@
 
 #ifndef ImageView_h
 #define ImageView_h
-#import "BaseObject.h"
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "BaseObject.h"
+#import "ImageUtils.h"
 
 @interface ImagePicker: BaseObject
 

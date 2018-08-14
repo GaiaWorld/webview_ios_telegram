@@ -10,6 +10,7 @@
 #ifndef BaseObject_h
 #define BaseObject_h
 #import <Foundation/Foundation.h>
+#import "WebViewJSBundle.h"
 @interface BaseObject:NSObject
 
 + (void) setVc: (UIViewController *) vc;

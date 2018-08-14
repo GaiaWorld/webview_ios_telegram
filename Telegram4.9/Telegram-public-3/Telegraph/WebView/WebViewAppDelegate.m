@@ -41,6 +41,10 @@ WebViewAppDelegate *WebViewAppDelegateInstance;
     }
 }
 
++ (WebViewAppDelegate *) getWebViewAppDelegate{
+    return WebViewAppDelegateInstance;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     WebViewAppDelegateInstance = self;
@@ -66,13 +70,13 @@ WebViewAppDelegate *WebViewAppDelegateInstance;
  */
 - (void) initShareSDK{
     [ShareSDK registerActivePlatforms:@[
-                                        @(SSDKPlatformTypeWechat),
-                                        @(SSDKPlatformTypeQQ),
+                                        @(SSDKPlatformSubTypeWechatSession),
+                                        @(SSDKPlatformSubTypeWechatTimeline),
+                                        @(SSDKPlatformSubTypeQQFriend),
+                                        @(SSDKPlatformSubTypeQZone),
                                         ]
-                             onImport:^(SSDKPlatformType platformType)
-     {
-         switch (platformType)
-         {
+                             onImport:^(SSDKPlatformType platformType){
+         switch (platformType){
              case SSDKPlatformTypeWechat:
                  [ShareSDKConnector connectWeChat:[WXApi class]];
                  break;
@@ -82,7 +86,8 @@ WebViewAppDelegate *WebViewAppDelegateInstance;
              default:
                  break;
          }
-     }onConfiguration:^(SSDKPlatformType platformType, NSMutableDictionary *appInfo){
+     }
+                      onConfiguration:^(SSDKPlatformType platformType, NSMutableDictionary *appInfo){
          switch (platformType){
              case SSDKPlatformTypeWechat:
                  [appInfo SSDKSetupWeChatByAppId:@"wx82a7e354925202e6"
