@@ -45,6 +45,11 @@ WebViewAppDelegate *WebViewAppDelegateInstance;
     return WebViewAppDelegateInstance;
 }
 
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     WebViewAppDelegateInstance = self;
@@ -200,9 +205,9 @@ WebViewAppDelegate *WebViewAppDelegateInstance;
         return [self.tgDelegate application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
 }
 
-- (NSUInteger)application:(UIApplication *)__unused application supportedInterfaceOrientationsForWindow:(UIWindow *)__unused window
-{
-    return [self.tgDelegate application:application supportedInterfaceOrientationsForWindow:window];
-}
+//- (NSUInteger)application:(UIApplication *)__unused application supportedInterfaceOrientationsForWindow:(UIWindow *)__unused window
+//{
+//    return [self.tgDelegate application:application supportedInterfaceOrientationsForWindow:window];
+//}
 
 @end
