@@ -70,8 +70,9 @@ WKWebView *webview = nil;
     [self.view addSubview:webview];
     
     // NSString *urlPath = @"https://www.baidu.com";
-    
-    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:@URL_PATH]];
+//    NSString *urlPath=@"http://47.106.176.185:8080/wallet/app/boot/index.html";
+    NSString *urlPath=@"http://192.168.33.113/wallet/app/boot/index.html?tdsourcetag=s_pcqq_aiomsg";
+    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:urlPath]];
     [webview loadRequest:request];
     
     //    NSString *basePath = [NSString stringWithFormat:@"%@/android_asset", [[NSBundle mainBundle] bundlePath]];

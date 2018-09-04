@@ -735,6 +735,7 @@
 		185CE4DD2122C5B50082C7DF /* SendChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CE4DC2122C5B50082C7DF /* SendChatMessage.m */; };
 		185CE4EF2122ED810082C7DF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CE4EE2122ED800082C7DF /* icon.png */; };
 		185CE4F12122F3300082C7DF /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CE4F02122F3300082C7DF /* ic_back.png */; };
+		186CC149212C1022004AC557 /* FingerReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CC148212C1022004AC557 /* FingerReader.m */; };
 		18CC31F421217F140077E01C /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F321217F140077E01C /* ImagePicker.m */; };
 		18CC31F7212181080077E01C /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F6212181080077E01C /* BaseObject.m */; };
 		18CC31F9212183E10077E01C /* TZImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC31F8212183E10077E01C /* TZImagePickerController.framework */; };
@@ -5729,6 +5730,8 @@
 		185CE4EB2122C5D20082C7DF /* SendChatMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendChatMessage.h; sourceTree = "<group>"; };
 		185CE4EE2122ED800082C7DF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		185CE4F02122F3300082C7DF /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
+		186CC147212C0FEF004AC557 /* FingerReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReader.h; sourceTree = "<group>"; };
+		186CC148212C1022004AC557 /* FingerReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReader.m; sourceTree = "<group>"; };
 		18CC31E521217F090077E01C /* ImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
 		18CC31F321217F140077E01C /* ImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
 		18CC31F5212180F20077E01C /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
@@ -23046,6 +23049,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D6B8B1211EBD66008D06DE /* WebViewTest.h */,
+				186CC147212C0FEF004AC557 /* FingerReader.h */,
+				186CC148212C1022004AC557 /* FingerReader.m */,
 				F3D6B8B2211EBD66008D06DE /* WebViewTest.m */,
 				18E388DE2122BB83005835F5 /* Argon2Hash.h */,
 				185CE4DC2122C5B50082C7DF /* SendChatMessage.m */,
@@ -26282,6 +26287,7 @@
 				D03C3EFA1BE148CD001278F1 /* TGGroupAdminsController.m in Sources */,
 				D01F94E91E5E3DB5002627A1 /* STPPaymentCardTextField.m in Sources */,
 				18E388DC2122BB5C005835F5 /* thread.c in Sources */,
+				186CC149212C1022004AC557 /* FingerReader.m in Sources */,
 				D01162151F41F1340039383E /* TLDisabledFeature.mm in Sources */,
 				D0808688190F036F00EE6998 /* TGMessageImageViewTimestampView.m in Sources */,
 				68B63D311BB25B1F00205AC3 /* TGBridgeChatMessageListHandler.m in Sources */,

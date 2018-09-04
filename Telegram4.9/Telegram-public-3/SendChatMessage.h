@@ -15,7 +15,9 @@
 
 @interface SendChatMessage:BaseObject
 
-- (void) setAndroidProxy:(NSArray *)array;
+- (void) setIOSProxy:(NSArray *)array;
+
+- (void) setAndroidProxy:(NSArray *) array;
 
 - (void) jumpToTelegram:(NSArray *) array;
 

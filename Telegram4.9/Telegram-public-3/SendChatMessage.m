@@ -8,6 +8,8 @@
 #import "SendChatMessage.h"
 @implementation SendChatMessage
 
+- (void) setAndroidProxy:(NSArray *)array{}
+
 - (void) setIOSProxy:(NSArray *) array{
     NSNumber *callbackId = [array objectAtIndex:0];
     NSString *proxtIp=[array objectAtIndex:1];
@@ -17,7 +19,7 @@
     NSString *secret = [array objectAtIndex:5];
     TGProxyItem *proxy = [[TGProxyItem alloc] initWithServer:proxtIp port:port username:userName password:pwd secret:secret];
     [TGProxySignals applyProxy:proxy inactive:false];
-   [WebViewJSBundle callJS:callbackId code:0 params:[NSArray arrayWithObjects:@"代理设置成功",nil]];
+    [WebViewJSBundle callJS:callbackId code:0 params:[NSArray arrayWithObjects:@"代理设置成功",nil]];
 }
 
 - (void) jumpToTelegram:(NSArray *) array{
