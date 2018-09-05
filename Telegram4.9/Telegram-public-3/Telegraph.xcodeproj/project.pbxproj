@@ -732,8 +732,35 @@
 		09FCB6921FB2E98C0007D2CA /* PasswordPlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */; };
 		09FCB6951FB2FAE80007D2CA /* PasscodePlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */; };
 		09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */; };
+		1852EA54213F71CD00F78A38 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA38213F71CC00F78A38 /* Contents.json */; };
+		1852EA55213F71CD00F78A38 /* Icon-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA39213F71CC00F78A38 /* Icon-24@2x.png */; };
+		1852EA56213F71CD00F78A38 /* Icon-27.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3A213F71CC00F78A38 /* Icon-27.5@2x.png */; };
+		1852EA57213F71CD00F78A38 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3B213F71CC00F78A38 /* Icon-29@2x.png */; };
+		1852EA58213F71CD00F78A38 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3C213F71CC00F78A38 /* Icon-29@3x.png */; };
+		1852EA59213F71CD00F78A38 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3D213F71CC00F78A38 /* Icon-40@2x.png */; };
+		1852EA5A213F71CD00F78A38 /* Icon-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3E213F71CC00F78A38 /* Icon-44@2x.png */; };
+		1852EA5B213F71CD00F78A38 /* Icon-86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3F213F71CC00F78A38 /* Icon-86@2x.png */; };
+		1852EA5C213F71CD00F78A38 /* Icon-98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA40213F71CC00F78A38 /* Icon-98@2x.png */; };
+		1852EA5D213F71CD00F78A38 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA41213F71CC00F78A38 /* Icon-App-20x20@1x.png */; };
+		1852EA5E213F71CD00F78A38 /* Icon-App-20x20@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA42213F71CC00F78A38 /* Icon-App-20x20@2x-1.png */; };
+		1852EA5F213F71CD00F78A38 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA43213F71CC00F78A38 /* Icon-App-20x20@2x.png */; };
+		1852EA60213F71CD00F78A38 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA44213F71CC00F78A38 /* Icon-App-20x20@3x.png */; };
+		1852EA61213F71CD00F78A38 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA45213F71CC00F78A38 /* Icon-App-29x29@1x.png */; };
+		1852EA62213F71CD00F78A38 /* Icon-App-29x29@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA46213F71CC00F78A38 /* Icon-App-29x29@2x-1.png */; };
+		1852EA63213F71CD00F78A38 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA47213F71CC00F78A38 /* Icon-App-29x29@2x.png */; };
+		1852EA64213F71CD00F78A38 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA48213F71CC00F78A38 /* Icon-App-29x29@3x.png */; };
+		1852EA65213F71CD00F78A38 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA49213F71CC00F78A38 /* Icon-App-40x40@1x.png */; };
+		1852EA66213F71CD00F78A38 /* Icon-App-40x40@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4A213F71CC00F78A38 /* Icon-App-40x40@2x-1.png */; };
+		1852EA67213F71CD00F78A38 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4B213F71CC00F78A38 /* Icon-App-40x40@2x.png */; };
+		1852EA68213F71CD00F78A38 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4C213F71CC00F78A38 /* Icon-App-40x40@3x.png */; };
+		1852EA69213F71CD00F78A38 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4D213F71CC00F78A38 /* Icon-App-60x60@1x.png */; };
+		1852EA6A213F71CD00F78A38 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4E213F71CC00F78A38 /* Icon-App-60x60@2x.png */; };
+		1852EA6B213F71CD00F78A38 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4F213F71CC00F78A38 /* Icon-App-60x60@3x.png */; };
+		1852EA6C213F71CD00F78A38 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA50213F71CC00F78A38 /* Icon-App-76x76@1x.png */; };
+		1852EA6D213F71CD00F78A38 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA51213F71CC00F78A38 /* Icon-App-76x76@2x.png */; };
+		1852EA6E213F71CD00F78A38 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA52213F71CC00F78A38 /* Icon-App-83.5x83.5@2x.png */; };
+		1852EA6F213F71CD00F78A38 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA53213F71CC00F78A38 /* ItunesArtwork@2x.png */; };
 		185CE4DD2122C5B50082C7DF /* SendChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CE4DC2122C5B50082C7DF /* SendChatMessage.m */; };
-		185CE4EF2122ED810082C7DF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CE4EE2122ED800082C7DF /* icon.png */; };
 		185CE4F12122F3300082C7DF /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CE4F02122F3300082C7DF /* ic_back.png */; };
 		186CC149212C1022004AC557 /* FingerReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CC148212C1022004AC557 /* FingerReader.m */; };
 		18CC31F421217F140077E01C /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F321217F140077E01C /* ImagePicker.m */; };
@@ -5726,9 +5753,36 @@
 		09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasswordPlaceholderIcon@2x.png"; path = "Resources/PasswordPlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@2x.png"; path = "Resources/PasscodePlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@3x.png"; path = "Resources/PasscodePlaceholderIcon@3x.png"; sourceTree = "<group>"; };
+		1852EA38213F71CC00F78A38 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		1852EA39213F71CC00F78A38 /* Icon-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-24@2x.png"; sourceTree = "<group>"; };
+		1852EA3A213F71CC00F78A38 /* Icon-27.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-27.5@2x.png"; sourceTree = "<group>"; };
+		1852EA3B213F71CC00F78A38 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		1852EA3C213F71CC00F78A38 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@3x.png"; sourceTree = "<group>"; };
+		1852EA3D213F71CC00F78A38 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		1852EA3E213F71CC00F78A38 /* Icon-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-44@2x.png"; sourceTree = "<group>"; };
+		1852EA3F213F71CC00F78A38 /* Icon-86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86@2x.png"; sourceTree = "<group>"; };
+		1852EA40213F71CC00F78A38 /* Icon-98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98@2x.png"; sourceTree = "<group>"; };
+		1852EA41213F71CC00F78A38 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		1852EA42213F71CC00F78A38 /* Icon-App-20x20@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x-1.png"; sourceTree = "<group>"; };
+		1852EA43213F71CC00F78A38 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		1852EA44213F71CC00F78A38 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		1852EA45213F71CC00F78A38 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		1852EA46213F71CC00F78A38 /* Icon-App-29x29@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x-1.png"; sourceTree = "<group>"; };
+		1852EA47213F71CC00F78A38 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		1852EA48213F71CC00F78A38 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		1852EA49213F71CC00F78A38 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		1852EA4A213F71CC00F78A38 /* Icon-App-40x40@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x-1.png"; sourceTree = "<group>"; };
+		1852EA4B213F71CC00F78A38 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		1852EA4C213F71CC00F78A38 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		1852EA4D213F71CC00F78A38 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		1852EA4E213F71CC00F78A38 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		1852EA4F213F71CC00F78A38 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		1852EA50213F71CC00F78A38 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		1852EA51213F71CC00F78A38 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		1852EA52213F71CC00F78A38 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		1852EA53213F71CC00F78A38 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
 		185CE4DC2122C5B50082C7DF /* SendChatMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendChatMessage.m; sourceTree = "<group>"; };
 		185CE4EB2122C5D20082C7DF /* SendChatMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendChatMessage.h; sourceTree = "<group>"; };
-		185CE4EE2122ED800082C7DF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		185CE4F02122F3300082C7DF /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
 		186CC147212C0FEF004AC557 /* FingerReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReader.h; sourceTree = "<group>"; };
 		186CC148212C1022004AC557 /* FingerReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReader.m; sourceTree = "<group>"; };
@@ -12213,6 +12267,41 @@
 				09A833561FF43C8C00FB133D /* TGPreviewPresentationHelper.m */,
 			);
 			name = Presentation;
+			sourceTree = "<group>";
+		};
+		1852EA37213F71CC00F78A38 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				1852EA38213F71CC00F78A38 /* Contents.json */,
+				1852EA39213F71CC00F78A38 /* Icon-24@2x.png */,
+				1852EA3A213F71CC00F78A38 /* Icon-27.5@2x.png */,
+				1852EA3B213F71CC00F78A38 /* Icon-29@2x.png */,
+				1852EA3C213F71CC00F78A38 /* Icon-29@3x.png */,
+				1852EA3D213F71CC00F78A38 /* Icon-40@2x.png */,
+				1852EA3E213F71CC00F78A38 /* Icon-44@2x.png */,
+				1852EA3F213F71CC00F78A38 /* Icon-86@2x.png */,
+				1852EA40213F71CC00F78A38 /* Icon-98@2x.png */,
+				1852EA41213F71CC00F78A38 /* Icon-App-20x20@1x.png */,
+				1852EA42213F71CC00F78A38 /* Icon-App-20x20@2x-1.png */,
+				1852EA43213F71CC00F78A38 /* Icon-App-20x20@2x.png */,
+				1852EA44213F71CC00F78A38 /* Icon-App-20x20@3x.png */,
+				1852EA45213F71CC00F78A38 /* Icon-App-29x29@1x.png */,
+				1852EA46213F71CC00F78A38 /* Icon-App-29x29@2x-1.png */,
+				1852EA47213F71CC00F78A38 /* Icon-App-29x29@2x.png */,
+				1852EA48213F71CC00F78A38 /* Icon-App-29x29@3x.png */,
+				1852EA49213F71CC00F78A38 /* Icon-App-40x40@1x.png */,
+				1852EA4A213F71CC00F78A38 /* Icon-App-40x40@2x-1.png */,
+				1852EA4B213F71CC00F78A38 /* Icon-App-40x40@2x.png */,
+				1852EA4C213F71CC00F78A38 /* Icon-App-40x40@3x.png */,
+				1852EA4D213F71CC00F78A38 /* Icon-App-60x60@1x.png */,
+				1852EA4E213F71CC00F78A38 /* Icon-App-60x60@2x.png */,
+				1852EA4F213F71CC00F78A38 /* Icon-App-60x60@3x.png */,
+				1852EA50213F71CC00F78A38 /* Icon-App-76x76@1x.png */,
+				1852EA51213F71CC00F78A38 /* Icon-App-76x76@2x.png */,
+				1852EA52213F71CC00F78A38 /* Icon-App-83.5x83.5@2x.png */,
+				1852EA53213F71CC00F78A38 /* ItunesArtwork@2x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 		18CC31FA21219FA40077E01C /* SDK */ = {
@@ -19922,8 +20011,8 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				1852EA37213F71CC00F78A38 /* AppIcon.appiconset */,
 				185CE4F02122F3300082C7DF /* ic_back.png */,
-				185CE4EE2122ED800082C7DF /* icon.png */,
 				18E388BC2122BB5B005835F5 /* Argon2 */,
 				18CC31FA21219FA40077E01C /* SDK */,
 				F3D6B8A2211EBCEF008D06DE /* WebView */,
@@ -25141,10 +25230,12 @@
 				D02660321F34A5D5000E2DC5 /* LegacyComponentsResources.bundle in Resources */,
 				D0E352751E5E4127007E6EB8 /* stp_card_discover@2x.png in Resources */,
 				D0D97D851B3B99F5003457CD /* MusicPlayerControlForward@2x.png in Resources */,
+				1852EA66213F71CD00F78A38 /* Icon-App-40x40@2x-1.png in Resources */,
 				D08805BB156E8F3600311537 /* InfoPlist.strings in Resources */,
 				683766EF1E09656C0029E18E /* CallInfoIcon@2x.png in Resources */,
 				D077B8C81F433A280046D27A /* ChatNavigateToUnseenMentionsIcon@3x.png in Resources */,
 				D0880639156EB11800311537 /* Localizable.strings in Resources */,
+				1852EA55213F71CD00F78A38 /* Icon-24@2x.png in Resources */,
 				D0E3527F1E5E4127007E6EB8 /* stp_card_form_back@3x.png in Resources */,
 				D0C925CC194A024000E629CA /* start_arrow@2x.png in Resources */,
 				D0052CB3159513F2009482C4 /* SearchBarBackground@2x.png in Resources */,
@@ -25200,6 +25291,7 @@
 				684853BF1C174D4B00007D21 /* SettingsFaqIcon@2x.png in Resources */,
 				096CED9B1F756AAB005C5C70 /* LocationMessagePinSmallBackground@2x.png in Resources */,
 				68D68B091C9C3A7E0016F742 /* EmbedExitFullScreenButton@2x.png in Resources */,
+				1852EA64213F71CD00F78A38 /* Icon-App-29x29@3x.png in Resources */,
 				68EE347B1C873E5D002F5419 /* ShareExternalIcon@2x.png in Resources */,
 				D069B1BB1B3D94110034C967 /* MusicPlayerMinimizedClose@3x.png in Resources */,
 				09B76D4C20214939009835B5 /* anim_delete.json in Resources */,
@@ -25230,7 +25322,9 @@
 				D0AFDA6F1BCFFF3700B74DB4 /* SharedMediaEmptyMusicIcon@3x.png in Resources */,
 				930808CB185A295900E62B42 /* ModernNavigationComposeButtonIcon@2x.png in Resources */,
 				934D715917AD906D0099858D /* 9.m4a in Resources */,
+				1852EA59213F71CD00F78A38 /* Icon-40@2x.png in Resources */,
 				09E97B751F97E63B00526020 /* SettingsWatchIcon@3x.png in Resources */,
+				1852EA62213F71CD00F78A38 /* Icon-App-29x29@2x-1.png in Resources */,
 				933AA4EE1861348D000AA848 /* ModernTourButtonRightArrow@2x.png in Resources */,
 				D0C925C3194A024000E629CA /* powerful_infinity@2x.png in Resources */,
 				D055A7DE1A68474C00A1D48C /* SharedMediaGenericIcon@2x.png in Resources */,
@@ -25271,6 +25365,7 @@
 				098E68D420613F7C001F5150 /* PassportButtonIcon@2x.png in Resources */,
 				D0177B971F26869C0044446D /* (null) in Resources */,
 				68B22D2E1C171BD300EE8FF9 /* SettingsWallpaperIcon@2x.png in Resources */,
+				1852EA54213F71CD00F78A38 /* Contents.json in Resources */,
 				D08696B31943A8B300770FE7 /* pad-builtin-wallpaper-0-thumbnail.jpg in Resources */,
 				68D68B0E1C9C3A7E0016F742 /* EmbedScanForwardButton@2x.png in Resources */,
 				D0E352931E5E4127007E6EB8 /* stp_card_visa@2x.png in Resources */,
@@ -25279,6 +25374,7 @@
 				09C0BF1E206B708700380399 /* SettingsPassportIcon@2x.png in Resources */,
 				D0C925CD194A024000E629CA /* start_arrow_ipad.png in Resources */,
 				68AA5A3E1CD3412100E31031 /* PictureInPicturePause@2x.png in Resources */,
+				1852EA6C213F71CD00F78A38 /* Icon-App-76x76@1x.png in Resources */,
 				D0E3526A1E5E4127007E6EB8 /* stp_card_cvc@3x.png in Resources */,
 				683766F31E0984250029E18E /* CallOutgoing@2x.png in Resources */,
 				D02566A01AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon@2x.png in Resources */,
@@ -25312,6 +25408,7 @@
 				D0C6AEFE1A726F2A0046833D /* SharedMediaDocumentStatusDownload@2x.png in Resources */,
 				18CC322921219FA60077E01C /* ShareSDK.bundle in Resources */,
 				68521C8B1BCE80A100B8A6FA /* MediaVideo@3x.png in Resources */,
+				1852EA67213F71CD00F78A38 /* Icon-App-40x40@2x.png in Resources */,
 				09F2A0BE1EBCC58100653F24 /* InstantViewSettingsArrow@3x.png in Resources */,
 				09C9EE131F4C947D0011145F /* InstantViewShareIcon@3x.png in Resources */,
 				D0D97D881B3B99F5003457CD /* MusicPlayerControlPause@3x.png in Resources */,
@@ -25365,6 +25462,7 @@
 				D08968BB1A7BAE6800784CE8 /* SharedMediaVideoThumbnailPlay@2x.png in Resources */,
 				D04ABC021A3B3C2A00869014 /* ListsDownDisclosureIndicator@2x.png in Resources */,
 				D0DEE5961AA9EA7000B04AAA /* ReplyPanelClose@2x.png in Resources */,
+				1852EA5F213F71CD00F78A38 /* Icon-App-20x20@2x.png in Resources */,
 				93ED9EF918634CD700E22F84 /* ModernConversationEmptyListLogo@2x.png in Resources */,
 				091D23781E609CC400A6A322 /* voip_ringback.caf in Resources */,
 				D0C925581949EDED00E629CA /* InfoPlist.strings in Resources */,
@@ -25390,13 +25488,13 @@
 				D0E352661E5E4127007E6EB8 /* stp_card_applepay_template@2x.png in Resources */,
 				090789901FE9232B00B5451E /* VideoPlayerPauseIcon@2x.png in Resources */,
 				D0E352971E5E4127007E6EB8 /* stp_card_visa_template@3x.png in Resources */,
+				1852EA6A213F71CD00F78A38 /* Icon-App-60x60@2x.png in Resources */,
 				09E97B6B1F97E63B00526020 /* SettingsLanguageIcon@2x.png in Resources */,
 				930808FE185B432D00E62B42 /* ModernListsDisclosureIndicatorSmall@2x.png in Resources */,
 				D0590B001AC3193300B22F1E /* ModernMessageDocumentIconIncoming@2x.png in Resources */,
 				68D68B1B1C9C4CBF0016F742 /* EmbedPauseButton@2x.png in Resources */,
 				D06232B31B39D544006A4140 /* ConversationInputFieldActionsIcon@3x.png in Resources */,
 				93064E031833C5EA0024C05A /* NavigationBackButtonLandscape@2x.png in Resources */,
-				185CE4EF2122ED810082C7DF /* icon.png in Resources */,
 				D069B1B41B3D94110034C967 /* MusicPlayerMinimizedPause@2x.png in Resources */,
 				934134B318551FF500480294 /* builtin-wallpaper-1.jpg in Resources */,
 				D0D97D841B3B99F5003457CD /* MusicPlayerControlBack@3x.png in Resources */,
@@ -25404,10 +25502,12 @@
 				093FD0C0209C950D003C451A /* PassportId@3x.png in Resources */,
 				686ED3211BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png in Resources */,
 				0907899D1FE9277F00B5451E /* VideoPlayerPIPIcon@3x.png in Resources */,
+				1852EA5C213F71CD00F78A38 /* Icon-98@2x.png in Resources */,
 				D0E3528E1E5E4127007E6EB8 /* stp_card_mastercard_template@3x.png in Resources */,
 				D0D95BCF19D438DC00047005 /* SecretPhotoCheck@2x.png in Resources */,
 				09053D7020A5CB810029652D /* ocr_nn.bin in Resources */,
 				09F2A08B1EB8CEAF00653F24 /* InstantViewBrightnessMaxIcon@3x.png in Resources */,
+				1852EA6E213F71CD00F78A38 /* Icon-App-83.5x83.5@2x.png in Resources */,
 				09A833611FF4531500FB133D /* InfoPlist.strings in Resources */,
 				D030962B1B43194B004D358E /* InlineSearchDown@3x.png in Resources */,
 				D08968BC1A7BAE6800784CE8 /* SharedMediaVideoThumbnailPlay@3x.png in Resources */,
@@ -25423,6 +25523,7 @@
 				93ADCE3516EE9F8300BFFCF7 /* TokenBackground@2x.png in Resources */,
 				93ADCE3616EE9F8300BFFCF7 /* TokenBackground_Highlighted@2x.png in Resources */,
 				D069B1B31B3D94110034C967 /* MusicPlayerMinimizedPause@1x.png in Resources */,
+				1852EA5E213F71CD00F78A38 /* Icon-App-20x20@2x-1.png in Resources */,
 				D0C925BE194A024000E629CA /* ic_smile_eye@2x.png in Resources */,
 				D0FC074F1B1E6899008CC3BB /* ConversationInputFieldCommandIcon@3x.png in Resources */,
 				D0E352821E5E4127007E6EB8 /* stp_card_form_front@3x.png in Resources */,
@@ -25441,6 +25542,7 @@
 				D0E3528B1E5E4127007E6EB8 /* stp_card_mastercard@3x.png in Resources */,
 				D0C7B9BF1D9D822600EC75FA /* AppIntentVocabulary.plist in Resources */,
 				0937A5A41E9678F00093D4DA /* TempAudioPreviewPlay@2x.png in Resources */,
+				1852EA5B213F71CD00F78A38 /* Icon-86@2x.png in Resources */,
 				68D704A71C5BDF6100F25436 /* MusicPlayerControlRepeat@2x.png in Resources */,
 				09498C321F7186E100EB9E4D /* MusicPlayerArrow@3x.png in Resources */,
 				D0E3525E1E5E4127007E6EB8 /* stp_card_amex@3x.png in Resources */,
@@ -25487,6 +25589,7 @@
 				D0E3527C1E5E4127007E6EB8 /* stp_card_form_applepay@3x.png in Resources */,
 				D0C925B7194A024000E629CA /* ic_bubble_dot@2x.png in Resources */,
 				09E97B6D1F97E63B00526020 /* SettingsStickersIcon@3x.png in Resources */,
+				1852EA65213F71CD00F78A38 /* Icon-App-40x40@1x.png in Resources */,
 				18CC322521219FA60077E01C /* README.txt in Resources */,
 				0973F3641F9107B200EE2749 /* SavedMessagesIcon@2x.png in Resources */,
 				D0C925BD194A024000E629CA /* ic_smile@2x.png in Resources */,
@@ -25531,6 +25634,7 @@
 				D0AFDA701BCFFF3700B74DB4 /* SharedMediaEmptyMusicIcon@2x.png in Resources */,
 				684853C01C174D4C00007D21 /* SettingsSupportIcon@2x.png in Resources */,
 				09BE542C1EA531920026E961 /* TooltipBackground@3x.png in Resources */,
+				1852EA61213F71CD00F78A38 /* Icon-App-29x29@1x.png in Resources */,
 				D0E3529C1E5E4127007E6EB8 /* stp_icon_checkmark@2x.png in Resources */,
 				D0177B961F26869C0044446D /* (null) in Resources */,
 				0978FEEB1E93C5B600F76E38 /* ModernConversationSend@3x.png in Resources */,
@@ -25567,16 +25671,19 @@
 				D0BAF3F9193E8AC400A0093F /* ModernConversationActionDelete.png in Resources */,
 				09361CF81E7263AD007ED29C /* CallOutgoing@3x.png in Resources */,
 				68521C8C1BCE80A100B8A6FA /* MediaVoice@2x.png in Resources */,
+				1852EA5D213F71CD00F78A38 /* Icon-App-20x20@1x.png in Resources */,
 				D06232B41B39D544006A4140 /* ConversationInputFieldActionsIcon@1x.png in Resources */,
 				68AA5A3D1CD3412100E31031 /* PictureInPictureClose@2x.png in Resources */,
 				68AA5A471CD3C93100E31031 /* PictureInPictureIndicator@2x.png in Resources */,
 				D0DCF5381AED327600D5B7A1 /* NavigationBackArrowNormal@2x.png in Resources */,
 				185CE4F12122F3300082C7DF /* ic_back.png in Resources */,
+				1852EA56213F71CD00F78A38 /* Icon-27.5@2x.png in Resources */,
 				D04B4F581EEAD2B500711AF6 /* LoginCodeOtherDevice@3x.png in Resources */,
 				68D167FA1DB77E7400509032 /* CallSpeakerIcon@2x.png in Resources */,
 				09B76D4E20214939009835B5 /* anim_mute.json in Resources */,
 				09F2A08D1EB8CEAF00653F24 /* InstantViewBrightnessMinIcon@3x.png in Resources */,
 				09E0996F1E85406C00253536 /* VideoMessageUnmutedIcon@2x.png in Resources */,
+				1852EA5A213F71CD00F78A38 /* Icon-44@2x.png in Resources */,
 				9341B0211851E89300D1195B /* ModernMenuCheck@2x.png in Resources */,
 				D0E352961E5E4127007E6EB8 /* stp_card_visa_template@2x.png in Resources */,
 				D0D95BCE19D438DC00047005 /* SecretPhotoCheckMask.png in Resources */,
@@ -25643,8 +25750,10 @@
 				09F2A08C1EB8CEAF00653F24 /* InstantViewBrightnessMinIcon@2x.png in Resources */,
 				0912626D1FE02561008071A2 /* UngroupChannel@3x.png in Resources */,
 				D069B1B61B3D94110034C967 /* MusicPlayerMinimizedPlay@1x.png in Resources */,
+				1852EA6F213F71CD00F78A38 /* ItunesArtwork@2x.png in Resources */,
 				D098521D1DD1F0F000A2392C /* ConversationSearchCalendar@3x.png in Resources */,
 				0976A3A420C5EB9A00CEB156 /* PassportSettingsLogo@3x.png in Resources */,
+				1852EA68213F71CD00F78A38 /* Icon-App-40x40@3x.png in Resources */,
 				096CEDA81F769B2B005C5C70 /* LiveLocationTitlePin@2x.png in Resources */,
 				D01D7D6319DECE2800955BDE /* Localizable.strings in Resources */,
 				933AA4A31860BE79000AA848 /* ModernNavigationAddButtonIcon@2x.png in Resources */,
@@ -25661,6 +25770,7 @@
 				D0E352A31E5E4128007E6EB8 /* stp_icon_chevron_right_small@3x.png in Resources */,
 				09A833601FF4531500FB133D /* Localizable.strings in Resources */,
 				09FAA0C41F4361460099E8E7 /* StickersGroupCross@2x.png in Resources */,
+				1852EA63213F71CD00F78A38 /* Icon-App-29x29@2x.png in Resources */,
 				D0D97D861B3B99F5003457CD /* MusicPlayerControlForward@3x.png in Resources */,
 				0973F3631F9107B200EE2749 /* SavedMessagesIcon@3x.png in Resources */,
 				09690A731E73236A00B54F6E /* CallRouteSpeaker@2x.png in Resources */,
@@ -25675,6 +25785,7 @@
 				093FD0C3209C950D003C451A /* PassportPassport@3x.png in Resources */,
 				D0E1D3071EC9E9F800FCEEF1 /* PermissionSwitchOff@2x.png in Resources */,
 				D0C6AF4D1A77F7EF0046833D /* SharedMediaEmptyIcon@2x.png in Resources */,
+				1852EA60213F71CD00F78A38 /* Icon-App-20x20@3x.png in Resources */,
 				68521C821BCE80A100B8A6FA /* MediaContact@2x.png in Resources */,
 				D0C925D0194A024000E629CA /* telegram_sphere@2x.png in Resources */,
 				68D167F91DB77E7400509032 /* CallPhoneIcon@2x.png in Resources */,
@@ -25718,6 +25829,7 @@
 				098C0E662024A2DD007B4539 /* anim_group.json in Resources */,
 				D0E352941E5E4127007E6EB8 /* stp_card_visa@3x.png in Resources */,
 				931C5942174C1D1600D597D9 /* MenuArrowTop@2x.png in Resources */,
+				1852EA6D213F71CD00F78A38 /* Icon-App-76x76@2x.png in Resources */,
 				09E97B761F97E63B00526020 /* SettingsFaqIcon@3x.png in Resources */,
 				09E97B711F97E63B00526020 /* SettingsCallsIcon@2x.png in Resources */,
 				931C5944174C233600D597D9 /* MenuArrowBottom@2x.png in Resources */,
@@ -25740,6 +25852,7 @@
 				931C5951174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png in Resources */,
 				D035EBBB194868B700EEEC17 /* InfoPlist.strings in Resources */,
 				D0E352901E5E4127007E6EB8 /* stp_card_placeholder_template@2x.png in Resources */,
+				1852EA6B213F71CD00F78A38 /* Icon-App-60x60@3x.png in Resources */,
 				931C5952174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png in Resources */,
 				D0C925B3194A024000E629CA /* fast_arrow_shadow@2x.png in Resources */,
 				D0E352601E5E4127007E6EB8 /* stp_card_amex_template@2x.png in Resources */,
@@ -25754,6 +25867,7 @@
 				933AA4C6186101A5000AA848 /* SearchBarBackgroundLight@2x.png in Resources */,
 				09FCB6911FB2E98C0007D2CA /* PasswordPlaceholderIcon@3x.png in Resources */,
 				68B22D221C1611AC00EE8FF9 /* SettingsNotificationsIcon@2x.png in Resources */,
+				1852EA58213F71CD00F78A38 /* Icon-29@3x.png in Resources */,
 				0923C0C71F39B0D000AC41C9 /* StickersFave@2x.png in Resources */,
 				D0E352641E5E4127007E6EB8 /* stp_card_applepay@3x.png in Resources */,
 				938F20DD17998386003837DA /* 0.m4a in Resources */,
@@ -25764,9 +25878,11 @@
 				68D68B0A1C9C3A7E0016F742 /* EmbedPlayButton@2x.png in Resources */,
 				D0C925B4194A024000E629CA /* fast_body@2x.png in Resources */,
 				09E97B741F97E63B00526020 /* SettingsLanguageIcon@3x.png in Resources */,
+				1852EA57213F71CD00F78A38 /* Icon-29@2x.png in Resources */,
 				934280CB18480B63004F1C2A /* NavigationBackArrow@2x.png in Resources */,
 				D0E352A21E5E4128007E6EB8 /* stp_icon_chevron_right_small@2x.png in Resources */,
 				09690A741E73236A00B54F6E /* CallRouteSpeaker@3x.png in Resources */,
+				1852EA69213F71CD00F78A38 /* Icon-App-60x60@1x.png in Resources */,
 				D06232B21B39D544006A4140 /* ConversationInputFieldActionsIcon@2x.png in Resources */,
 				D04ABC001A3B3C2A00869014 /* ListsDownDisclosureIndicator_Highlighted@2x.png in Resources */,
 			);
