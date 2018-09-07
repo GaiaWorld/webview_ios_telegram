@@ -111,6 +111,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "载入页iPhonePortraitiOS56_320x568pt@2x.png",
       "extent" : "full-screen",
       "subtype" : "retina4",
       "scale" : "2x"
@@ -118,6 +119,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "载入页iPadPortraitWOSBiOS56_768x1004pt.png",
       "extent" : "to-status-bar",
       "scale" : "1x"
     },
@@ -131,7 +133,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "2iPadLandscapeiOS789_1024x768pt-1.png",
+      "filename" : "载入页2iPadLandscapeWOSBiOS56_1024x748pt.png",
       "extent" : "to-status-bar",
       "scale" : "1x"
     },
@@ -159,7 +161,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "2iPadLandscapeiOS789_1024x768pt@2x-1.png",
+      "filename" : "载入页2iPadLandscapeWOSBiOS56_1024x748pt@2x.png",
       "extent" : "to-status-bar",
       "scale" : "2x"
     },

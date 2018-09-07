@@ -101,7 +101,7 @@
 /// 点击名片按钮
 - (void)clickCardButton {
     HMScanerCardViewController *vc = [[HMScanerCardViewController alloc] initWithCardName:self.cardName avatar:self.avatar];
-
+    
     [self showViewController:vc sender:nil];
 }
 
@@ -174,18 +174,18 @@
     [self.view addSubview:tipLabel];
     
     // 2> 名片按钮
-//    UIButton *cardButton = [[UIButton alloc] init];
-//
-//    [cardButton setTitle:@"我的名片" forState:UIControlStateNormal];
-//    cardButton.titleLabel.font = [UIFont systemFontOfSize:15];
-//    [cardButton setTitleColor:self.navigationController.navigationBar.tintColor forState:UIControlStateNormal];
-//
-//    [cardButton sizeToFit];
-//    cardButton.center = CGPointMake(tipLabel.center.x, CGRectGetMaxY(tipLabel.frame) + kControlMargin);
-//
-//    [self.view addSubview:cardButton];
-//
-//    [cardButton addTarget:self action:@selector(clickCardButton) forControlEvents:UIControlEventTouchUpInside];
+    UIButton *cardButton = [[UIButton alloc] init];
+    
+    [cardButton setTitle:@"我的名片" forState:UIControlStateNormal];
+    cardButton.titleLabel.font = [UIFont systemFontOfSize:15];
+    [cardButton setTitleColor:self.navigationController.navigationBar.tintColor forState:UIControlStateNormal];
+    
+    [cardButton sizeToFit];
+    cardButton.center = CGPointMake(tipLabel.center.x, CGRectGetMaxY(tipLabel.frame) + kControlMargin);
+    
+    [self.view addSubview:cardButton];
+    
+    [cardButton addTarget:self action:@selector(clickCardButton) forControlEvents:UIControlEventTouchUpInside];
 }
 
 /// 准备扫描框
