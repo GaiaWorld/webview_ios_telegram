@@ -9,6 +9,7 @@
 #import "WebViewJSBundle.h"
 #import "WebViewController.h"
 #import "WebViewAppDelegate.h"
+#import "BaseObject.h"
 
 WKWebView *webview = nil;
 
@@ -22,12 +23,14 @@ WKWebView *webview = nil;
     return webview;
 }
 
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
     
     webview = [self createWebview];
-    [self createButton];
+    //[self createButton];
+    [BaseObject setVc:self];
 }
 
 
@@ -35,6 +38,8 @@ WKWebView *webview = nil;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreate©∫ƒd.
 }
+
+
 
 - (WKWebView *)createWebview {
     
@@ -55,7 +60,7 @@ WKWebView *webview = nil;
     config.userContentController = [[WKUserContentController alloc] init];
     // 添加消息处理，注意：self指代的对象需要遵守WKScriptMessageHandler协议，结束时需要移除
     [config.userContentController addScriptMessageHandler:self name: @"Native"];
-
+    
     WKWebView *webview = [[WKWebView alloc]initWithFrame:self.view.bounds configuration:config];
     
     [webview evaluateJavaScript:@"navigator.userAgent" completionHandler:^(id result, NSError *error) {
@@ -65,20 +70,23 @@ WKWebView *webview = nil;
     [self.view addSubview:webview];
     
     // NSString *urlPath = @"https://www.baidu.com";
-    NSString *urlPath = @"http://192.168.33.93:8088/dst/boot/index.html";
-    
-    // 本地打包，拖 android_asset目录到工程，选择create folder reference选项
-    // NSString *urlPath = [NSString stringWithFormat:@"file:///%@/android_asset/index.html", [[NSBundle mainBundle] bundlePath]];
- 
+    NSString *urlPath=@"http://47.106.176.185:8080/wallet/app/boot/index.html";
+//    NSString *urlPath=@"http://192.168.33.113/wallet/app/boot/index.html?tdsourcetag=s_pcqq_aiomsg";
     NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:urlPath]];
     [webview loadRequest:request];
+    
+    //    NSString *basePath = [NSString stringWithFormat:@"%@/android_asset", [[NSBundle mainBundle] bundlePath]];
+    //    NSURL *baseUrl = [NSURL fileURLWithPath:basePath isDirectory:YES];
+    //    NSString *indexPath = [NSString stringWithFormat:@"%@/index.html", basePath];
+    //    NSString *indexContent = [NSString stringWithContentsOfFile:indexPath encoding: NSUTF8StringEncoding error:nil];
+    //    [webview loadHTMLString:indexContent baseURL:baseUrl];
     
     // 关闭webView的拖动
     webview.scrollView.scrollEnabled = NO;
     webview.UIDelegate = self;
     webview.navigationDelegate = self;
     
-                                    
+    
     return webview;
 }
 
@@ -98,13 +106,13 @@ WKWebView *webview = nil;
 
 - (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler
 {
- 
+    
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:message message:@"" preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         completionHandler();
     }];
-
+    
     [alert addAction:okAction];
     
     [self presentViewController:alert animated:YES completion:nil];
@@ -125,7 +133,7 @@ WKWebView *webview = nil;
     
     // 绘制形状
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-
+    
     // 确定宽、高、X、Y坐标
     CGRect frame;
     frame.size.width = 100;
@@ -133,27 +141,27 @@ WKWebView *webview = nil;
     frame.origin.x = 320 / 2 - 50;
     frame.origin.y = 480 / 2 - 30;
     [btn setFrame:frame];
-
+    
     // 设置Tag(整型)
     btn.tag = 10;
-
+    
     // 设置标题
     [btn setTitle:@"切换telegram" forState:UIControlStateNormal];
-
+    
     // 设置未按下和按下的图片切换
     // [btn setBackgroundImage:[UIImage imageNamed:@"bus.png"] forState:UIControlStateNormal];
     // [btn setBackgroundImage:[UIImage imageNamed:@"plane.png"] forState:UIControlStateHighlighted];
-
+    
     // 设置事件
     [btn addTarget:self action:@selector(btnPressed:) forControlEvents:UIControlEventTouchUpInside];
-
+    
     // 设置背景色和透明度
     [btn setBackgroundColor:[UIColor blackColor]];
     [btn setAlpha:1.0];
-
+    
     // 或设置背景色和透明度
     btn.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:1.0];
-
+    
     [self.view addSubview:btn];
 }
 
@@ -163,7 +171,7 @@ WKWebView *webview = nil;
     UIButton *myBtn = (UIButton *)sender;
     if (myBtn.tag == 10)
     {
-        [WebViewAppDelegateInstance changeTelegramView];
+        //[WebViewAppDelegateInstance changeTelegramView];
     }
 }
 

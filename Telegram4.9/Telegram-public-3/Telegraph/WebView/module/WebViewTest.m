@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 
 #import "WebViewTest.h"
-#import "WebViewJSBundle.h"
+#import "../WebViewJSBundle.h"
 
 @implementation Test
 
 - (void)testInstance:(NSArray *)array {
-    NSLog(@"testInstance : %@", array);
+    NSLog(@"test : %@", array);
     
     NSNumber *listenerID = [array objectAtIndex:0];
     
@@ -23,18 +23,7 @@
     NSNumber *c = [array objectAtIndex:3];
     NSNumber *d = [array objectAtIndex:4];
     NSString *s = [array objectAtIndex:5];
-    
-    NSNumber *r = [NSNumber numberWithFloat:1234.567];
-    [WebViewJSBundle callJS:listenerID code:0 params:[NSArray arrayWithObjects:r, a, b, c, d, s, nil]];
-}
-
-- (void)testCallback:(NSArray *)array {
-    NSLog(@"testCallback : %@", array);
-    
-    NSNumber *listenerID = [array objectAtIndex:0];
-    
-    NSNumber *cbID = [array objectAtIndex:1];
-    [WebViewJSBundle callJS:cbID code:100 params:[NSArray arrayWithObjects:[NSString stringWithFormat:@"testCallback return"], nil]];
+    [WebViewJSBundle callJS:listenerID code:0 params:[NSArray arrayWithObjects:a, b, c, d, s, nil]];
 }
 
 + (void)testStatic:(NSArray *)array {
@@ -47,7 +36,7 @@
     NSNumber *c = [array objectAtIndex:3];
     NSNumber *d = [array objectAtIndex:4];
     NSString *s = [array objectAtIndex:5];
-    NSNumber *r = [NSNumber numberWithFloat:1234.567];
-    [WebViewJSBundle callJS:listenerID code:0 params:[NSArray arrayWithObjects:r, a, b, c, d, s, nil]];}
+    [WebViewJSBundle callJS:listenerID code:0 params:[NSArray arrayWithObjects:a, b, c, d, s, nil]];}
 
 @end
+

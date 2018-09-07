@@ -225,10 +225,10 @@
 - (void)createChangeButton {
     
     // 绘制形状
-    CGFloat radius = 80;
+    CGFloat radius = 50;
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(width - radius, height - radius, radius, radius)];
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(width-radius-13, height-radius-60, radius,radius)];
     
     [btn setTitle:@"切换到WebView" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
@@ -240,11 +240,12 @@
     [btn.layer setCornerRadius:radius / 2.0f];   //弧度等于宽度的一半 就是圆角
     
     //边框宽度
-    [btn.layer setBorderWidth:2];
-    [btn.layer setBorderColor:[[UIColor redColor] CGColor]];
+    [btn.layer setBorderWidth:1];
+    [btn.layer setBorderColor:[[UIColor whiteColor] CGColor]];
     
     // 设置事件
     btn.tag = 1; // 设置Tag(整型)
+    [btn setImage:[UIImage imageNamed:@"ic_back"] forState:0];//.jpg格式的要加上.jpg
     [btn addTarget:self action:@selector(changeButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
     // 设置背景色和透明度

@@ -143,10 +143,6 @@
 		0929AA651E9BD34300AA97C0 /* StickerPanelPopupLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA5E1E9BD34300AA97C0 /* StickerPanelPopupLeft@3x.png */; };
 		0929AA661E9BD34300AA97C0 /* StickerPanelPopupMiddle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA5F1E9BD34300AA97C0 /* StickerPanelPopupMiddle@3x.png */; };
 		0929AA671E9BD34300AA97C0 /* StickerPanelPopupRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA601E9BD34300AA97C0 /* StickerPanelPopupRight@3x.png */; };
-		0929AA701E9CED9A00AA97C0 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA6C1E9CED9900AA97C0 /* Icon-40.png */; };
-		0929AA711E9CED9A00AA97C0 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA6D1E9CED9A00AA97C0 /* Icon-40@3x.png */; };
-		0929AA721E9CED9A00AA97C0 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA6E1E9CED9A00AA97C0 /* Icon-60@3x.png */; };
-		0929AA731E9CED9A00AA97C0 /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0929AA6F1E9CED9A00AA97C0 /* Icon-87.png */; };
 		092B124D1EEB1689003BFC52 /* TGShareTargetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 092B124B1EEB1689003BFC52 /* TGShareTargetController.h */; };
 		092B124E1EEB1689003BFC52 /* TGShareTargetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B124C1EEB1689003BFC52 /* TGShareTargetController.m */; };
 		092B12511EEB16A4003BFC52 /* TGShareTargetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 092B124F1EEB16A4003BFC52 /* TGShareTargetCell.h */; };
@@ -736,6 +732,87 @@
 		09FCB6921FB2E98C0007D2CA /* PasswordPlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */; };
 		09FCB6951FB2FAE80007D2CA /* PasscodePlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */; };
 		09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */; };
+		1852EA54213F71CD00F78A38 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA38213F71CC00F78A38 /* Contents.json */; };
+		1852EA55213F71CD00F78A38 /* Icon-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA39213F71CC00F78A38 /* Icon-24@2x.png */; };
+		1852EA56213F71CD00F78A38 /* Icon-27.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3A213F71CC00F78A38 /* Icon-27.5@2x.png */; };
+		1852EA57213F71CD00F78A38 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3B213F71CC00F78A38 /* Icon-29@2x.png */; };
+		1852EA58213F71CD00F78A38 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3C213F71CC00F78A38 /* Icon-29@3x.png */; };
+		1852EA59213F71CD00F78A38 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3D213F71CC00F78A38 /* Icon-40@2x.png */; };
+		1852EA5A213F71CD00F78A38 /* Icon-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3E213F71CC00F78A38 /* Icon-44@2x.png */; };
+		1852EA5B213F71CD00F78A38 /* Icon-86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA3F213F71CC00F78A38 /* Icon-86@2x.png */; };
+		1852EA5C213F71CD00F78A38 /* Icon-98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA40213F71CC00F78A38 /* Icon-98@2x.png */; };
+		1852EA5D213F71CD00F78A38 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA41213F71CC00F78A38 /* Icon-App-20x20@1x.png */; };
+		1852EA5E213F71CD00F78A38 /* Icon-App-20x20@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA42213F71CC00F78A38 /* Icon-App-20x20@2x-1.png */; };
+		1852EA5F213F71CD00F78A38 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA43213F71CC00F78A38 /* Icon-App-20x20@2x.png */; };
+		1852EA60213F71CD00F78A38 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA44213F71CC00F78A38 /* Icon-App-20x20@3x.png */; };
+		1852EA61213F71CD00F78A38 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA45213F71CC00F78A38 /* Icon-App-29x29@1x.png */; };
+		1852EA62213F71CD00F78A38 /* Icon-App-29x29@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA46213F71CC00F78A38 /* Icon-App-29x29@2x-1.png */; };
+		1852EA63213F71CD00F78A38 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA47213F71CC00F78A38 /* Icon-App-29x29@2x.png */; };
+		1852EA64213F71CD00F78A38 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA48213F71CC00F78A38 /* Icon-App-29x29@3x.png */; };
+		1852EA65213F71CD00F78A38 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA49213F71CC00F78A38 /* Icon-App-40x40@1x.png */; };
+		1852EA66213F71CD00F78A38 /* Icon-App-40x40@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4A213F71CC00F78A38 /* Icon-App-40x40@2x-1.png */; };
+		1852EA67213F71CD00F78A38 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4B213F71CC00F78A38 /* Icon-App-40x40@2x.png */; };
+		1852EA68213F71CD00F78A38 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4C213F71CC00F78A38 /* Icon-App-40x40@3x.png */; };
+		1852EA69213F71CD00F78A38 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4D213F71CC00F78A38 /* Icon-App-60x60@1x.png */; };
+		1852EA6A213F71CD00F78A38 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4E213F71CC00F78A38 /* Icon-App-60x60@2x.png */; };
+		1852EA6B213F71CD00F78A38 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA4F213F71CC00F78A38 /* Icon-App-60x60@3x.png */; };
+		1852EA6C213F71CD00F78A38 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA50213F71CC00F78A38 /* Icon-App-76x76@1x.png */; };
+		1852EA6D213F71CD00F78A38 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA51213F71CC00F78A38 /* Icon-App-76x76@2x.png */; };
+		1852EA6E213F71CD00F78A38 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA52213F71CC00F78A38 /* Icon-App-83.5x83.5@2x.png */; };
+		1852EA6F213F71CD00F78A38 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852EA53213F71CC00F78A38 /* ItunesArtwork@2x.png */; };
+		185CE4DD2122C5B50082C7DF /* SendChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CE4DC2122C5B50082C7DF /* SendChatMessage.m */; };
+		185CE4F12122F3300082C7DF /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CE4F02122F3300082C7DF /* ic_back.png */; };
+		186CC149212C1022004AC557 /* FingerReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CC148212C1022004AC557 /* FingerReader.m */; };
+		18CC31F421217F140077E01C /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F321217F140077E01C /* ImagePicker.m */; };
+		18CC31F7212181080077E01C /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31F6212181080077E01C /* BaseObject.m */; };
+		18CC31F9212183E10077E01C /* TZImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC31F8212183E10077E01C /* TZImagePickerController.framework */; };
+		18CC321821219FA50077E01C /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC31FC21219FA40077E01C /* MOBFoundation.framework */; };
+		18CC321921219FA60077E01C /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC31FE21219FA40077E01C /* ShareSDK.framework */; };
+		18CC321A21219FA60077E01C /* ShareSDKConfigFile.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC320121219FA40077E01C /* ShareSDKConfigFile.bundle */; };
+		18CC321B21219FA60077E01C /* ShareSDKConfigFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320221219FA40077E01C /* ShareSDKConfigFile.framework */; };
+		18CC321C21219FA60077E01C /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320321219FA40077E01C /* ShareSDKExtension.framework */; };
+		18CC321D21219FA60077E01C /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC320421219FA40077E01C /* ShareSDKUI.bundle */; };
+		18CC321E21219FA60077E01C /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320521219FA40077E01C /* ShareSDKUI.framework */; };
+		18CC321F21219FA60077E01C /* LineConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320721219FA40077E01C /* LineConnector.framework */; };
+		18CC322021219FA60077E01C /* QQConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320821219FA40077E01C /* QQConnector.framework */; };
+		18CC322121219FA60077E01C /* WechatConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320921219FA40077E01C /* WechatConnector.framework */; };
+		18CC322221219FA60077E01C /* LineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320C21219FA40077E01C /* LineSDK.framework */; };
+		18CC322321219FA60077E01C /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC320E21219FA40077E01C /* TencentOpenAPI.framework */; };
+		18CC322421219FA60077E01C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC321021219FA40077E01C /* libWeChatSDK.a */; };
+		18CC322521219FA60077E01C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18CC321121219FA40077E01C /* README.txt */; };
+		18CC322621219FA60077E01C /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CC321221219FA40077E01C /* WechatAuthSDK.h */; };
+		18CC322721219FA60077E01C /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CC321321219FA40077E01C /* WXApi.h */; };
+		18CC322821219FA60077E01C /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CC321421219FA40077E01C /* WXApiObject.h */; };
+		18CC322921219FA60077E01C /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC321621219FA40077E01C /* ShareSDK.bundle */; };
+		18CC322A21219FA60077E01C /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC321721219FA40077E01C /* ShareSDKConnector.framework */; };
+		18CC322C21219FF70077E01C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC322B21219FF60077E01C /* libicucore.tbd */; };
+		18CC322E2121A0120077E01C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC322D2121A0120077E01C /* libz.tbd */; };
+		18CC32302121A01D0077E01C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC322F2121A01D0077E01C /* libstdc++.tbd */; };
+		18CC32322121A0270077E01C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC32312121A0270077E01C /* JavaScriptCore.framework */; };
+		18CC32342121A0380077E01C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC32332121A0370077E01C /* libsqlite3.tbd */; };
+		18CC32372121A0A20077E01C /* ShareToPlatforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC32362121A0A20077E01C /* ShareToPlatforms.m */; };
+		18D2A89521212199003D6808 /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2A89421212199003D6808 /* QRCode.m */; };
+		18D2A8A521212D8E003D6808 /* HMQRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */; };
+		18E388B721227FDC005835F5 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E388B621227FDC005835F5 /* ImageUtils.m */; };
+		18E388BB2122AF69005835F5 /* QRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E388BA2122AF69005835F5 /* QRCodeUtil.m */; };
+		18E388CE2122BB5C005835F5 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E388BD2122BB5B005835F5 /* argon2.c */; };
+		18E388CF2122BB5C005835F5 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388BE2122BB5B005835F5 /* argon2.h */; };
+		18E388D02122BB5C005835F5 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388BF2122BB5B005835F5 /* blake2-impl.h */; };
+		18E388D12122BB5C005835F5 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388C02122BB5B005835F5 /* blake2.h */; };
+		18E388D22122BB5C005835F5 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E388C12122BB5B005835F5 /* blake2b.c */; };
+		18E388D32122BB5C005835F5 /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388C22122BB5B005835F5 /* blamka-round-opt.h */; };
+		18E388D42122BB5C005835F5 /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388C32122BB5B005835F5 /* blamka-round-ref.h */; };
+		18E388D52122BB5C005835F5 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E388C42122BB5B005835F5 /* core.c */; };
+		18E388D62122BB5C005835F5 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388C52122BB5B005835F5 /* core.h */; };
+		18E388D72122BB5C005835F5 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E388C62122BB5B005835F5 /* encoding.c */; };
+		18E388D82122BB5C005835F5 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388C72122BB5B005835F5 /* encoding.h */; };
+		18E388D92122BB5C005835F5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18E388C82122BB5B005835F5 /* LICENSE */; };
+		18E388DA2122BB5C005835F5 /* ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E388CA2122BB5B005835F5 /* ref.c */; };
+		18E388DB2122BB5C005835F5 /* ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388CB2122BB5B005835F5 /* ref.h */; };
+		18E388DC2122BB5C005835F5 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E388CC2122BB5B005835F5 /* thread.c */; };
+		18E388DD2122BB5C005835F5 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388CD2122BB5B005835F5 /* thread.h */; };
+		18E388DF2122BB84005835F5 /* Argon2Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E388DE2122BB83005835F5 /* Argon2Hash.h */; };
+		18E388E12122BB89005835F5 /* Argon2Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E388E02122BB88005835F5 /* Argon2Hash.m */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6804D8AE1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804D8AC1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h */; };
 		6804D8AF1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804D8AD1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m */; };
@@ -1300,8 +1377,6 @@
 		9312321316220E80001E27A6 /* TGActionMediaAttachment+Telegraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 9312321216220E80001E27A6 /* TGActionMediaAttachment+Telegraph.m */; };
 		9312322B1622FECF001E27A6 /* TGJpegTurbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9312322A1622FECF001E27A6 /* TGJpegTurbo.m */; };
 		93137C46185BC741003F4D79 /* TGPhoneLabelPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93137C45185BC741003F4D79 /* TGPhoneLabelPickerController.m */; };
-		9315E4DF186AFC52008DD74D /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315E4DD186AFC52008DD74D /* Icon-40@2x.png */; };
-		9315E4E5186AFE7A008DD74D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315E4E4186AFE7A008DD74D /* Icon-Small@2x.png */; };
 		931668E9164BC0CA0082AE8E /* TGForwardTargetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931668E8164BC0C90082AE8E /* TGForwardTargetController.m */; };
 		931668EB164BD14B0082AE8E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931668EA164BD14B0082AE8E /* Default@2x.png */; };
 		93192EFB15BED22F0056FCD8 /* TGSendCodeRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 93192EFA15BED22F0056FCD8 /* TGSendCodeRequestBuilder.m */; };
@@ -1316,7 +1391,6 @@
 		931C594C174CC85200D597D9 /* MenuButtonCenter_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C5947174CC85200D597D9 /* MenuButtonCenter_Highlighted@2x.png */; };
 		931C5951174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C594F174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png */; };
 		931C5952174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C5950174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png */; };
-		9321E53917B585D7005229AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9321E53817B585D7005229AC /* Icon.png */; };
 		9321E9D916A9280100F9D09C /* TGCommentMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321E9D816A9280100F9D09C /* TGCommentMenuItem.m */; };
 		9321E9DC16A9289600F9D09C /* TGCommentMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321E9DB16A9289600F9D09C /* TGCommentMenuItemView.m */; };
 		9321E9E216A98FF600F9D09C /* TGCheckImageStoredActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321E9E116A98FF600F9D09C /* TGCheckImageStoredActor.m */; };
@@ -1555,7 +1629,6 @@
 		93B2388616B58CD100DB8F5E /* TGGroupedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B2388516B58CCF00DB8F5E /* TGGroupedCell.m */; };
 		93B532A6160BEA3000A16903 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B532A5160BEA3000A16903 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		93B77683184DF19F00C81651 /* TGModernConversationGroupTitlePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B77682184DF19F00C81651 /* TGModernConversationGroupTitlePanel.m */; };
-		93BB2237180D986600342583 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BB2236180D986600342583 /* Icon-60@2x.png */; };
 		93C03F1D17C54E5F00A077C4 /* TGProfilePhotoListActor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93C03F1C17C54E5F00A077C4 /* TGProfilePhotoListActor.mm */; };
 		93C0B3C31602533B0034D542 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C0B3C21602533B0034D542 /* Default-568h@2x.png */; };
 		93C1AF6216C4641A00710640 /* TGSynchronizeContactsActor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93C1AF6116C4641A00710640 /* TGSynchronizeContactsActor.mm */; };
@@ -3429,7 +3502,6 @@
 		D052F0DA1576CB8900D51E59 /* TGUserDataRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D052F0D91576CB8900D51E59 /* TGUserDataRequestBuilder.m */; };
 		D052F0E91576E35700D51E59 /* TGInterfaceManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = D052F0E81576E35700D51E59 /* TGInterfaceManager.mm */; };
 		D052F11B1576F42400D51E59 /* TGPushActionsRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D052F11A1576F42400D51E59 /* TGPushActionsRequestBuilder.m */; };
-		D052F86B209C6D0D00B8D813 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = D052F86A209C6D0C00B8D813 /* Icon-57.png */; };
 		D053A39C1F15036D00E2D58A /* TLMessageMedia$messageMediaPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = D053A39A1F15036D00E2D58A /* TLMessageMedia$messageMediaPhoto.h */; };
 		D053A39D1F15036D00E2D58A /* TLMessageMedia$messageMediaPhoto.mm in Sources */ = {isa = PBXBuildFile; fileRef = D053A39B1F15036D00E2D58A /* TLMessageMedia$messageMediaPhoto.mm */; };
 		D053A3A01F15049E00E2D58A /* TLMessageMedia$messageMediaDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = D053A39E1F15049E00E2D58A /* TLMessageMedia$messageMediaDocument.h */; };
@@ -3942,7 +4014,6 @@
 		D09852251DD22BC700A2392C /* TGInstantPageFooterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D09852231DD22BC700A2392C /* TGInstantPageFooterButtonView.m */; };
 		D099D7391EEEE0AB00A3128C /* TGInstantPageAudioView.h in Headers */ = {isa = PBXBuildFile; fileRef = D099D7371EEEE0AB00A3128C /* TGInstantPageAudioView.h */; };
 		D099D73A1EEEE0AB00A3128C /* TGInstantPageAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = D099D7381EEEE0AB00A3128C /* TGInstantPageAudioView.m */; };
-		D09A218815C9CF5100023542 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09A218715C9CF5100023542 /* Icon@2x.png */; };
 		D09A6B6F1C1A054600134687 /* TLMessages_BotResults$botResults.h in Headers */ = {isa = PBXBuildFile; fileRef = D09A6B6D1C1A054600134687 /* TLMessages_BotResults$botResults.h */; };
 		D09A6B701C1A054600134687 /* TLMessages_BotResults$botResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = D09A6B6E1C1A054600134687 /* TLMessages_BotResults$botResults.mm */; };
 		D09C750419EFC3EB00BF51BC /* TGSecretInfiniteLifetimePeerMediaGalleryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C750319EFC3EB00BF51BC /* TGSecretInfiniteLifetimePeerMediaGalleryModel.m */; };
@@ -4154,7 +4225,6 @@
 		D0C6746F1CB69E9900183765 /* botbutton_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C6746E1CB69E9900183765 /* botbutton_share@2x.png */; };
 		D0C6747D1CB7C80000183765 /* TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C6747B1CB7C80000183765 /* TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.h */; };
 		D0C6747E1CB7C80000183765 /* TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C6747C1CB7C80000183765 /* TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.m */; };
-		D0C6748F1CB8640400183765 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C6748E1CB8640400183765 /* Icon-167.png */; };
 		D0C6AED11A7158680046833D /* TGSharedVideoSignals.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C6AECF1A7158680046833D /* TGSharedVideoSignals.h */; };
 		D0C6AED21A7158680046833D /* TGSharedVideoSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C6AED01A7158680046833D /* TGSharedVideoSignals.m */; };
 		D0C6AED91A71590A0046833D /* TGSharedMediaSignals.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C6AED71A71590A0046833D /* TGSharedMediaSignals.h */; };
@@ -4333,7 +4403,6 @@
 		D0D43CE51BA08DE500F6C78F /* TGQueuedLeaveChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D43CE31BA08DE500F6C78F /* TGQueuedLeaveChannel.m */; };
 		D0D43CE81BA0A4AE00F6C78F /* TLChatFull$channelFull.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D43CE61BA0A4AE00F6C78F /* TLChatFull$channelFull.h */; };
 		D0D43CE91BA0A4AE00F6C78F /* TLChatFull$channelFull.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0D43CE71BA0A4AE00F6C78F /* TLChatFull$channelFull.mm */; };
-		D0D443B8195315D500CF2A7E /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D443B7195315D500CF2A7E /* Icon-76@2x.png */; };
 		D0D541C71B8632E9005F676C /* TLMessage$modernMessageService.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D541C51B8632E9005F676C /* TLMessage$modernMessageService.h */; };
 		D0D541C81B8632E9005F676C /* TLMessage$modernMessageService.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0D541C61B8632E9005F676C /* TLMessage$modernMessageService.mm */; };
 		D0D541CC1B864735005F676C /* TGChannelManagementSignals.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D541CA1B864735005F676C /* TGChannelManagementSignals.h */; };
@@ -4363,9 +4432,6 @@
 		D0DA76AF193BDD9E00157F4B /* TGFileThumbnailDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA76AE193BDD9E00157F4B /* TGFileThumbnailDataSource.m */; };
 		D0DA8C401ACF5EBD00606990 /* TGArticleWebpageFooterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DA8C3E1ACF5EBD00606990 /* TGArticleWebpageFooterModel.h */; };
 		D0DA8C411ACF5EBD00606990 /* TGArticleWebpageFooterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA8C3F1ACF5EBD00606990 /* TGArticleWebpageFooterModel.m */; };
-		D0DAA481197495A80036E709 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DAA480197495A80036E709 /* Icon-72.png */; };
-		D0DAA483197495EA0036E709 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DAA482197495EA0036E709 /* Icon-72@2x.png */; };
-		D0DAA485197496240036E709 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DAA484197496240036E709 /* Icon-76.png */; };
 		D0DB05BE1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DB05BC1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h */; };
 		D0DB05BF1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB05BD1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.m */; };
 		D0DB57BD1E5C56580071854C /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DB57BC1E5C56580071854C /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -4676,14 +4742,7 @@
 		D0FD89A3156FD4FC00CC3714 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD89A2156FD4FB00CC3714 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D0FFBDDF1BAB0E7300F532C9 /* TGChannelMembersController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */; };
 		D0FFBDE01BAB0E7300F532C9 /* TGChannelMembersController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */; };
-		F378A4662121A45A00FCC8D8 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A45F2121A45700FCC8D8 /* blake2b.c */; };
-		F378A4672121A45A00FCC8D8 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4602121A45700FCC8D8 /* encoding.c */; };
-		F378A4682121A45A00FCC8D8 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = F378A4612121A45800FCC8D8 /* argon2.h */; };
-		F378A4692121A45A00FCC8D8 /* ref.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4622121A45800FCC8D8 /* ref.c */; };
-		F378A46A2121A45A00FCC8D8 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4632121A45900FCC8D8 /* core.c */; };
-		F378A46B2121A45A00FCC8D8 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4642121A45900FCC8D8 /* thread.c */; };
-		F378A46C2121A45A00FCC8D8 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = F378A4652121A45A00FCC8D8 /* argon2.c */; };
-		F378A46E2121A49B00FCC8D8 /* Argon2Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F378A46D2121A49B00FCC8D8 /* Argon2Hash.m */; };
+		D42182D04F3CD6FB4602521B /* Pods_Telegraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B24F973C24680185681BD8D /* Pods_Telegraph.framework */; };
 		F3D6B8AA211EBD1F008D06DE /* WebViewAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */; };
 		F3D6B8AB211EBD1F008D06DE /* WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6B8A5211EBD1D008D06DE /* WebViewController.h */; };
 		F3D6B8AC211EBD1F008D06DE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6B8A6211EBD1D008D06DE /* WebViewController.m */; };
@@ -4918,6 +4977,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08A34BE71AA3D4AA5B1727CF /* Pods-Telegraph.debug hockeyapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.debug hockeyapp.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug hockeyapp.xcconfig"; sourceTree = "<group>"; };
 		09034EB41EE08B5E006997DB /* ModernContactListBroadcastIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernContactListBroadcastIcon@3x.png"; path = "Resources/ModernContactListBroadcastIcon@3x.png"; sourceTree = "<group>"; };
 		09034EB51EE08B5F006997DB /* ModernContactListCreateGroupIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernContactListCreateGroupIcon@3x.png"; path = "Resources/ModernContactListCreateGroupIcon@3x.png"; sourceTree = "<group>"; };
 		09034EB61EE08B5F006997DB /* ModernContactListCreateSecretChatIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernContactListCreateSecretChatIcon@3x.png"; path = "Resources/ModernContactListCreateSecretChatIcon@3x.png"; sourceTree = "<group>"; };
@@ -5058,10 +5118,6 @@
 		0929AA601E9BD34300AA97C0 /* StickerPanelPopupRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StickerPanelPopupRight@3x.png"; path = "Resources/StickerPanelPopupRight@3x.png"; sourceTree = "<group>"; };
 		0929AA631E9BD34300AA97C0 /* VideoRecordArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoRecordArrow@2x.png"; path = "Resources/VideoRecordArrow@2x.png"; sourceTree = "<group>"; };
 		0929AA641E9BD34300AA97C0 /* VideoRecordArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoRecordArrow@3x.png"; path = "Resources/VideoRecordArrow@3x.png"; sourceTree = "<group>"; };
-		0929AA6C1E9CED9900AA97C0 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		0929AA6D1E9CED9A00AA97C0 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
-		0929AA6E1E9CED9A00AA97C0 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
-		0929AA6F1E9CED9A00AA97C0 /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = "<group>"; };
 		0929AA791E9E325A00AA97C0 /* VideoRecordPositionSwitch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoRecordPositionSwitch@2x.png"; path = "Resources/VideoRecordPositionSwitch@2x.png"; sourceTree = "<group>"; };
 		0929AA7A1E9E325A00AA97C0 /* VideoRecordPositionSwitch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoRecordPositionSwitch@3x.png"; path = "Resources/VideoRecordPositionSwitch@3x.png"; sourceTree = "<group>"; };
 		0929AA8F1E9E963D00AA97C0 /* RecordSendIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RecordSendIcon@2x.png"; path = "Resources/RecordSendIcon@2x.png"; sourceTree = "<group>"; };
@@ -5697,6 +5753,99 @@
 		09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasswordPlaceholderIcon@2x.png"; path = "Resources/PasswordPlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@2x.png"; path = "Resources/PasscodePlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@3x.png"; path = "Resources/PasscodePlaceholderIcon@3x.png"; sourceTree = "<group>"; };
+		1852EA38213F71CC00F78A38 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		1852EA39213F71CC00F78A38 /* Icon-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-24@2x.png"; sourceTree = "<group>"; };
+		1852EA3A213F71CC00F78A38 /* Icon-27.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-27.5@2x.png"; sourceTree = "<group>"; };
+		1852EA3B213F71CC00F78A38 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		1852EA3C213F71CC00F78A38 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@3x.png"; sourceTree = "<group>"; };
+		1852EA3D213F71CC00F78A38 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		1852EA3E213F71CC00F78A38 /* Icon-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-44@2x.png"; sourceTree = "<group>"; };
+		1852EA3F213F71CC00F78A38 /* Icon-86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86@2x.png"; sourceTree = "<group>"; };
+		1852EA40213F71CC00F78A38 /* Icon-98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98@2x.png"; sourceTree = "<group>"; };
+		1852EA41213F71CC00F78A38 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		1852EA42213F71CC00F78A38 /* Icon-App-20x20@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x-1.png"; sourceTree = "<group>"; };
+		1852EA43213F71CC00F78A38 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		1852EA44213F71CC00F78A38 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		1852EA45213F71CC00F78A38 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		1852EA46213F71CC00F78A38 /* Icon-App-29x29@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x-1.png"; sourceTree = "<group>"; };
+		1852EA47213F71CC00F78A38 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		1852EA48213F71CC00F78A38 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		1852EA49213F71CC00F78A38 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		1852EA4A213F71CC00F78A38 /* Icon-App-40x40@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x-1.png"; sourceTree = "<group>"; };
+		1852EA4B213F71CC00F78A38 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		1852EA4C213F71CC00F78A38 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		1852EA4D213F71CC00F78A38 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		1852EA4E213F71CC00F78A38 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		1852EA4F213F71CC00F78A38 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		1852EA50213F71CC00F78A38 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		1852EA51213F71CC00F78A38 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		1852EA52213F71CC00F78A38 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		1852EA53213F71CC00F78A38 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		185CE4DC2122C5B50082C7DF /* SendChatMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendChatMessage.m; sourceTree = "<group>"; };
+		185CE4EB2122C5D20082C7DF /* SendChatMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendChatMessage.h; sourceTree = "<group>"; };
+		185CE4F02122F3300082C7DF /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
+		186CC147212C0FEF004AC557 /* FingerReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReader.h; sourceTree = "<group>"; };
+		186CC148212C1022004AC557 /* FingerReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReader.m; sourceTree = "<group>"; };
+		18CC31E521217F090077E01C /* ImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		18CC31F321217F140077E01C /* ImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		18CC31F5212180F20077E01C /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		18CC31F6212181080077E01C /* BaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		18CC31F8212183E10077E01C /* TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CC31FC21219FA40077E01C /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		18CC31FE21219FA40077E01C /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		18CC320121219FA40077E01C /* ShareSDKConfigFile.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKConfigFile.bundle; sourceTree = "<group>"; };
+		18CC320221219FA40077E01C /* ShareSDKConfigFile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConfigFile.framework; sourceTree = "<group>"; };
+		18CC320321219FA40077E01C /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		18CC320421219FA40077E01C /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		18CC320521219FA40077E01C /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		18CC320721219FA40077E01C /* LineConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineConnector.framework; sourceTree = "<group>"; };
+		18CC320821219FA40077E01C /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnector.framework; sourceTree = "<group>"; };
+		18CC320921219FA40077E01C /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WechatConnector.framework; sourceTree = "<group>"; };
+		18CC320C21219FA40077E01C /* LineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineSDK.framework; sourceTree = "<group>"; };
+		18CC320E21219FA40077E01C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		18CC321021219FA40077E01C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		18CC321121219FA40077E01C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		18CC321221219FA40077E01C /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		18CC321321219FA40077E01C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		18CC321421219FA40077E01C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		18CC321621219FA40077E01C /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		18CC321721219FA40077E01C /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		18CC322B21219FF60077E01C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		18CC322D2121A0120077E01C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18CC322F2121A01D0077E01C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		18CC32312121A0270077E01C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		18CC32332121A0370077E01C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18CC32352121A0910077E01C /* ShareToPlatforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareToPlatforms.h; sourceTree = "<group>"; };
+		18CC32362121A0A20077E01C /* ShareToPlatforms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareToPlatforms.m; sourceTree = "<group>"; };
+		18D2A89421212199003D6808 /* QRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+		18D2A8A3212121BA003D6808 /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMQRCodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E388B621227FDC005835F5 /* ImageUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		18E388B821227FF3005835F5 /* ImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		18E388B92122AF58005835F5 /* QRCodeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeUtil.h; sourceTree = "<group>"; };
+		18E388BA2122AF69005835F5 /* QRCodeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeUtil.m; sourceTree = "<group>"; };
+		18E388BD2122BB5B005835F5 /* argon2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = argon2.c; sourceTree = "<group>"; };
+		18E388BE2122BB5B005835F5 /* argon2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = argon2.h; sourceTree = "<group>"; };
+		18E388BF2122BB5B005835F5 /* blake2-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blake2-impl.h"; sourceTree = "<group>"; };
+		18E388C02122BB5B005835F5 /* blake2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blake2.h; sourceTree = "<group>"; };
+		18E388C12122BB5B005835F5 /* blake2b.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = blake2b.c; sourceTree = "<group>"; };
+		18E388C22122BB5B005835F5 /* blamka-round-opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-opt.h"; sourceTree = "<group>"; };
+		18E388C32122BB5B005835F5 /* blamka-round-ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-ref.h"; sourceTree = "<group>"; };
+		18E388C42122BB5B005835F5 /* core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = core.c; sourceTree = "<group>"; };
+		18E388C52122BB5B005835F5 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		18E388C62122BB5B005835F5 /* encoding.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = encoding.c; sourceTree = "<group>"; };
+		18E388C72122BB5B005835F5 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		18E388C82122BB5B005835F5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18E388C92122BB5B005835F5 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		18E388CA2122BB5B005835F5 /* ref.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = ref.c; sourceTree = "<group>"; };
+		18E388CB2122BB5B005835F5 /* ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref.h; sourceTree = "<group>"; };
+		18E388CC2122BB5B005835F5 /* thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = thread.c; sourceTree = "<group>"; };
+		18E388CD2122BB5B005835F5 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		18E388DE2122BB83005835F5 /* Argon2Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Argon2Hash.h; sourceTree = "<group>"; };
+		18E388E02122BB88005835F5 /* Argon2Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Argon2Hash.m; sourceTree = "<group>"; };
+		2D653065BF28E1F367FF6B08 /* Pods-Telegraph.debug fork appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.debug fork appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug fork appstore.xcconfig"; sourceTree = "<group>"; };
+		3B24F973C24680185681BD8D /* Pods_Telegraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telegraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA18AE95BF76130E4A3D0AB /* Pods-Telegraph.release fork appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.release fork appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.release fork appstore.xcconfig"; sourceTree = "<group>"; };
 		6803268D1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoPaintSettingsWrapperView.h; sourceTree = "<group>"; };
 		6803268E1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoPaintSettingsWrapperView.m; sourceTree = "<group>"; };
 		680326911D5DFC640062725B /* TGPaintingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPaintingData.h; sourceTree = "<group>"; };
@@ -7153,8 +7302,6 @@
 		9312322A1622FECF001E27A6 /* TGJpegTurbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGJpegTurbo.m; sourceTree = "<group>"; };
 		93137C44185BC741003F4D79 /* TGPhoneLabelPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhoneLabelPickerController.h; sourceTree = "<group>"; };
 		93137C45185BC741003F4D79 /* TGPhoneLabelPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhoneLabelPickerController.m; sourceTree = "<group>"; };
-		9315E4DD186AFC52008DD74D /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		9315E4E4186AFE7A008DD74D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		931668E7164BC0C90082AE8E /* TGForwardTargetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGForwardTargetController.h; sourceTree = "<group>"; };
 		931668E8164BC0C90082AE8E /* TGForwardTargetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGForwardTargetController.m; sourceTree = "<group>"; };
 		931668EA164BD14B0082AE8E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -7171,7 +7318,6 @@
 		931C5947174CC85200D597D9 /* MenuButtonCenter_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuButtonCenter_Highlighted@2x.png"; sourceTree = "<group>"; };
 		931C594F174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuArrowTop_Highlighted@2x.png"; sourceTree = "<group>"; };
 		931C5950174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuArrowBottom_Highlighted@2x.png"; sourceTree = "<group>"; };
-		9321E53817B585D7005229AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		9321E9D716A9280100F9D09C /* TGCommentMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCommentMenuItem.h; sourceTree = "<group>"; };
 		9321E9D816A9280100F9D09C /* TGCommentMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCommentMenuItem.m; sourceTree = "<group>"; };
 		9321E9DA16A9289600F9D09C /* TGCommentMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCommentMenuItemView.h; sourceTree = "<group>"; };
@@ -7588,7 +7734,6 @@
 		93B532A5160BEA3000A16903 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		93B77681184DF19F00C81651 /* TGModernConversationGroupTitlePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernConversationGroupTitlePanel.h; sourceTree = "<group>"; };
 		93B77682184DF19F00C81651 /* TGModernConversationGroupTitlePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernConversationGroupTitlePanel.m; sourceTree = "<group>"; };
-		93BB2236180D986600342583 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		93C03F1B17C54E5F00A077C4 /* TGProfilePhotoListActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGProfilePhotoListActor.h; sourceTree = "<group>"; };
 		93C03F1C17C54E5F00A077C4 /* TGProfilePhotoListActor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGProfilePhotoListActor.mm; sourceTree = "<group>"; };
 		93C0B3C21602533B0034D542 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -7704,6 +7849,9 @@
 		93F5D95F162A36CC00E38E48 /* TGSendInvitesActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSendInvitesActor.m; sourceTree = "<group>"; };
 		93F6940416932F8700691086 /* TGBlockListRequestActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBlockListRequestActor.h; sourceTree = "<group>"; };
 		93F6940516932F8700691086 /* TGBlockListRequestActor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGBlockListRequestActor.mm; sourceTree = "<group>"; };
+		9E6F155E1587C76913AC4311 /* Pods-Telegraph.release appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.release appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.release appstore.xcconfig"; sourceTree = "<group>"; };
+		B6C94A1F7C25A2A156A16287 /* Pods-Telegraph.debug appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.debug appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug appstore.xcconfig"; sourceTree = "<group>"; };
+		C9F9CDED1C5131C49F7F9CC2 /* Pods-Telegraph.release hockeyapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegraph.release hockeyapp.xcconfig"; path = "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.release hockeyapp.xcconfig"; sourceTree = "<group>"; };
 		D00040A315BCD2EA00AF9EBF /* TGMessage+Telegraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TGMessage+Telegraph.h"; sourceTree = "<group>"; };
 		D00040A415BCD2EA00AF9EBF /* TGMessage+Telegraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TGMessage+Telegraph.m"; sourceTree = "<group>"; };
 		D00040AA15BCD53900AF9EBF /* TGImageInfo+Telegraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TGImageInfo+Telegraph.h"; sourceTree = "<group>"; };
@@ -9729,7 +9877,6 @@
 		D052F0E81576E35700D51E59 /* TGInterfaceManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGInterfaceManager.mm; sourceTree = "<group>"; };
 		D052F1191576F42400D51E59 /* TGPushActionsRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPushActionsRequestBuilder.h; sourceTree = "<group>"; };
 		D052F11A1576F42400D51E59 /* TGPushActionsRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPushActionsRequestBuilder.m; sourceTree = "<group>"; };
-		D052F86A209C6D0C00B8D813 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
 		D053A39A1F15036D00E2D58A /* TLMessageMedia$messageMediaPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessageMedia$messageMediaPhoto.h; sourceTree = "<group>"; };
 		D053A39B1F15036D00E2D58A /* TLMessageMedia$messageMediaPhoto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLMessageMedia$messageMediaPhoto.mm; sourceTree = "<group>"; };
 		D053A39E1F15049E00E2D58A /* TLMessageMedia$messageMediaDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessageMedia$messageMediaDocument.h; sourceTree = "<group>"; };
@@ -10534,7 +10681,6 @@
 		D09852231DD22BC700A2392C /* TGInstantPageFooterButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGInstantPageFooterButtonView.m; sourceTree = "<group>"; };
 		D099D7371EEEE0AB00A3128C /* TGInstantPageAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGInstantPageAudioView.h; sourceTree = "<group>"; };
 		D099D7381EEEE0AB00A3128C /* TGInstantPageAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGInstantPageAudioView.m; sourceTree = "<group>"; };
-		D09A218715C9CF5100023542 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		D09A6B6D1C1A054600134687 /* TLMessages_BotResults$botResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessages_BotResults$botResults.h; sourceTree = "<group>"; };
 		D09A6B6E1C1A054600134687 /* TLMessages_BotResults$botResults.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLMessages_BotResults$botResults.mm; sourceTree = "<group>"; };
 		D09C750219EFC3EB00BF51BC /* TGSecretInfiniteLifetimePeerMediaGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSecretInfiniteLifetimePeerMediaGalleryModel.h; sourceTree = "<group>"; };
@@ -10777,7 +10923,6 @@
 		D0C6746E1CB69E9900183765 /* botbutton_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botbutton_share@2x.png"; path = "Resources/botbutton_share@2x.png"; sourceTree = "<group>"; };
 		D0C6747B1CB7C80000183765 /* TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.h; sourceTree = "<group>"; };
 		D0C6747C1CB7C80000183765 /* TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernConversationGenericContextResultsAssociatedPanelSwitchPm.m; sourceTree = "<group>"; };
-		D0C6748E1CB8640400183765 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
 		D0C6AECF1A7158680046833D /* TGSharedVideoSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSharedVideoSignals.h; sourceTree = "<group>"; };
 		D0C6AED01A7158680046833D /* TGSharedVideoSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSharedVideoSignals.m; sourceTree = "<group>"; };
 		D0C6AED71A71590A0046833D /* TGSharedMediaSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSharedMediaSignals.h; sourceTree = "<group>"; };
@@ -11022,7 +11167,6 @@
 		D0D43CE31BA08DE500F6C78F /* TGQueuedLeaveChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGQueuedLeaveChannel.m; sourceTree = "<group>"; };
 		D0D43CE61BA0A4AE00F6C78F /* TLChatFull$channelFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLChatFull$channelFull.h; sourceTree = "<group>"; };
 		D0D43CE71BA0A4AE00F6C78F /* TLChatFull$channelFull.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLChatFull$channelFull.mm; sourceTree = "<group>"; };
-		D0D443B7195315D500CF2A7E /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
 		D0D541C51B8632E9005F676C /* TLMessage$modernMessageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessage$modernMessageService.h; sourceTree = "<group>"; };
 		D0D541C61B8632E9005F676C /* TLMessage$modernMessageService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLMessage$modernMessageService.mm; sourceTree = "<group>"; };
 		D0D541CA1B864735005F676C /* TGChannelManagementSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGChannelManagementSignals.h; sourceTree = "<group>"; };
@@ -11053,9 +11197,6 @@
 		D0DA76AE193BDD9E00157F4B /* TGFileThumbnailDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGFileThumbnailDataSource.m; sourceTree = "<group>"; };
 		D0DA8C3E1ACF5EBD00606990 /* TGArticleWebpageFooterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArticleWebpageFooterModel.h; sourceTree = "<group>"; };
 		D0DA8C3F1ACF5EBD00606990 /* TGArticleWebpageFooterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGArticleWebpageFooterModel.m; sourceTree = "<group>"; };
-		D0DAA480197495A80036E709 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		D0DAA482197495EA0036E709 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		D0DAA484197496240036E709 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
 		D0DB05BC1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGShareSheetSharePeersCaptionView.h; sourceTree = "<group>"; };
 		D0DB05BD1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGShareSheetSharePeersCaptionView.m; sourceTree = "<group>"; };
 		D0DB57BC1E5C56580071854C /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
@@ -11479,15 +11620,6 @@
 		D0FD89A2156FD4FB00CC3714 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGChannelMembersController.h; sourceTree = "<group>"; };
 		D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGChannelMembersController.m; sourceTree = "<group>"; };
-		F378A45F2121A45700FCC8D8 /* blake2b.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = blake2b.c; path = Telegraph/Argon2/blake2b.c; sourceTree = "<group>"; };
-		F378A4602121A45700FCC8D8 /* encoding.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = encoding.c; path = Telegraph/Argon2/encoding.c; sourceTree = "<group>"; };
-		F378A4612121A45800FCC8D8 /* argon2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = argon2.h; path = Telegraph/Argon2/argon2.h; sourceTree = "<group>"; };
-		F378A4622121A45800FCC8D8 /* ref.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ref.c; path = Telegraph/Argon2/ref.c; sourceTree = "<group>"; };
-		F378A4632121A45900FCC8D8 /* core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = core.c; path = Telegraph/Argon2/core.c; sourceTree = "<group>"; };
-		F378A4642121A45900FCC8D8 /* thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = thread.c; path = Telegraph/Argon2/thread.c; sourceTree = "<group>"; };
-		F378A4652121A45A00FCC8D8 /* argon2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = argon2.c; path = Telegraph/Argon2/argon2.c; sourceTree = "<group>"; };
-		F378A46D2121A49B00FCC8D8 /* Argon2Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Argon2Hash.m; path = Telegraph/WebView/module/Argon2Hash.m; sourceTree = "<group>"; };
-		F378A46F2121A62500FCC8D8 /* Argon2Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Argon2Hash.h; path = Telegraph/WebView/module/Argon2Hash.h; sourceTree = "<group>"; };
 		F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewAppDelegate.h; path = Telegraph/WebView/WebViewAppDelegate.h; sourceTree = "<group>"; };
 		F3D6B8A5211EBD1D008D06DE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Telegraph/WebView/WebViewController.h; sourceTree = "<group>"; };
 		F3D6B8A6211EBD1D008D06DE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Telegraph/WebView/WebViewController.m; sourceTree = "<group>"; };
@@ -11531,11 +11663,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC32342121A0380077E01C /* libsqlite3.tbd in Frameworks */,
+				18CC32322121A0270077E01C /* JavaScriptCore.framework in Frameworks */,
+				18CC32302121A01D0077E01C /* libstdc++.tbd in Frameworks */,
+				18CC322E2121A0120077E01C /* libz.tbd in Frameworks */,
+				18CC322C21219FF70077E01C /* libicucore.tbd in Frameworks */,
+				18CC31F9212183E10077E01C /* TZImagePickerController.framework in Frameworks */,
+				18D2A8A521212D8E003D6808 /* HMQRCodeScanner.framework in Frameworks */,
 				09B76D4F202149D8009835B5 /* libLottie.a in Frameworks */,
 				0991BA251FDADFFF005EDFF2 /* PhotosUI.framework in Frameworks */,
 				D08805B3156E8F3600311537 /* Foundation.framework in Frameworks */,
+				18CC322421219FA60077E01C /* libWeChatSDK.a in Frameworks */,
+				18CC322321219FA60077E01C /* TencentOpenAPI.framework in Frameworks */,
+				18CC322A21219FA60077E01C /* ShareSDKConnector.framework in Frameworks */,
 				D08805B1156E8F3600311537 /* UIKit.framework in Frameworks */,
 				D0AE3ECA1F6847660069BC90 /* GLKit.framework in Frameworks */,
+				18CC322021219FA60077E01C /* QQConnector.framework in Frameworks */,
 				09750F871F309482001B9886 /* libtgvoip.framework in Frameworks */,
 				D07BC6A91F29D6A100ED97AA /* LegacyComponents.framework in Frameworks */,
 				D0DB57BD1E5C56580071854C /* PassKit.framework in Frameworks */,
@@ -11555,6 +11698,7 @@
 				D0CD8FF71BB33B9900E05F40 /* SafariServices.framework in Frameworks */,
 				6836F8F51BB262CC00D3A77B /* WatchConnectivity.framework in Frameworks */,
 				D0CB068D1ADC8DCE005E298F /* SSignalKit.framework in Frameworks */,
+				18CC321F21219FA60077E01C /* LineConnector.framework in Frameworks */,
 				D0C09C901A6E98A4008369D7 /* OpenGLES.framework in Frameworks */,
 				D0C09C8F1A6E9897008369D7 /* CoreImage.framework in Frameworks */,
 				D0B3942F1A57055D00D9AB97 /* LocalAuthentication.framework in Frameworks */,
@@ -11564,17 +11708,22 @@
 				D054F6121927FCEF002952ED /* libc++.dylib in Frameworks */,
 				D0AC709918BE214000CDFFA8 /* libopus.a in Frameworks */,
 				933AA4A118609ADB000AA848 /* QuickLook.framework in Frameworks */,
+				18CC321E21219FA60077E01C /* ShareSDKUI.framework in Frameworks */,
 				93EB7AAE184F508D00891DBF /* Accelerate.framework in Frameworks */,
 				933E6A3F170B300100651252 /* MediaPlayer.framework in Frameworks */,
 				93A109BF1705D77C00FE4F89 /* MobileCoreServices.framework in Frameworks */,
 				9389A8D51697A31D00B68E92 /* AssetsLibrary.framework in Frameworks */,
 				93985171162F8A5A009DBCA5 /* MapKit.framework in Frameworks */,
 				935B6E301628850B00A2E265 /* MessageUI.framework in Frameworks */,
+				18CC321C21219FA60077E01C /* ShareSDKExtension.framework in Frameworks */,
+				18CC321921219FA60077E01C /* ShareSDK.framework in Frameworks */,
 				09C05C2620D7949600D66A08 /* CloudKit.framework in Frameworks */,
 				93362AFB1624797400007FB8 /* CoreTelephony.framework in Frameworks */,
 				937F0378161DF8E600AA32DC /* CoreLocation.framework in Frameworks */,
 				93B532A6160BEA3000A16903 /* CFNetwork.framework in Frameworks */,
+				18CC321B21219FA60077E01C /* ShareSDKConfigFile.framework in Frameworks */,
 				D00733D515B1B96C0091EBEE /* AVFoundation.framework in Frameworks */,
+				18CC322121219FA60077E01C /* WechatConnector.framework in Frameworks */,
 				D00733D115B1B9610091EBEE /* CoreVideo.framework in Frameworks */,
 				D00733CF15B1B95C0091EBEE /* CoreMedia.framework in Frameworks */,
 				D03EEFFB15AF60DF005D0F1B /* AudioToolbox.framework in Frameworks */,
@@ -11587,7 +11736,10 @@
 				D08805CC156E8F5600311537 /* AddressBookUI.framework in Frameworks */,
 				D08805CA156E8F5100311537 /* AddressBook.framework in Frameworks */,
 				D08805C8156E8F4D00311537 /* CoreText.framework in Frameworks */,
+				18CC322221219FA60077E01C /* LineSDK.framework in Frameworks */,
+				18CC321821219FA50077E01C /* MOBFoundation.framework in Frameworks */,
 				D08805B5156E8F3600311537 /* CoreGraphics.framework in Frameworks */,
+				D42182D04F3CD6FB4602521B /* Pods_Telegraph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -12115,6 +12267,182 @@
 				09A833561FF43C8C00FB133D /* TGPreviewPresentationHelper.m */,
 			);
 			name = Presentation;
+			sourceTree = "<group>";
+		};
+		1852EA37213F71CC00F78A38 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				1852EA38213F71CC00F78A38 /* Contents.json */,
+				1852EA39213F71CC00F78A38 /* Icon-24@2x.png */,
+				1852EA3A213F71CC00F78A38 /* Icon-27.5@2x.png */,
+				1852EA3B213F71CC00F78A38 /* Icon-29@2x.png */,
+				1852EA3C213F71CC00F78A38 /* Icon-29@3x.png */,
+				1852EA3D213F71CC00F78A38 /* Icon-40@2x.png */,
+				1852EA3E213F71CC00F78A38 /* Icon-44@2x.png */,
+				1852EA3F213F71CC00F78A38 /* Icon-86@2x.png */,
+				1852EA40213F71CC00F78A38 /* Icon-98@2x.png */,
+				1852EA41213F71CC00F78A38 /* Icon-App-20x20@1x.png */,
+				1852EA42213F71CC00F78A38 /* Icon-App-20x20@2x-1.png */,
+				1852EA43213F71CC00F78A38 /* Icon-App-20x20@2x.png */,
+				1852EA44213F71CC00F78A38 /* Icon-App-20x20@3x.png */,
+				1852EA45213F71CC00F78A38 /* Icon-App-29x29@1x.png */,
+				1852EA46213F71CC00F78A38 /* Icon-App-29x29@2x-1.png */,
+				1852EA47213F71CC00F78A38 /* Icon-App-29x29@2x.png */,
+				1852EA48213F71CC00F78A38 /* Icon-App-29x29@3x.png */,
+				1852EA49213F71CC00F78A38 /* Icon-App-40x40@1x.png */,
+				1852EA4A213F71CC00F78A38 /* Icon-App-40x40@2x-1.png */,
+				1852EA4B213F71CC00F78A38 /* Icon-App-40x40@2x.png */,
+				1852EA4C213F71CC00F78A38 /* Icon-App-40x40@3x.png */,
+				1852EA4D213F71CC00F78A38 /* Icon-App-60x60@1x.png */,
+				1852EA4E213F71CC00F78A38 /* Icon-App-60x60@2x.png */,
+				1852EA4F213F71CC00F78A38 /* Icon-App-60x60@3x.png */,
+				1852EA50213F71CC00F78A38 /* Icon-App-76x76@1x.png */,
+				1852EA51213F71CC00F78A38 /* Icon-App-76x76@2x.png */,
+				1852EA52213F71CC00F78A38 /* Icon-App-83.5x83.5@2x.png */,
+				1852EA53213F71CC00F78A38 /* ItunesArtwork@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		18CC31FA21219FA40077E01C /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				18CC31FB21219FA40077E01C /* Required */,
+				18CC31FD21219FA40077E01C /* ShareSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		18CC31FB21219FA40077E01C /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				18CC31FC21219FA40077E01C /* MOBFoundation.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		18CC31FD21219FA40077E01C /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18CC31FE21219FA40077E01C /* ShareSDK.framework */,
+				18CC31FF21219FA40077E01C /* Support */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		18CC31FF21219FA40077E01C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				18CC320021219FA40077E01C /* Optional */,
+				18CC320621219FA40077E01C /* PlatformConnector */,
+				18CC320A21219FA40077E01C /* PlatformSDK */,
+				18CC321521219FA40077E01C /* Required */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		18CC320021219FA40077E01C /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				18CC320121219FA40077E01C /* ShareSDKConfigFile.bundle */,
+				18CC320221219FA40077E01C /* ShareSDKConfigFile.framework */,
+				18CC320321219FA40077E01C /* ShareSDKExtension.framework */,
+				18CC320421219FA40077E01C /* ShareSDKUI.bundle */,
+				18CC320521219FA40077E01C /* ShareSDKUI.framework */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		18CC320621219FA40077E01C /* PlatformConnector */ = {
+			isa = PBXGroup;
+			children = (
+				18CC320721219FA40077E01C /* LineConnector.framework */,
+				18CC320821219FA40077E01C /* QQConnector.framework */,
+				18CC320921219FA40077E01C /* WechatConnector.framework */,
+			);
+			path = PlatformConnector;
+			sourceTree = "<group>";
+		};
+		18CC320A21219FA40077E01C /* PlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18CC320B21219FA40077E01C /* LineSDK */,
+				18CC320D21219FA40077E01C /* QQSDK */,
+				18CC320F21219FA40077E01C /* WeChatSDK */,
+			);
+			path = PlatformSDK;
+			sourceTree = "<group>";
+		};
+		18CC320B21219FA40077E01C /* LineSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18CC320C21219FA40077E01C /* LineSDK.framework */,
+			);
+			path = LineSDK;
+			sourceTree = "<group>";
+		};
+		18CC320D21219FA40077E01C /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18CC320E21219FA40077E01C /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		18CC320F21219FA40077E01C /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18CC321021219FA40077E01C /* libWeChatSDK.a */,
+				18CC321121219FA40077E01C /* README.txt */,
+				18CC321221219FA40077E01C /* WechatAuthSDK.h */,
+				18CC321321219FA40077E01C /* WXApi.h */,
+				18CC321421219FA40077E01C /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		18CC321521219FA40077E01C /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				18CC321621219FA40077E01C /* ShareSDK.bundle */,
+				18CC321721219FA40077E01C /* ShareSDKConnector.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		18E388A821227FBE005835F5 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				18E388B621227FDC005835F5 /* ImageUtils.m */,
+				18E388B821227FF3005835F5 /* ImageUtils.h */,
+				18E388B92122AF58005835F5 /* QRCodeUtil.h */,
+				18E388BA2122AF69005835F5 /* QRCodeUtil.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		18E388BC2122BB5B005835F5 /* Argon2 */ = {
+			isa = PBXGroup;
+			children = (
+				18E388BD2122BB5B005835F5 /* argon2.c */,
+				18E388BE2122BB5B005835F5 /* argon2.h */,
+				18E388BF2122BB5B005835F5 /* blake2-impl.h */,
+				18E388C02122BB5B005835F5 /* blake2.h */,
+				18E388C12122BB5B005835F5 /* blake2b.c */,
+				18E388C22122BB5B005835F5 /* blamka-round-opt.h */,
+				18E388C32122BB5B005835F5 /* blamka-round-ref.h */,
+				18E388C42122BB5B005835F5 /* core.c */,
+				18E388C52122BB5B005835F5 /* core.h */,
+				18E388C62122BB5B005835F5 /* encoding.c */,
+				18E388C72122BB5B005835F5 /* encoding.h */,
+				18E388C82122BB5B005835F5 /* LICENSE */,
+				18E388C92122BB5B005835F5 /* module.modulemap */,
+				18E388CA2122BB5B005835F5 /* ref.c */,
+				18E388CB2122BB5B005835F5 /* ref.h */,
+				18E388CC2122BB5B005835F5 /* thread.c */,
+				18E388CD2122BB5B005835F5 /* thread.h */,
+			);
+			path = Argon2;
 			sourceTree = "<group>";
 		};
 		6811AE231A35E2E3009309A3 /* Crop */ = {
@@ -15708,6 +16036,19 @@
 				93F3A0F418212E2B0005EB98 /* TGModernDateViewModel.m */,
 			);
 			name = Date;
+			sourceTree = "<group>";
+		};
+		A01E6C8336E3A8E231A6B39C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08A34BE71AA3D4AA5B1727CF /* Pods-Telegraph.debug hockeyapp.xcconfig */,
+				2D653065BF28E1F367FF6B08 /* Pods-Telegraph.debug fork appstore.xcconfig */,
+				B6C94A1F7C25A2A156A16287 /* Pods-Telegraph.debug appstore.xcconfig */,
+				9E6F155E1587C76913AC4311 /* Pods-Telegraph.release appstore.xcconfig */,
+				5DA18AE95BF76130E4A3D0AB /* Pods-Telegraph.release fork appstore.xcconfig */,
+				C9F9CDED1C5131C49F7F9CC2 /* Pods-Telegraph.release hockeyapp.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D00542F41BC74F9000456715 /* Share */ = {
@@ -19670,27 +20011,17 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				1852EA37213F71CC00F78A38 /* AppIcon.appiconset */,
+				185CE4F02122F3300082C7DF /* ic_back.png */,
+				18E388BC2122BB5B005835F5 /* Argon2 */,
+				18CC31FA21219FA40077E01C /* SDK */,
 				F3D6B8A2211EBCEF008D06DE /* WebView */,
 				80DC8DD62113EFB000D05605 /* config.h */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
-				D0DAA484197496240036E709 /* Icon-76.png */,
-				D0C6748E1CB8640400183765 /* Icon-167.png */,
-				D0DAA482197495EA0036E709 /* Icon-72@2x.png */,
-				D0DAA480197495A80036E709 /* Icon-72.png */,
-				D0D443B7195315D500CF2A7E /* Icon-76@2x.png */,
 				D0A516C6193FD7E9000B8984 /* iPad-Landscape.png */,
 				D0A516C7193FD7E9000B8984 /* iPad-Portrait.png */,
 				D09EE2DF193A95ED00980617 /* iPad-Portrait@2x.png */,
 				D09EE2E0193A95ED00980617 /* iPad-Landscape@2x.png */,
-				9315E4E4186AFE7A008DD74D /* Icon-Small@2x.png */,
-				9315E4DD186AFC52008DD74D /* Icon-40@2x.png */,
-				93BB2236180D986600342583 /* Icon-60@2x.png */,
-				9321E53817B585D7005229AC /* Icon.png */,
-				0929AA6C1E9CED9900AA97C0 /* Icon-40.png */,
-				0929AA6D1E9CED9A00AA97C0 /* Icon-40@3x.png */,
-				0929AA6E1E9CED9A00AA97C0 /* Icon-60@3x.png */,
-				0929AA6F1E9CED9A00AA97C0 /* Icon-87.png */,
-				D052F86A209C6D0C00B8D813 /* Icon-57.png */,
 				933E6A3E170B300100651252 /* MediaPlayer.framework */,
 				93A109BE1705D77A00FE4F89 /* MobileCoreServices.framework */,
 				93AD03CD16A327DE005D4575 /* Accelerate.framework */,
@@ -19700,7 +20031,6 @@
 				93362AFA1624797300007FB8 /* CoreTelephony.framework */,
 				93C0B3C21602533B0034D542 /* Default-568h@2x.png */,
 				931668EA164BD14B0082AE8E /* Default@2x.png */,
-				D09A218715C9CF5100023542 /* Icon@2x.png */,
 				D02660311F34A5D5000E2DC5 /* LegacyComponentsResources.bundle */,
 				D07041FB15891CEF008AA657 /* External */,
 				D08805B6156E8F3600311537 /* Telegraph */,
@@ -19711,6 +20041,7 @@
 				099120C21EEAA63400F1366E /* Widget */,
 				D08805AF156E8F3600311537 /* Frameworks */,
 				D08805AD156E8F3600311537 /* Products */,
+				A01E6C8336E3A8E231A6B39C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -19729,6 +20060,13 @@
 		D08805AF156E8F3600311537 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18CC32332121A0370077E01C /* libsqlite3.tbd */,
+				18CC32312121A0270077E01C /* JavaScriptCore.framework */,
+				18CC322F2121A01D0077E01C /* libstdc++.tbd */,
+				18CC322D2121A0120077E01C /* libz.tbd */,
+				18CC322B21219FF60077E01C /* libicucore.tbd */,
+				18CC31F8212183E10077E01C /* TZImagePickerController.framework */,
+				18D2A8A421212D8E003D6808 /* HMQRCodeScanner.framework */,
 				09C05C2520D7949600D66A08 /* CloudKit.framework */,
 				0944CD712070B5DF00CB0461 /* Vision.framework */,
 				0944CD6F2070B5DA00CB0461 /* CoreML.framework */,
@@ -19789,6 +20127,7 @@
 				D08805B2156E8F3600311537 /* Foundation.framework */,
 				D08805B4156E8F3600311537 /* CoreGraphics.framework */,
 				6869F8C81D96D33C00D5AA92 /* NotificationCenter.framework */,
+				3B24F973C24680185681BD8D /* Pods_Telegraph.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -22779,24 +23118,10 @@
 			name = Tabs;
 			sourceTree = "<group>";
 		};
-		F378A45E2121A42900FCC8D8 /* Argon2 */ = {
-			isa = PBXGroup;
-			children = (
-				F378A4652121A45A00FCC8D8 /* argon2.c */,
-				F378A4612121A45800FCC8D8 /* argon2.h */,
-				F378A45F2121A45700FCC8D8 /* blake2b.c */,
-				F378A4632121A45900FCC8D8 /* core.c */,
-				F378A4602121A45700FCC8D8 /* encoding.c */,
-				F378A4622121A45800FCC8D8 /* ref.c */,
-				F378A4642121A45900FCC8D8 /* thread.c */,
-			);
-			name = Argon2;
-			sourceTree = "<group>";
-		};
 		F3D6B8A2211EBCEF008D06DE /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				F378A45E2121A42900FCC8D8 /* Argon2 */,
+				18E388A821227FBE005835F5 /* util */,
 				F3D6B8B0211EBD4F008D06DE /* module */,
 				F3D6B8A4211EBD1C008D06DE /* WebViewAppDelegate.h */,
 				F3D6B8A8211EBD1E008D06DE /* WebViewAppDelegate.m */,
@@ -22813,9 +23138,21 @@
 			isa = PBXGroup;
 			children = (
 				F3D6B8B1211EBD66008D06DE /* WebViewTest.h */,
+				186CC147212C0FEF004AC557 /* FingerReader.h */,
+				186CC148212C1022004AC557 /* FingerReader.m */,
 				F3D6B8B2211EBD66008D06DE /* WebViewTest.m */,
-				F378A46D2121A49B00FCC8D8 /* Argon2Hash.m */,
-				F378A46F2121A62500FCC8D8 /* Argon2Hash.h */,
+				18E388DE2122BB83005835F5 /* Argon2Hash.h */,
+				185CE4DC2122C5B50082C7DF /* SendChatMessage.m */,
+				185CE4EB2122C5D20082C7DF /* SendChatMessage.h */,
+				18E388E02122BB88005835F5 /* Argon2Hash.m */,
+				18D2A89421212199003D6808 /* QRCode.m */,
+				18D2A8A3212121BA003D6808 /* QRCode.h */,
+				18CC31E521217F090077E01C /* ImagePicker.h */,
+				18CC31F321217F140077E01C /* ImagePicker.m */,
+				18CC31F5212180F20077E01C /* BaseObject.h */,
+				18CC31F6212181080077E01C /* BaseObject.m */,
+				18CC32352121A0910077E01C /* ShareToPlatforms.h */,
+				18CC32362121A0A20077E01C /* ShareToPlatforms.m */,
 			);
 			name = module;
 			sourceTree = "<group>";
@@ -22882,6 +23219,7 @@
 				D011624C1F41F1350039383E /* TLInlineBotSwitchPM.h in Headers */,
 				681653B21CC0A442006D88C2 /* TGChatActionItemView.h in Headers */,
 				09551C52201754930097218A /* TGAppSessionItem.h in Headers */,
+				18E388D42122BB5C005835F5 /* blamka-round-ref.h in Headers */,
 				D01162981F41F1350039383E /* TLLangPackString.h in Headers */,
 				D0FC07031B1C38DD008CC3BB /* TLDcOption$modernDcOption.h in Headers */,
 				D011604C1F41F1310039383E /* TLRPCmessages_reportSpam.h in Headers */,
@@ -23065,6 +23403,7 @@
 				D0115F881F41F1300039383E /* TLRPCcontacts_deleteContacts.h in Headers */,
 				D04324EE1DC2832D00E0C528 /* FetchResources.h in Headers */,
 				D07C0A951DD4DC0B00FD42A5 /* TGEmptyGalleryFooterAccessoryView.h in Headers */,
+				18E388D62122BB5C005835F5 /* core.h in Headers */,
 				D0EDACD81C8CB1850021B80F /* TGUserAboutSetupController.h in Headers */,
 				D01F94D31E5E3DB4002627A1 /* STPCheckoutBootstrapResponse.h in Headers */,
 				D0115FEA1F41F1310039383E /* TLRPCmessages_discardEncryption.h in Headers */,
@@ -23107,6 +23446,7 @@
 				D0F7B4D61C236B88008C5DB1 /* TGGenericContextResultCell.h in Headers */,
 				68B639921BB2506F00205AC3 /* SVariable.h in Headers */,
 				D0C80D6C1A9615DC00D5DF8A /* TGChangePasslockSettingsFutureAction.h in Headers */,
+				18E388DD2122BB5C005835F5 /* thread.h in Headers */,
 				D06B21ED1E49F8C400EE2F70 /* TGPaymentCheckoutController.h in Headers */,
 				D0115EC81F41F12F0039383E /* TLphone_PhoneCall.h in Headers */,
 				D0115E5C1F41F12E0039383E /* TLMessageRange.h in Headers */,
@@ -23255,6 +23595,7 @@
 				0981B0991E96387000A55F6A /* TGVideoMessagePIPController.h in Headers */,
 				D0115F521F41F1300039383E /* TLRPCchannels_editPhoto.h in Headers */,
 				D0115F621F41F1300039383E /* TLRPCchannels_getMessages.h in Headers */,
+				18E388D32122BB5C005835F5 /* blamka-round-opt.h in Headers */,
 				D09175791DB95BF0002C86F3 /* TGInstantPageControllerView.h in Headers */,
 				D02566B01AD2C2A2007C19C1 /* TLRPCmessages_sendMedia_manual.h in Headers */,
 				D011612E1F41F1330039383E /* NSArray_DisabledFeature.h in Headers */,
@@ -23389,6 +23730,7 @@
 				D051B10A1B04EC24003AFD52 /* TGPhonebookRecord.h in Headers */,
 				D01161301F41F1330039383E /* NSArray_Document.h in Headers */,
 				D0C6AF591A7816140046833D /* TGSharedMediaFilesEmptyView.h in Headers */,
+				18E388D02122BB5C005835F5 /* blake2-impl.h in Headers */,
 				D011617E1F41F1330039383E /* NSArray_string.h in Headers */,
 				D011623C1F41F1350039383E /* TLhelp_AppUpdate.h in Headers */,
 				D044E1671B2AFCBD001EE087 /* TGChatSearchController.h in Headers */,
@@ -23599,6 +23941,7 @@
 				D011605C1F41F1310039383E /* TLRPCmessages_sendEncrypted.h in Headers */,
 				6844F8D71CC7DE8F00AB4ABE /* TGFastCameraController.h in Headers */,
 				D0AFDA601BCFFDC400B74DB4 /* TGSharedMediaMusicEmptyView.h in Headers */,
+				18E388D12122BB5C005835F5 /* blake2.h in Headers */,
 				09208CF1208574F600C4CFFC /* TGProxyCollectionItemView.h in Headers */,
 				D01160721F41F1310039383E /* TLRPCpayments_getPaymentForm.h in Headers */,
 				09C0BEF0206A4C9300380399 /* TLaccount_SentEmailCode.h in Headers */,
@@ -23775,6 +24118,7 @@
 				D0115FCC1F41F1300039383E /* TLRPChelp_saveNetworkStats.h in Headers */,
 				D01161761F41F1330039383E /* NSArray_ShippingOption.h in Headers */,
 				68B63D761BB25B8D00205AC3 /* TGChatListSignals.h in Headers */,
+				18CC322821219FA60077E01C /* WXApiObject.h in Headers */,
 				D0115EDE1F41F12F0039383E /* TLPostAddress.h in Headers */,
 				D0115E9E1F41F12F0039383E /* TLMsgsStateInfo.h in Headers */,
 				D04324F21DC3718600E0C528 /* TGInstantPageDisplayView.h in Headers */,
@@ -23799,7 +24143,6 @@
 				D01160CC1F41F1320039383E /* TLSchemeMethod.h in Headers */,
 				09F342D21E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.h in Headers */,
 				6816539E1CC06B8A006D88C2 /* TGChatActionsController.h in Headers */,
-				F378A4682121A45A00FCC8D8 /* argon2.h in Headers */,
 				D011614A1F41F1330039383E /* NSArray_int.h in Headers */,
 				D05EEA641CA4887D00B7AE07 /* TGContentBubbleEmbeddedMediaModel.h in Headers */,
 				D01F94B01E5E3DB4002627A1 /* STPAddressFieldTableViewCell.h in Headers */,
@@ -23882,6 +24225,7 @@
 				D0CBA9311DDDF8520009D717 /* TLUpdate$updateServiceNotification.h in Headers */,
 				D011609E1F41F1320039383E /* TLRPCphotos_uploadPhoto.h in Headers */,
 				D051AFDC1AF7DCA6003AFD52 /* TGStickerPackCollectionItem.h in Headers */,
+				18E388DF2122BB84005835F5 /* Argon2Hash.h in Headers */,
 				6887FEA51C77430300C49B4E /* TGStickersCollectionCell.h in Headers */,
 				68B639601BB2506F00205AC3 /* SBag.h in Headers */,
 				68EED5D51BC4296B009F1D57 /* TGNotificationOverlayView.h in Headers */,
@@ -23915,6 +24259,7 @@
 				D0FC071A1B1D05FF008CC3BB /* TGUserInfoTextCollectionItem.h in Headers */,
 				D04324B51DC10C2200E0C528 /* TGInstantPageSlideshowView.h in Headers */,
 				D040C28D208545A0004B1C24 /* TGICloudEmergencyDataSignals.h in Headers */,
+				18E388D82122BB5C005835F5 /* encoding.h in Headers */,
 				099C18CE20F4D1FC009D6E83 /* TGUpdateAppInfoItemView.h in Headers */,
 				D013CAC6209A73FF009A0B6F /* TGNetworkSettings.h in Headers */,
 				D0A4D7D81C10D91E00537E74 /* TGInternalGifSearchResultItemView.h in Headers */,
@@ -23994,6 +24339,7 @@
 				D05B6E3E1BB3C761009A380E /* TGApplicationMainWindow.h in Headers */,
 				D01162761F41F1350039383E /* TLInputPhoto.h in Headers */,
 				09208CE12085612500C4CFFC /* TGProxyInfoItemView.h in Headers */,
+				18E388CF2122BB5C005835F5 /* argon2.h in Headers */,
 				D008C1D91C18CF76007D2855 /* TLWebPage$webPageExternal.h in Headers */,
 				68EE346D1C83C2F3002F5419 /* TGScrollIndicatorView.h in Headers */,
 				D008C2011C18E1B7007D2855 /* TGBotContextExternalResult.h in Headers */,
@@ -24024,6 +24370,7 @@
 				D01F94ED1E5E3DB5002627A1 /* STPPaymentConfiguration+Private.h in Headers */,
 				6877709D1E04300000331194 /* TGCallSettingsController.h in Headers */,
 				D0A4D7FB1C11B1BD00537E74 /* TGWebpageSignals.h in Headers */,
+				18CC322621219FA60077E01C /* WechatAuthSDK.h in Headers */,
 				68BBB24B1BECFA7300237553 /* TGNotificationFilePreviewView.h in Headers */,
 				D013FAA31CDA9BF600EF175C /* TGPeerRatingUpdates.h in Headers */,
 				D011610A1F41F1320039383E /* NSArray_BotCommand.h in Headers */,
@@ -24281,6 +24628,7 @@
 				D01162041F41F1340039383E /* TLContactStatus.h in Headers */,
 				D010C3271EA9511800F41B96 /* TGLocalizationSelectionController.h in Headers */,
 				683849041C9C85C000C9A4DA /* StreamingKit-Prefix.pch in Headers */,
+				18CC322721219FA60077E01C /* WXApi.h in Headers */,
 				D0DB9B4F1E3B44070040CE3A /* TLPaymentRequestedInfo$paymentRequestedInfo.h in Headers */,
 				D011625C1F41F1350039383E /* TLInputEncryptedFile.h in Headers */,
 				096A98032060935A00E63477 /* TLSecureValueType.h in Headers */,
@@ -24300,6 +24648,7 @@
 				D05EEA701CA5592100B7AE07 /* TGMusicWebpageFooterModel.h in Headers */,
 				D0580AC61B0F73C800E8235B /* TGStickerPreviewSignals.h in Headers */,
 				D011621C1F41F1340039383E /* TLEmbedPostMedia.h in Headers */,
+				18E388DB2122BB5C005835F5 /* ref.h in Headers */,
 				D0F7B4F31C288361008C5DB1 /* TGPreparedDownloadExternalImageMessage.h in Headers */,
 				D0115EE21F41F12F0039383E /* TLPrivacyRule.h in Headers */,
 				D01F94A31E5E3DB4002627A1 /* NSMutableURLRequest+Stripe.h in Headers */,
@@ -24539,6 +24888,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08805C4156E8F3600311537 /* Build configuration list for PBXNativeTarget "Telegraph" */;
 			buildPhases = (
+				CE059492BD99A6B921939687 /* [CP] Check Pods Manifest.lock */,
 				D08805A8156E8F3600311537 /* Sources */,
 				D08805A9156E8F3600311537 /* Frameworks */,
 				D08805AA156E8F3600311537 /* Resources */,
@@ -24547,6 +24897,7 @@
 				D061F3021A9290F80031BCBE /* Embed App Extensions */,
 				6879BEE41B43683E007C9800 /* Embed Watch Content */,
 				D020FB161D99637200F279AA /* Embed Frameworks */,
+				70804959E45A205BBA3F2CE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -24879,15 +25230,16 @@
 				D02660321F34A5D5000E2DC5 /* LegacyComponentsResources.bundle in Resources */,
 				D0E352751E5E4127007E6EB8 /* stp_card_discover@2x.png in Resources */,
 				D0D97D851B3B99F5003457CD /* MusicPlayerControlForward@2x.png in Resources */,
+				1852EA66213F71CD00F78A38 /* Icon-App-40x40@2x-1.png in Resources */,
 				D08805BB156E8F3600311537 /* InfoPlist.strings in Resources */,
 				683766EF1E09656C0029E18E /* CallInfoIcon@2x.png in Resources */,
 				D077B8C81F433A280046D27A /* ChatNavigateToUnseenMentionsIcon@3x.png in Resources */,
 				D0880639156EB11800311537 /* Localizable.strings in Resources */,
+				1852EA55213F71CD00F78A38 /* Icon-24@2x.png in Resources */,
 				D0E3527F1E5E4127007E6EB8 /* stp_card_form_back@3x.png in Resources */,
 				D0C925CC194A024000E629CA /* start_arrow@2x.png in Resources */,
 				D0052CB3159513F2009482C4 /* SearchBarBackground@2x.png in Resources */,
 				D04ABC011A3B3C2A00869014 /* ListsDownDisclosureIndicator.png in Resources */,
-				D09A218815C9CF5100023542 /* Icon@2x.png in Resources */,
 				D051AFC91AF7D4BE003AFD52 /* ConversationInputFieldStickerIcon@3x.png in Resources */,
 				68B22D2C1C171BD300EE8FF9 /* SettingsStickersIcon@2x.png in Resources */,
 				D0E352811E5E4127007E6EB8 /* stp_card_form_front@2x.png in Resources */,
@@ -24939,6 +25291,7 @@
 				684853BF1C174D4B00007D21 /* SettingsFaqIcon@2x.png in Resources */,
 				096CED9B1F756AAB005C5C70 /* LocationMessagePinSmallBackground@2x.png in Resources */,
 				68D68B091C9C3A7E0016F742 /* EmbedExitFullScreenButton@2x.png in Resources */,
+				1852EA64213F71CD00F78A38 /* Icon-App-29x29@3x.png in Resources */,
 				68EE347B1C873E5D002F5419 /* ShareExternalIcon@2x.png in Resources */,
 				D069B1BB1B3D94110034C967 /* MusicPlayerMinimizedClose@3x.png in Resources */,
 				09B76D4C20214939009835B5 /* anim_delete.json in Resources */,
@@ -24969,7 +25322,9 @@
 				D0AFDA6F1BCFFF3700B74DB4 /* SharedMediaEmptyMusicIcon@3x.png in Resources */,
 				930808CB185A295900E62B42 /* ModernNavigationComposeButtonIcon@2x.png in Resources */,
 				934D715917AD906D0099858D /* 9.m4a in Resources */,
+				1852EA59213F71CD00F78A38 /* Icon-40@2x.png in Resources */,
 				09E97B751F97E63B00526020 /* SettingsWatchIcon@3x.png in Resources */,
+				1852EA62213F71CD00F78A38 /* Icon-App-29x29@2x-1.png in Resources */,
 				933AA4EE1861348D000AA848 /* ModernTourButtonRightArrow@2x.png in Resources */,
 				D0C925C3194A024000E629CA /* powerful_infinity@2x.png in Resources */,
 				D055A7DE1A68474C00A1D48C /* SharedMediaGenericIcon@2x.png in Resources */,
@@ -24984,6 +25339,7 @@
 				091560631F70DBB0007F77C4 /* MusicPlayerControlShuffle@3x.png in Resources */,
 				09E97B6E1F97E63B00526020 /* SettingsSavedMessagesIcon@2x.png in Resources */,
 				936219E1186460F600C52870 /* 103.m4a in Resources */,
+				18CC321A21219FA60077E01C /* ShareSDKConfigFile.bundle in Resources */,
 				D0249B231ABF5ACF0076ECBF /* GoogleDriveFile@2x.png in Resources */,
 				09E97B6F1F97E63B00526020 /* SettingsSavedMessagesIcon@3x.png in Resources */,
 				090789921FE9232B00B5451E /* VideoPlayerBackwardIcon@2x.png in Resources */,
@@ -25009,6 +25365,7 @@
 				098E68D420613F7C001F5150 /* PassportButtonIcon@2x.png in Resources */,
 				D0177B971F26869C0044446D /* (null) in Resources */,
 				68B22D2E1C171BD300EE8FF9 /* SettingsWallpaperIcon@2x.png in Resources */,
+				1852EA54213F71CD00F78A38 /* Contents.json in Resources */,
 				D08696B31943A8B300770FE7 /* pad-builtin-wallpaper-0-thumbnail.jpg in Resources */,
 				68D68B0E1C9C3A7E0016F742 /* EmbedScanForwardButton@2x.png in Resources */,
 				D0E352931E5E4127007E6EB8 /* stp_card_visa@2x.png in Resources */,
@@ -25017,6 +25374,7 @@
 				09C0BF1E206B708700380399 /* SettingsPassportIcon@2x.png in Resources */,
 				D0C925CD194A024000E629CA /* start_arrow_ipad.png in Resources */,
 				68AA5A3E1CD3412100E31031 /* PictureInPicturePause@2x.png in Resources */,
+				1852EA6C213F71CD00F78A38 /* Icon-App-76x76@1x.png in Resources */,
 				D0E3526A1E5E4127007E6EB8 /* stp_card_cvc@3x.png in Resources */,
 				683766F31E0984250029E18E /* CallOutgoing@2x.png in Resources */,
 				D02566A01AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon@2x.png in Resources */,
@@ -25048,7 +25406,9 @@
 				D0E3526F1E5E4127007E6EB8 /* stp_card_diners@2x.png in Resources */,
 				9303849118133F8F00CAC996 /* SearchBarClearIcon@2x.png in Resources */,
 				D0C6AEFE1A726F2A0046833D /* SharedMediaDocumentStatusDownload@2x.png in Resources */,
+				18CC322921219FA60077E01C /* ShareSDK.bundle in Resources */,
 				68521C8B1BCE80A100B8A6FA /* MediaVideo@3x.png in Resources */,
+				1852EA67213F71CD00F78A38 /* Icon-App-40x40@2x.png in Resources */,
 				09F2A0BE1EBCC58100653F24 /* InstantViewSettingsArrow@3x.png in Resources */,
 				09C9EE131F4C947D0011145F /* InstantViewShareIcon@3x.png in Resources */,
 				D0D97D881B3B99F5003457CD /* MusicPlayerControlPause@3x.png in Resources */,
@@ -25095,12 +25455,14 @@
 				D0C7B9D31D9D869F00EC75FA /* AppIntentVocabulary.plist in Resources */,
 				09361CF01E7260BF007ED29C /* SearchBarIconLight@3x.png in Resources */,
 				D0E6EE741E5CA236002E89D1 /* currencies.json in Resources */,
+				18CC321D21219FA60077E01C /* ShareSDKUI.bundle in Resources */,
 				D02550561B3C75DA005F105A /* VolumeControlVolumeIcon@3x.png in Resources */,
 				D0C925BF194A024000E629CA /* ic_videocam@2x.png in Resources */,
 				9303849218133F8F00CAC996 /* SearchInputField_Active@2x.png in Resources */,
 				D08968BB1A7BAE6800784CE8 /* SharedMediaVideoThumbnailPlay@2x.png in Resources */,
 				D04ABC021A3B3C2A00869014 /* ListsDownDisclosureIndicator@2x.png in Resources */,
 				D0DEE5961AA9EA7000B04AAA /* ReplyPanelClose@2x.png in Resources */,
+				1852EA5F213F71CD00F78A38 /* Icon-App-20x20@2x.png in Resources */,
 				93ED9EF918634CD700E22F84 /* ModernConversationEmptyListLogo@2x.png in Resources */,
 				091D23781E609CC400A6A322 /* voip_ringback.caf in Resources */,
 				D0C925581949EDED00E629CA /* InfoPlist.strings in Resources */,
@@ -25117,7 +25479,6 @@
 				9321E9F216A9B5C100F9D09C /* sent.caf in Resources */,
 				68CEA6E91E089F110019EC79 /* CallStar@2x.png in Resources */,
 				D0BAF3FD193E8AC400A0093F /* ActionsWhiteIcon.png in Resources */,
-				9315E4DF186AFC52008DD74D /* Icon-40@2x.png in Resources */,
 				09498C311F7186E100EB9E4D /* MusicPlayerArrow@2x.png in Resources */,
 				D0E352871E5E4127007E6EB8 /* stp_card_jcb_template@2x.png in Resources */,
 				D077B8CB1F433A280046D27A /* ConversationSearchUser@2x.png in Resources */,
@@ -25127,6 +25488,7 @@
 				D0E352661E5E4127007E6EB8 /* stp_card_applepay_template@2x.png in Resources */,
 				090789901FE9232B00B5451E /* VideoPlayerPauseIcon@2x.png in Resources */,
 				D0E352971E5E4127007E6EB8 /* stp_card_visa_template@3x.png in Resources */,
+				1852EA6A213F71CD00F78A38 /* Icon-App-60x60@2x.png in Resources */,
 				09E97B6B1F97E63B00526020 /* SettingsLanguageIcon@2x.png in Resources */,
 				930808FE185B432D00E62B42 /* ModernListsDisclosureIndicatorSmall@2x.png in Resources */,
 				D0590B001AC3193300B22F1E /* ModernMessageDocumentIconIncoming@2x.png in Resources */,
@@ -25140,12 +25502,13 @@
 				093FD0C0209C950D003C451A /* PassportId@3x.png in Resources */,
 				686ED3211BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png in Resources */,
 				0907899D1FE9277F00B5451E /* VideoPlayerPIPIcon@3x.png in Resources */,
+				1852EA5C213F71CD00F78A38 /* Icon-98@2x.png in Resources */,
 				D0E3528E1E5E4127007E6EB8 /* stp_card_mastercard_template@3x.png in Resources */,
 				D0D95BCF19D438DC00047005 /* SecretPhotoCheck@2x.png in Resources */,
 				09053D7020A5CB810029652D /* ocr_nn.bin in Resources */,
 				09F2A08B1EB8CEAF00653F24 /* InstantViewBrightnessMaxIcon@3x.png in Resources */,
+				1852EA6E213F71CD00F78A38 /* Icon-App-83.5x83.5@2x.png in Resources */,
 				09A833611FF4531500FB133D /* InfoPlist.strings in Resources */,
-				D0C6748F1CB8640400183765 /* Icon-167.png in Resources */,
 				D030962B1B43194B004D358E /* InlineSearchDown@3x.png in Resources */,
 				D08968BC1A7BAE6800784CE8 /* SharedMediaVideoThumbnailPlay@3x.png in Resources */,
 				930808B81859253D00E62B42 /* ModernContactListInviteFriendsIcon@2x.png in Resources */,
@@ -25160,6 +25523,7 @@
 				93ADCE3516EE9F8300BFFCF7 /* TokenBackground@2x.png in Resources */,
 				93ADCE3616EE9F8300BFFCF7 /* TokenBackground_Highlighted@2x.png in Resources */,
 				D069B1B31B3D94110034C967 /* MusicPlayerMinimizedPause@1x.png in Resources */,
+				1852EA5E213F71CD00F78A38 /* Icon-App-20x20@2x-1.png in Resources */,
 				D0C925BE194A024000E629CA /* ic_smile_eye@2x.png in Resources */,
 				D0FC074F1B1E6899008CC3BB /* ConversationInputFieldCommandIcon@3x.png in Resources */,
 				D0E352821E5E4127007E6EB8 /* stp_card_form_front@3x.png in Resources */,
@@ -25176,9 +25540,9 @@
 				09208CFD2085DC1600C4CFFC /* SettingsProxyIcon@2x.png in Resources */,
 				932E00E4184AA1100001D109 /* ModernConversationActionDelete@2x.png in Resources */,
 				D0E3528B1E5E4127007E6EB8 /* stp_card_mastercard@3x.png in Resources */,
-				D0DAA481197495A80036E709 /* Icon-72.png in Resources */,
 				D0C7B9BF1D9D822600EC75FA /* AppIntentVocabulary.plist in Resources */,
 				0937A5A41E9678F00093D4DA /* TempAudioPreviewPlay@2x.png in Resources */,
+				1852EA5B213F71CD00F78A38 /* Icon-86@2x.png in Resources */,
 				68D704A71C5BDF6100F25436 /* MusicPlayerControlRepeat@2x.png in Resources */,
 				09498C321F7186E100EB9E4D /* MusicPlayerArrow@3x.png in Resources */,
 				D0E3525E1E5E4127007E6EB8 /* stp_card_amex@3x.png in Resources */,
@@ -25207,7 +25571,6 @@
 				D0E3525D1E5E4127007E6EB8 /* stp_card_amex@2x.png in Resources */,
 				096CED9C1F756AAB005C5C70 /* LocationMessagePinSmallBackground@3x.png in Resources */,
 				09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */,
-				D0D443B8195315D500CF2A7E /* Icon-76@2x.png in Resources */,
 				D0E3527E1E5E4127007E6EB8 /* stp_card_form_back@2x.png in Resources */,
 				09377FB11E96F1B300294935 /* VideoMessagePIPShadow@3x.png in Resources */,
 				D0C7B9CA1D9D868100EC75FA /* AppIntentVocabulary.plist in Resources */,
@@ -25226,6 +25589,8 @@
 				D0E3527C1E5E4127007E6EB8 /* stp_card_form_applepay@3x.png in Resources */,
 				D0C925B7194A024000E629CA /* ic_bubble_dot@2x.png in Resources */,
 				09E97B6D1F97E63B00526020 /* SettingsStickersIcon@3x.png in Resources */,
+				1852EA65213F71CD00F78A38 /* Icon-App-40x40@1x.png in Resources */,
+				18CC322521219FA60077E01C /* README.txt in Resources */,
 				0973F3641F9107B200EE2749 /* SavedMessagesIcon@2x.png in Resources */,
 				D0C925BD194A024000E629CA /* ic_smile@2x.png in Resources */,
 				09C0BF3E206E851300380399 /* PassportForgetIcon@2x.png in Resources */,
@@ -25268,8 +25633,8 @@
 				D0EA68AC1A006BE500D1F747 /* GiphyToolbarLogo@2x.png in Resources */,
 				D0AFDA701BCFFF3700B74DB4 /* SharedMediaEmptyMusicIcon@2x.png in Resources */,
 				684853C01C174D4C00007D21 /* SettingsSupportIcon@2x.png in Resources */,
-				0929AA711E9CED9A00AA97C0 /* Icon-40@3x.png in Resources */,
 				09BE542C1EA531920026E961 /* TooltipBackground@3x.png in Resources */,
+				1852EA61213F71CD00F78A38 /* Icon-App-29x29@1x.png in Resources */,
 				D0E3529C1E5E4127007E6EB8 /* stp_icon_checkmark@2x.png in Resources */,
 				D0177B961F26869C0044446D /* (null) in Resources */,
 				0978FEEB1E93C5B600F76E38 /* ModernConversationSend@3x.png in Resources */,
@@ -25282,7 +25647,6 @@
 				D0C925B8194A024000E629CA /* ic_cam@2x.png in Resources */,
 				D051AFCC1AF7D4BE003AFD52 /* ConversationInputFieldKeyboardIcon@3x.png in Resources */,
 				D046965A18A273AC009764B2 /* ModernConversationTitlePanelClose@2x.png in Resources */,
-				D0DAA483197495EA0036E709 /* Icon-72@2x.png in Resources */,
 				9302CA31171B581200C8559D /* VideoSliderForeground@2x.png in Resources */,
 				D0E352721E5E4127007E6EB8 /* stp_card_diners_template@2x.png in Resources */,
 				936219DC186460F600C52870 /* 108.m4a in Resources */,
@@ -25298,7 +25662,6 @@
 				D0C6AF561A7815F90046833D /* SharedMediaEmptyFilesIcon.png in Resources */,
 				68D167F81DB77E7400509032 /* CallMuteIcon@2x.png in Resources */,
 				936219E0186460F600C52870 /* 104.m4a in Resources */,
-				0929AA721E9CED9A00AA97C0 /* Icon-60@3x.png in Resources */,
 				091D23751E609CC400A6A322 /* voip_busy.caf in Resources */,
 				936219E71864693C00C52870 /* 1.m4a in Resources */,
 				09C9EE101F4C947D0011145F /* InstantViewRightCorner@2x.png in Resources */,
@@ -25308,15 +25671,19 @@
 				D0BAF3F9193E8AC400A0093F /* ModernConversationActionDelete.png in Resources */,
 				09361CF81E7263AD007ED29C /* CallOutgoing@3x.png in Resources */,
 				68521C8C1BCE80A100B8A6FA /* MediaVoice@2x.png in Resources */,
+				1852EA5D213F71CD00F78A38 /* Icon-App-20x20@1x.png in Resources */,
 				D06232B41B39D544006A4140 /* ConversationInputFieldActionsIcon@1x.png in Resources */,
 				68AA5A3D1CD3412100E31031 /* PictureInPictureClose@2x.png in Resources */,
 				68AA5A471CD3C93100E31031 /* PictureInPictureIndicator@2x.png in Resources */,
 				D0DCF5381AED327600D5B7A1 /* NavigationBackArrowNormal@2x.png in Resources */,
+				185CE4F12122F3300082C7DF /* ic_back.png in Resources */,
+				1852EA56213F71CD00F78A38 /* Icon-27.5@2x.png in Resources */,
 				D04B4F581EEAD2B500711AF6 /* LoginCodeOtherDevice@3x.png in Resources */,
 				68D167FA1DB77E7400509032 /* CallSpeakerIcon@2x.png in Resources */,
 				09B76D4E20214939009835B5 /* anim_mute.json in Resources */,
 				09F2A08D1EB8CEAF00653F24 /* InstantViewBrightnessMinIcon@3x.png in Resources */,
 				09E0996F1E85406C00253536 /* VideoMessageUnmutedIcon@2x.png in Resources */,
+				1852EA5A213F71CD00F78A38 /* Icon-44@2x.png in Resources */,
 				9341B0211851E89300D1195B /* ModernMenuCheck@2x.png in Resources */,
 				D0E352961E5E4127007E6EB8 /* stp_card_visa_template@2x.png in Resources */,
 				D0D95BCE19D438DC00047005 /* SecretPhotoCheckMask.png in Resources */,
@@ -25367,14 +25734,11 @@
 				093FD0C4209C950D003C451A /* PassportSelfie@3x.png in Resources */,
 				D03FECD319CC69EE004866D6 /* SecretPhotoFireMask@2x.png in Resources */,
 				D051AFCD1AF7D4BE003AFD52 /* ConversationInputFieldKeyboardIcon@2x.png in Resources */,
-				0929AA701E9CED9A00AA97C0 /* Icon-40.png in Resources */,
-				9315E4E5186AFE7A008DD74D /* Icon-Small@2x.png in Resources */,
 				D025669E1AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon@3x.png in Resources */,
 				936219D9186460F600C52870 /* 110.m4a in Resources */,
 				0976A3A320C5EB9A00CEB156 /* PassportSettingsLogo@2x.png in Resources */,
 				D0D97D701B3B942A003457CD /* ModernConversationSecretAccessoryTimer@3x.png in Resources */,
 				D025669F1AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon.png in Resources */,
-				D0DAA485197496240036E709 /* Icon-76.png in Resources */,
 				D089E0A51AC5B6E9009A744B /* AuthSessionsEmptyIcon@2x.png in Resources */,
 				090C24751E7741CF00AF4DFC /* ModernListsDisclosureIndicator@3x.png in Resources */,
 				09690A711E73236A00B54F6E /* CallRouteBluetooth@2x.png in Resources */,
@@ -25386,8 +25750,10 @@
 				09F2A08C1EB8CEAF00653F24 /* InstantViewBrightnessMinIcon@2x.png in Resources */,
 				0912626D1FE02561008071A2 /* UngroupChannel@3x.png in Resources */,
 				D069B1B61B3D94110034C967 /* MusicPlayerMinimizedPlay@1x.png in Resources */,
+				1852EA6F213F71CD00F78A38 /* ItunesArtwork@2x.png in Resources */,
 				D098521D1DD1F0F000A2392C /* ConversationSearchCalendar@3x.png in Resources */,
 				0976A3A420C5EB9A00CEB156 /* PassportSettingsLogo@3x.png in Resources */,
+				1852EA68213F71CD00F78A38 /* Icon-App-40x40@3x.png in Resources */,
 				096CEDA81F769B2B005C5C70 /* LiveLocationTitlePin@2x.png in Resources */,
 				D01D7D6319DECE2800955BDE /* Localizable.strings in Resources */,
 				933AA4A31860BE79000AA848 /* ModernNavigationAddButtonIcon@2x.png in Resources */,
@@ -25404,20 +25770,22 @@
 				D0E352A31E5E4128007E6EB8 /* stp_icon_chevron_right_small@3x.png in Resources */,
 				09A833601FF4531500FB133D /* Localizable.strings in Resources */,
 				09FAA0C41F4361460099E8E7 /* StickersGroupCross@2x.png in Resources */,
+				1852EA63213F71CD00F78A38 /* Icon-App-29x29@2x.png in Resources */,
 				D0D97D861B3B99F5003457CD /* MusicPlayerControlForward@3x.png in Resources */,
 				0973F3631F9107B200EE2749 /* SavedMessagesIcon@3x.png in Resources */,
 				09690A731E73236A00B54F6E /* CallRouteSpeaker@2x.png in Resources */,
 				D069B1B81B3D94110034C967 /* MusicPlayerMinimizedPlay@3x.png in Resources */,
 				68CEA6E71E089F110019EC79 /* CallsTabBarInfo@2x.png in Resources */,
-				0929AA731E9CED9A00AA97C0 /* Icon-87.png in Resources */,
 				09FC7C011F4B8B2B000AF719 /* StickerPackNotFoundIcon@2x.png in Resources */,
 				9322F814178EE4E500099F0B /* Transparent@2x.png in Resources */,
 				D0D95BD019D438DC00047005 /* SecretPhotoCheck.png in Resources */,
 				D0BAF3EF193E8AC400A0093F /* ModernNavigationAddButtonIcon.png in Resources */,
+				18E388D92122BB5C005835F5 /* LICENSE in Resources */,
 				09E97B721F97E63B00526020 /* SettingsSupportIcon@3x.png in Resources */,
 				093FD0C3209C950D003C451A /* PassportPassport@3x.png in Resources */,
 				D0E1D3071EC9E9F800FCEEF1 /* PermissionSwitchOff@2x.png in Resources */,
 				D0C6AF4D1A77F7EF0046833D /* SharedMediaEmptyIcon@2x.png in Resources */,
+				1852EA60213F71CD00F78A38 /* Icon-App-20x20@3x.png in Resources */,
 				68521C821BCE80A100B8A6FA /* MediaContact@2x.png in Resources */,
 				D0C925D0194A024000E629CA /* telegram_sphere@2x.png in Resources */,
 				68D167F91DB77E7400509032 /* CallPhoneIcon@2x.png in Resources */,
@@ -25461,6 +25829,7 @@
 				098C0E662024A2DD007B4539 /* anim_group.json in Resources */,
 				D0E352941E5E4127007E6EB8 /* stp_card_visa@3x.png in Resources */,
 				931C5942174C1D1600D597D9 /* MenuArrowTop@2x.png in Resources */,
+				1852EA6D213F71CD00F78A38 /* Icon-App-76x76@2x.png in Resources */,
 				09E97B761F97E63B00526020 /* SettingsFaqIcon@3x.png in Resources */,
 				09E97B711F97E63B00526020 /* SettingsCallsIcon@2x.png in Resources */,
 				931C5944174C233600D597D9 /* MenuArrowBottom@2x.png in Resources */,
@@ -25483,6 +25852,7 @@
 				931C5951174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png in Resources */,
 				D035EBBB194868B700EEEC17 /* InfoPlist.strings in Resources */,
 				D0E352901E5E4127007E6EB8 /* stp_card_placeholder_template@2x.png in Resources */,
+				1852EA6B213F71CD00F78A38 /* Icon-App-60x60@3x.png in Resources */,
 				931C5952174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png in Resources */,
 				D0C925B3194A024000E629CA /* fast_arrow_shadow@2x.png in Resources */,
 				D0E352601E5E4127007E6EB8 /* stp_card_amex_template@2x.png in Resources */,
@@ -25491,13 +25861,13 @@
 				D0C925C5194A024000E629CA /* powerful_mask@2x.png in Resources */,
 				0912626E1FE02561008071A2 /* GroupChannel@3x.png in Resources */,
 				09B5B9A51E79A23100195236 /* CallSpeakerIcon@3x.png in Resources */,
-				D052F86B209C6D0D00B8D813 /* Icon-57.png in Resources */,
 				091560641F70DBB0007F77C4 /* MusicPlayerControlRepeat@3x.png in Resources */,
 				D0C925C1194A024000E629CA /* knot_up@2x.png in Resources */,
 				D0D95BCD19D438DC00047005 /* SecretPhotoCheckMask@2x.png in Resources */,
 				933AA4C6186101A5000AA848 /* SearchBarBackgroundLight@2x.png in Resources */,
 				09FCB6911FB2E98C0007D2CA /* PasswordPlaceholderIcon@3x.png in Resources */,
 				68B22D221C1611AC00EE8FF9 /* SettingsNotificationsIcon@2x.png in Resources */,
+				1852EA58213F71CD00F78A38 /* Icon-29@3x.png in Resources */,
 				0923C0C71F39B0D000AC41C9 /* StickersFave@2x.png in Resources */,
 				D0E352641E5E4127007E6EB8 /* stp_card_applepay@3x.png in Resources */,
 				938F20DD17998386003837DA /* 0.m4a in Resources */,
@@ -25508,11 +25878,11 @@
 				68D68B0A1C9C3A7E0016F742 /* EmbedPlayButton@2x.png in Resources */,
 				D0C925B4194A024000E629CA /* fast_body@2x.png in Resources */,
 				09E97B741F97E63B00526020 /* SettingsLanguageIcon@3x.png in Resources */,
-				9321E53917B585D7005229AC /* Icon.png in Resources */,
+				1852EA57213F71CD00F78A38 /* Icon-29@2x.png in Resources */,
 				934280CB18480B63004F1C2A /* NavigationBackArrow@2x.png in Resources */,
 				D0E352A21E5E4128007E6EB8 /* stp_icon_chevron_right_small@2x.png in Resources */,
 				09690A741E73236A00B54F6E /* CallRouteSpeaker@3x.png in Resources */,
-				93BB2237180D986600342583 /* Icon-60@2x.png in Resources */,
+				1852EA69213F71CD00F78A38 /* Icon-App-60x60@1x.png in Resources */,
 				D06232B21B39D544006A4140 /* ConversationInputFieldActionsIcon@2x.png in Resources */,
 				D04ABC001A3B3C2A00869014 /* ListsDownDisclosureIndicator_Highlighted@2x.png in Resources */,
 			);
@@ -25521,6 +25891,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		70804959E45A205BBA3F2CE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMQRCodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		932E96A716946F6A00D6EC55 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -25533,6 +25923,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#/usr/bin/perl -pe 's/(BUILD_NUMBER = )(\\d+)/$1.($2+1)/eg' -i buildnumber.xcconfig\nsh ${PROJECT_DIR}/tools/bump_build_number.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nsh ${PROJECT_DIR}/tools/sync_watch_version.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\" \"${PROJECT_DIR}/Watch/App/Info.plist\"\n";
+		};
+		CE059492BD99A6B921939687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telegraph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -25708,6 +26116,7 @@
 				D0A4D7F41C10E10500537E74 /* TGExternalGifSearchResultGalleryItemView.m in Sources */,
 				D01161771F41F1330039383E /* NSArray_ShippingOption.mm in Sources */,
 				936CD3D3186723C700FF241C /* TGEncryptionKeyViewController.m in Sources */,
+				18E388B721227FDC005835F5 /* ImageUtils.m in Sources */,
 				D052F0B6157543FE00D51E59 /* TGSchema.m in Sources */,
 				D01161531F41F1330039383E /* NSArray_LangPackLanguage.mm in Sources */,
 				096A980C206093C200E63477 /* TLaccount_AuthorizationForm.mm in Sources */,
@@ -25806,7 +26215,6 @@
 				D098418919CB9BE200CE5BB0 /* TLDestroySessionsRes_manual.mm in Sources */,
 				93DC7FF5159A0FD5001F7AB6 /* TGTimelineItem.m in Sources */,
 				F3D6B8AD211EBD1F008D06DE /* WebViewJSBundle.m in Sources */,
-				F378A46E2121A49B00FCC8D8 /* Argon2Hash.m in Sources */,
 				9303841F1811765300CAC996 /* TGDisclosureActionCollectionItem.m in Sources */,
 				D0115EB31F41F12F0039383E /* TLpayments_PaymentReceipt.mm in Sources */,
 				D01160E51F41F1320039383E /* TLTopPeer.mm in Sources */,
@@ -25852,6 +26260,7 @@
 				D05017E818AE397F0052B7D1 /* TGNetworkWorker.m in Sources */,
 				936DE1A61850E39500D90029 /* TGHeaderCollectionItemView.m in Sources */,
 				D0115EB91F41F12F0039383E /* TLpayments_ValidatedRequestedInfo.mm in Sources */,
+				18E388DA2122BB5C005835F5 /* ref.c in Sources */,
 				D01160151F41F1310039383E /* TLRPCmessages_getMaskStickers.mm in Sources */,
 				D0083AEB1BCD85B600CA1D77 /* TGAttachmentSheetWindow.m in Sources */,
 				D01F950F1E5E3DB5002627A1 /* STPTheme.m in Sources */,
@@ -25887,6 +26296,7 @@
 				D0B9F57419FE642400C2EDE2 /* TGWebSearchController.m in Sources */,
 				D011623D1F41F1350039383E /* TLhelp_AppUpdate.mm in Sources */,
 				D0115F151F41F12F0039383E /* TLRPCaccount_setAccountTTL.mm in Sources */,
+				18E388D72122BB5C005835F5 /* encoding.c in Sources */,
 				0973B0AE20730E840058BDC3 /* TLaccount_AuthorizationForm$account_authorizationForm.mm in Sources */,
 				934134671853360D00480294 /* TGEditableCollectionItemView.m in Sources */,
 				D0C80D331A9561AF00D5DF8A /* TGPasscodeSettingsController.m in Sources */,
@@ -25923,7 +26333,6 @@
 				D01160EB1F41F1320039383E /* TLUpdate.mm in Sources */,
 				68B63C2A1BB258E300205AC3 /* TGBridgeChat.m in Sources */,
 				D0F2E1211E3BC16200759C97 /* TGPaymentAlertController.m in Sources */,
-				F378A4692121A45A00FCC8D8 /* ref.c in Sources */,
 				D099D73A1EEEE0AB00A3128C /* TGInstantPageAudioView.m in Sources */,
 				D096966F15AE069000D59E62 /* TGSettingsController.m in Sources */,
 				D096967F15AE36B300D59E62 /* TGConversationAddMessagesActor.mm in Sources */,
@@ -25954,12 +26363,12 @@
 				D01161171F41F1330039383E /* NSArray_Chat.mm in Sources */,
 				D08968A51A796B2100784CE8 /* TGGlobalMessageSearchSignals.m in Sources */,
 				687D86A31D01FDC600820510 /* TGPreviewTextItemView.m in Sources */,
-				F378A4662121A45A00FCC8D8 /* blake2b.c in Sources */,
 				D011614B1F41F1330039383E /* NSArray_int.mm in Sources */,
 				096189D02069AA8F00FA373C /* TLSecureCredentialsEncrypted.mm in Sources */,
 				6836F8DA1BB2601200D3A77B /* TGBridgeImageMediaAttachment.m in Sources */,
 				D03E903E1A23BBBD0008FC78 /* TGLoginPasswordView.m in Sources */,
 				D01161031F41F1320039383E /* TLWallPaper.mm in Sources */,
+				18D2A89521212199003D6808 /* QRCode.m in Sources */,
 				D0983D6519CB9A4300CE5BB0 /* TGHighlightableButton.m in Sources */,
 				D0EA69061A026F0000D1F747 /* TGWebSearchResultsGalleryGifItemView.m in Sources */,
 				D0983D8B19CB9A4300CE5BB0 /* TGMimeTypeMap.m in Sources */,
@@ -25993,6 +26402,8 @@
 				9386E89B185CCB0600930205 /* TGUserInfoVariantCollectionItemView.m in Sources */,
 				D03C3EFA1BE148CD001278F1 /* TGGroupAdminsController.m in Sources */,
 				D01F94E91E5E3DB5002627A1 /* STPPaymentCardTextField.m in Sources */,
+				18E388DC2122BB5C005835F5 /* thread.c in Sources */,
+				186CC149212C1022004AC557 /* FingerReader.m in Sources */,
 				D01162151F41F1340039383E /* TLDisabledFeature.mm in Sources */,
 				D0808688190F036F00EE6998 /* TGMessageImageViewTimestampView.m in Sources */,
 				68B63D311BB25B1F00205AC3 /* TGBridgeChatMessageListHandler.m in Sources */,
@@ -26365,8 +26776,10 @@
 				D0C44B751FC74F9600227BE0 /* SecretLayer73.m in Sources */,
 				09320E491FAA0F810024B844 /* TLRPCmessages_forwardMessagesMeta.mm in Sources */,
 				D089E09C1AC5A7A8009A744B /* TLaccount_PasswordInputSettings_manual.m in Sources */,
+				18E388BB2122AF69005835F5 /* QRCodeUtil.m in Sources */,
 				D082954A1BACA83600240F69 /* TGChannelModeratorCollectionItem.m in Sources */,
 				D00EED381C8492D900341DFF /* TGGroupedUserOnlineSignals.m in Sources */,
+				18E388E12122BB89005835F5 /* Argon2Hash.m in Sources */,
 				687C7D6A1DD367800095FF41 /* TGMarqueeLabel.m in Sources */,
 				D0983D9F19CB9A4300CE5BB0 /* TGSharedPtrWrapper.mm in Sources */,
 				D01160891F41F1320039383E /* TLRPCphone_requestCall.mm in Sources */,
@@ -26560,6 +26973,7 @@
 				D084D4681A39C95800EA8120 /* TGFaqController.m in Sources */,
 				D02384411D6F305A0094F9BB /* TLRPCmessages_getBotCallbackAnswer.mm in Sources */,
 				D01160391F41F1310039383E /* TLRPCmessages_migrateChat.mm in Sources */,
+				185CE4DD2122C5B50082C7DF /* SendChatMessage.m in Sources */,
 				D07BC6BC1F29D80C00ED97AA /* TLRPCmessages_search.mm in Sources */,
 				09D5B0D42060A9F800D8E777 /* TLRPCaccount_getSecureValue.mm in Sources */,
 				D0983D4919CB9A4300CE5BB0 /* TGClearNotificationsFutureAction.m in Sources */,
@@ -26635,6 +27049,7 @@
 				D0115E971F41F12F0039383E /* TLMsgDetailedInfo.mm in Sources */,
 				D0EA69991A0A18DD00D1F747 /* TGAccountSettings.m in Sources */,
 				D01160271F41F1310039383E /* TLRPCmessages_getStickers.mm in Sources */,
+				18CC31F421217F140077E01C /* ImagePicker.m in Sources */,
 				09551C57201754A50097218A /* TGAppSessionItemView.m in Sources */,
 				0912624D1FDF9144008071A2 /* TGFeed.m in Sources */,
 				6836F8F41BB262A700D3A77B /* TGImageFileReference.m in Sources */,
@@ -26762,6 +27177,7 @@
 				D01F94B51E5E3DB4002627A1 /* STPAnalyticsClient.m in Sources */,
 				D01162671F41F1350039383E /* TLInputGeoPoint.mm in Sources */,
 				D01160F91F41F1320039383E /* TLupload_WebFile.mm in Sources */,
+				18E388D52122BB5C005835F5 /* core.c in Sources */,
 				D01162351F41F1350039383E /* TLGeoPoint.mm in Sources */,
 				D01161731F41F1330039383E /* NSArray_SchemeParam.mm in Sources */,
 				D01161A11F41F1330039383E /* TLauth_PasswordRecovery.mm in Sources */,
@@ -26821,7 +27237,6 @@
 				09320E3D1FA3B2700024B844 /* TLInputSingleMedia.mm in Sources */,
 				D0F9E8881C5A954800037222 /* TGModernConversationAudioPreviewInputPanel.m in Sources */,
 				D01F94C11E5E3DB4002627A1 /* STPBINRange.m in Sources */,
-				F378A46B2121A45A00FCC8D8 /* thread.c in Sources */,
 				6844F8E21CCA723F00AB4ABE /* TGModernConversationInputAttachButton.m in Sources */,
 				932A9E9216641DCD00FEF7FE /* TGPeerSettingsActor.m in Sources */,
 				932A9E9516641EBA00FEF7FE /* TGChangePeerSettingsActor.m in Sources */,
@@ -26919,7 +27334,6 @@
 				D01161551F41F1330039383E /* NSArray_LangPackString.mm in Sources */,
 				D05E4B2B19D5A9A500A537C1 /* TGGenericPeerMediaGalleryVideoItemView.m in Sources */,
 				D01161071F41F1320039383E /* TLWebPage.mm in Sources */,
-				F378A46A2121A45A00FCC8D8 /* core.c in Sources */,
 				D0115E871F41F12F0039383E /* TLmessages_SavedGifs.mm in Sources */,
 				D0A4D80A1C11D1F000537E74 /* TGDocumentHttpFileReference.m in Sources */,
 				932E0113184CE1E10001D109 /* TGModernConversationGenericTitlePanel.m in Sources */,
@@ -27115,6 +27529,7 @@
 				D01160F31F41F1320039383E /* TLUpdates.mm in Sources */,
 				D01F94D71E5E3DB5002627A1 /* STPCustomer.m in Sources */,
 				936DE1A21850D38100D90029 /* TGCommentCollectionItem.m in Sources */,
+				18E388D22122BB5C005835F5 /* blake2b.c in Sources */,
 				D01160731F41F1310039383E /* TLRPCpayments_getPaymentForm.mm in Sources */,
 				09F15D861FC46D730000DEC1 /* TGSizeSliderCollectionItem.m in Sources */,
 				D0DCF58B1AEDCE2300D5B7A1 /* TGGroupInfoShareLinkLinkItemView.m in Sources */,
@@ -27167,7 +27582,6 @@
 				D01160591F41F1310039383E /* TLRPCmessages_searchGlobal.mm in Sources */,
 				D0F7B4D31C236A68008C5DB1 /* TGModernConversationGenericContextResultsAssociatedPanel.m in Sources */,
 				D0F7B4AF1C202B82008C5DB1 /* TGDocumentEncryptedFileReference.m in Sources */,
-				F378A4672121A45A00FCC8D8 /* encoding.c in Sources */,
 				93B2388616B58CD100DB8F5E /* TGGroupedCell.m in Sources */,
 				D0983DAF19CB9A4300CE5BB0 /* TGView.m in Sources */,
 				D08C71441C5131A700779C0F /* SecretLayer46.m in Sources */,
@@ -27310,6 +27724,7 @@
 				D0C735511C876AE900BB3149 /* TLaccount_updateProfile$updateProfile.m in Sources */,
 				D011627F1F41F1350039383E /* TLInputStickeredMedia.mm in Sources */,
 				D077B8D91F4342C70046D27A /* TGConversationScrollButtonContainer.m in Sources */,
+				18CC31F7212181080077E01C /* BaseObject.m in Sources */,
 				09FCB68A1FB2E6A30007D2CA /* TGPasswordPlaceholderItemView.m in Sources */,
 				D01160C91F41F1320039383E /* TLRPCusers_getUsers.mm in Sources */,
 				D04324DC1DC269FB00E0C528 /* TransformImageView.m in Sources */,
@@ -27372,7 +27787,6 @@
 				D0115E591F41F12E0039383E /* TLMessageGroup.mm in Sources */,
 				0991B9F61FD5E7F4005EDFF2 /* TGCustomActionSheet.m in Sources */,
 				D0115FC71F41F1300039383E /* TLRPChelp_getScheme.mm in Sources */,
-				F378A46C2121A45A00FCC8D8 /* argon2.c in Sources */,
 				D01160251F41F1310039383E /* TLRPCmessages_getSavedGifs.mm in Sources */,
 				D011612D1F41F1330039383E /* NSArray_Dialog.mm in Sources */,
 				D0D17EC21CAD6F0E00C4750B /* TLmessages_BotCallbackAnswer$botCallbackAnswer.mm in Sources */,
@@ -27424,6 +27838,7 @@
 				D066E98E18C6262500509410 /* opus_header.c in Sources */,
 				D0983D7719CB9A4300CE5BB0 /* TGImageTransitionHelper.m in Sources */,
 				D0115F4B1F41F1300039383E /* TLRPCchannels_deleteUserHistory.mm in Sources */,
+				18E388CE2122BB5C005835F5 /* argon2.c in Sources */,
 				D0389DB01D896D350028F4F3 /* TGRecentMaskStickersSignal.m in Sources */,
 				D02478CF1E4CF5590083C3F3 /* TGPaymentPasswordEntryControllerView.m in Sources */,
 				930384391811AA1300CAC996 /* TGUserInfoCollectionItemView.m in Sources */,
@@ -27680,6 +28095,7 @@
 				D04324F71DC3756100E0C528 /* TGInstantPageMediaArguments.m in Sources */,
 				D0115FFB1F41F1310039383E /* TLRPCmessages_getAllDrafts.mm in Sources */,
 				930CBDF218BAADD40068116F /* TGModernConversationAudioPlayerContext.m in Sources */,
+				18CC32372121A0A20077E01C /* ShareToPlatforms.m in Sources */,
 				D069899F1BA5CAC4000CBE06 /* TGMessageViewsView.m in Sources */,
 				D01659AB1DEDA799006DCE14 /* TLPhoneCall$phoneCallDiscarded.mm in Sources */,
 				D0F2E1151E3B7C5200759C97 /* TGPaymentPasswordAlert.m in Sources */,
@@ -28399,7 +28815,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Widget.appstore.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -28434,7 +28850,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -28504,6 +28920,7 @@
 		};
 		D018D7B41E5C411500F75970 /* Debug AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C94A1F7C25A2A156A16287 /* Pods-Telegraph.debug appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -28532,6 +28949,13 @@
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SDK/Required",
+					"$(PROJECT_DIR)/SDK/ShareSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -28568,6 +28992,7 @@
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = (
@@ -28581,7 +29006,8 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.telegraph;
+				PRELINK_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.kupay;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -28589,7 +29015,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -28778,7 +29204,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = "SiriIntents/SiriIntents appstore.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -28866,7 +29292,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -28971,8 +29397,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Share/Share appstore.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LU5XMC8SH3;
 				ENABLE_BITCODE = NO;
@@ -29054,6 +29480,7 @@
 		};
 		D064420D1E4E299800394D5F /* Release Hockeyapp */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F9CDED1C5131C49F7F9CC2 /* Pods-Telegraph.release hockeyapp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -29066,8 +29493,8 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Enterprise.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = LU5XMC8SH3;
@@ -29082,6 +29509,13 @@
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SDK/Required",
+					"$(PROJECT_DIR)/SDK/ShareSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
@@ -29117,6 +29551,7 @@
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = (
@@ -29130,7 +29565,8 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.telegraph;
+				PRELINK_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.kupay;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -29138,7 +29574,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29158,8 +29594,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LU5XMC8SH3;
 				ENABLE_BITCODE = NO;
@@ -29207,7 +29643,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = SiriIntents/SiriIntents.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -29241,7 +29677,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -29333,6 +29769,7 @@
 		};
 		D083491E20977881008CFD52 /* Debug Fork AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D653065BF28E1F367FF6B08 /* Pods-Telegraph.debug fork appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFork;
@@ -29361,6 +29798,13 @@
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SDK/Required",
+					"$(PROJECT_DIR)/SDK/ShareSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -29397,6 +29841,7 @@
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = (
@@ -29410,7 +29855,8 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.telegraph;
+				PRELINK_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.kupay;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -29418,7 +29864,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29641,6 +30087,7 @@
 		};
 		D08349332097788A008CFD52 /* Release Fork AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA18AE95BF76130E4A3D0AB /* Pods-Telegraph.release fork appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFork;
@@ -29653,8 +30100,8 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Fork.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = LU5XMC8SH3;
@@ -29669,6 +30116,13 @@
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SDK/Required",
+					"$(PROJECT_DIR)/SDK/ShareSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
@@ -29704,6 +30158,7 @@
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = (
@@ -29716,7 +30171,8 @@
 					"-DTGVOIP_USE_AUDIO_SESSION",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.telegraph;
+				PRELINK_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.kupay;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -29724,7 +30180,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29744,8 +30200,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Share/Share fork.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LU5XMC8SH3;
 				ENABLE_BITCODE = NO;
@@ -29793,7 +30249,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = "SiriIntents/SiriIntents fork.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -29828,7 +30284,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -29885,7 +30341,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Widget.fork.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -30001,6 +30457,7 @@
 		};
 		D08805C5156E8F3600311537 /* Debug Hockeyapp */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A34BE71AA3D4AA5B1727CF /* Pods-Telegraph.debug hockeyapp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -30029,6 +30486,13 @@
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SDK/Required",
+					"$(PROJECT_DIR)/SDK/ShareSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -30065,6 +30529,7 @@
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = (
@@ -30078,7 +30543,8 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.telegraph;
+				PRELINK_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.kupay;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -30086,7 +30552,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -30094,6 +30560,7 @@
 		};
 		D08805C6156E8F3600311537 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6F155E1587C76913AC4311 /* Pods-Telegraph.release appstore.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -30107,7 +30574,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = LU5XMC8SH3;
@@ -30122,6 +30589,13 @@
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SDK/Required",
+					"$(PROJECT_DIR)/SDK/ShareSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
@@ -30157,6 +30631,7 @@
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
+					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = (
@@ -30169,7 +30644,8 @@
 					"-DTGVOIP_USE_AUDIO_SESSION",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.telegraph;
+				PRELINK_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupay.kupay;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -30177,7 +30653,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe ${SRCROOT}/** ${PODS_ROOT}/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -30197,7 +30673,7 @@
 				099120D11EEAA63400F1366E /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = "Release AppStore";
 		};
 		D020FAF21D99466A00F279AA /* Build configuration list for PBXNativeTarget "SiriIntents" */ = {
 			isa = XCConfigurationList;
@@ -30210,7 +30686,7 @@
 				D06442111E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = "Release AppStore";
 		};
 		D020FB131D99637200F279AA /* Build configuration list for PBXNativeTarget "LegacyDatabase" */ = {
 			isa = XCConfigurationList;
@@ -30223,7 +30699,7 @@
 				D06442121E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = "Release AppStore";
 		};
 		D02601E31A55CA2400716290 /* Build configuration list for PBXNativeTarget "Share" */ = {
 			isa = XCConfigurationList;
@@ -30236,7 +30712,7 @@
 				D064420E1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = "Release AppStore";
 		};
 		D08805A6156E8F3600311537 /* Build configuration list for PBXProject "Telegraph" */ = {
 			isa = XCConfigurationList;
@@ -30249,7 +30725,7 @@
 				D064420C1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = "Release AppStore";
 		};
 		D08805C4156E8F3600311537 /* Build configuration list for PBXNativeTarget "Telegraph" */ = {
 			isa = XCConfigurationList;
@@ -30262,7 +30738,7 @@
 				D064420D1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = "Release AppStore";
 		};
 /* End XCConfigurationList section */
 	};
